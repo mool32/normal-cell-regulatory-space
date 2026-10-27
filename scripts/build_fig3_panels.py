@@ -52,6 +52,8 @@ ax.set_xticklabels([SHORT.get(n,n.replace(' cells','')) for n in names],
 # the explanation now lives in the caption; as in-panel text it sat on top of the bars
 ax.set_ylabel('cross-cancer recurrence\n(of the 25 cancers)',fontsize=BASE*0.92)
 ax.set_ylim(0,max(vals)*1.08)
+# recurrence is a count of cancers, so the ticks must be integers (referee item 14)
+import matplotlib.ticker as _tk; ax.yaxis.set_major_locator(_tk.MaxNLocator(integer=True))
 for sp in ('top','right'): ax.spines[sp].set_visible(False)
 ax.grid(axis='y',alpha=.22,zorder=0)
 plt.savefig(FIG+'/v11_fig3B_recurrence.png',dpi=200,bbox_inches='tight'); plt.close()

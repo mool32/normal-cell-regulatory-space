@@ -1,6 +1,6 @@
 # Human malignancies show increased occupancy of a shared region of normal-cell regulatory space
 
-Code and derived data for the paper. 360 files, 93 MB.
+Code and derived data for the paper. 380 files, 102 MB.
 
 ## Regenerate everything
 
@@ -21,6 +21,12 @@ figure code reads — the trace that built this bundle recorded each one being o
 single-cell matrices are not redistributed; they are public, and the accessions are listed in Data
 availability. Four stages open one locally and name it before skipping:
 
+  - `E46_rederive_reference.py` — Note S-W stage 1-2: the corrected HPA reference and eigenspace
+      - `paper2/data/rna_single_cell_type.tsv`
+  - `E46b_rescore_cohorts.py` — Note S-W stage 3: the 25 cohorts re-scored on corrected gene names
+      - `results/cancer_v6_6_extras/Ledergor_MM_malignant.h5ad`
+  - `E46d_rederive_colorectal.py` — Note S-W stage 4: the colorectal within-patient arm re-derived
+      - `perceptome_validation/cache/pelka_epi.h5ad`
   - `build_v7_clouds.py` — Fig. S4-I per-cancer clouds
       - `results/cancer_v6_4_extras/B-ALL_malignant.h5ad` — GSE132509 (B-ALL), Fig. S4-I only
       - `results/cancer_v6_4_extras/Neuroblastoma_malignant.h5ad` — GSE137804 (neuroblastoma), Fig. S4-I only

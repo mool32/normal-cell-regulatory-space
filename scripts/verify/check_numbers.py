@@ -286,7 +286,7 @@ for i, (lab, said) in enumerate([('core (top-2)', (23.9, 18.2)),
     row = BND.iloc[i]
     chk(f'3.3.{i}', '§3/Table 1', f'{said[1]}-fold', said,
         (round(float(row.occupancy_pct), 1), round(float(row.fold), 1)), lab)
-chk('3.4', '§3', 'it is the cytotrophoblast that the third-ranked candidate is not separated from',
+chk('3.4', '§3', 'the third-ranked candidate — the gastric progenitor, 10.4% — is not separated from',
     'crowds the cytotrophoblast',
     {'cyto': float(_cyto.mean_depth_pct), 'mega': float(_mega.mean_depth_pct),
      'third': float(S2[S2.cell == 'gastric progenitor cells'].mean_depth_pct.iloc[0])},
@@ -619,6 +619,17 @@ WITHDRAWN = {
     'we retract that here': 'state what is true, not what an earlier draft said',
     'The accurate formulation is': 'same',
     'most defensible claim': 'the strongest claim in this paper',
+    # the identity claim the paper's own Notes S-O and S-T scope away, asserted in three surviving
+    # v10 passages and two more of the same class (PNAS v13 report, 3.2), 27.10.2026
+    'naming a specific, differentiated, physiological normal cell': 'claim the region, not the cell',
+    'convergence onto a specific normal cell': 'same, at the end of \u00a73',
+    'in naming one convergent': 'same',
+    'immune-evading': 'Note S-J reports immune privilege is NOT inherited; \u00a73 says only the '
+                      'first two of the three trophoblast properties are',
+    'cross-lineage anchor': 'after Note S-T it is an anchor at one measurement level under one '
+                            'catalog',
+    'lands instead on a specific, differentiated cell': 'claim the region, not the cell',
+    'resolves to a named normal cell': 'same',
     'and withdraw that': 'state what the paired design does buy',
     # the 26.10 rules named the gastric and lung cohorts by phrase, so this spelling of the
     # same withdrawn word sat on in the Fig. S11-IIB caption

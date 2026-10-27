@@ -27,6 +27,12 @@ S = ROOT / 'scripts'
 # public but large and are not redistributed with the code, so when they are absent the stage is
 # SKIPPED and named -- a release that silently dropped a figure would be worse than one that says so.
 RAW_INPUTS = {
+    # the end-to-end re-derivation (Note S-W): the HPA source table, the 25 cohort matrices and
+    # the Pelka epithelium cache. Its conclusions ship as results/E46_rederivation/*.
+    'E46_rederive_reference.py': ['paper2/data/rna_single_cell_type.tsv'],
+    'E46b_rescore_cohorts.py': ['results/cancer_v6_6_extras/Ledergor_MM_malignant.h5ad'],
+    'E46d_rederive_colorectal.py': ['perceptome_validation/cache/pelka_epi.h5ad'],
+
     'build_v7_clouds.py': ['results/cancer_v6_4_extras/B-ALL_malignant.h5ad',
                            'results/cancer_v6_4_extras/Neuroblastoma_malignant.h5ad'],
     # These two read cohort matrices to establish provenance, which is exactly what cannot be
@@ -81,6 +87,16 @@ PLAN = [
 
     ('document',        'build_v10_pdf.py',          'main + SI sources -> paper3_v12_MAIN.pdf and paper3_v12_SI.pdf'),
     ('document',        'build_v10_docx.py',         'the same two sources -> paper3_v12_MAIN.docx and paper3_v12_SI.docx'),
+    ('re-derivation',   'E46_rederive_reference.py',
+     'Note S-W stage 1-2: the corrected HPA reference and eigenspace'),
+    ('re-derivation',   'E46b_rescore_cohorts.py',
+     'Note S-W stage 3: the 25 cohorts re-scored on corrected gene names'),
+    ('re-derivation',   'E46d_rederive_colorectal.py',
+     'Note S-W stage 4: the colorectal within-patient arm re-derived'),
+    ('checks',          'E45_genuine_label_subset.py',
+     'Note S-V: the naming recomputed without the heuristically-labelled cohorts'),
+    ('checks',          'E46c_rederived_results.py',
+     'Note S-W: the re-derived catalog, occupancy and recurrence'),
     ('checks',          'verify/check_numbers.py',   'every registered claim recomputed from its artifact'),
     ('checks',          'verify/cohort_provenance.py','every cohort resolved to its accession'),
     ('checks',          'verify/check_citations.py', 'every citation, cross-reference and figure part resolved'),
@@ -94,6 +110,17 @@ def main():
     args = sys.argv[1:]
     only = args[args.index('--only') + 1] if '--only' in args else None
     plan = [p for p in PLAN if not only or only in p[1]]
+    # The 're-derivation' group re-scores all 25 cohort matrices and the Pelka epithelium from raw
+    # .h5ad: about half an hour against three minutes for everything else, and its outputs are
+    # committed (results/E46_rederivation/). It is therefore opt-in -- `--rederive` -- while
+    # E46c_rederived_results.py re-checks the published Note S-W numbers from those outputs on
+    # every run. Without this the one-command build stops being one command anyone will run.
+    if '--rederive' not in args:
+        heavy = [s for g, s, *_ in plan if g == 're-derivation']
+        plan = [p for p in plan if p[0] != 're-derivation']
+        if heavy and '--list' not in args:
+            print(f"  (skipping {len(heavy)} re-derivation stage(s); pass --rederive to run them: "
+                  f"{', '.join(heavy)})", flush=True)
     if '--list' in args:
         for g, s, why, *flag in plan:
             print(f"  {g:17s} {s:30s} {'[needs .h5ad] ' if flag else ''}{why}")

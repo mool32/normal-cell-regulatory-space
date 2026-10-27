@@ -68,7 +68,11 @@ axA.annotate(f'{100*cA.mean()/dA.mean():.0f}% of the total move,\n'
 
 # ---------------------------------------------------------------- B: activity scoring
 wB = per_donor(R / 'T9d_GSE240057_activity_viper.csv')
-axB.set_ylim(-0.95, 0.42)
+# A and B plot the same quantity under two scorings, so they must carry the same units per
+# pixel or the reader compares sizes against two rulers (referee item 19). A spans 1.10; B is
+# centred on its own data with the same span. Tightening B to its data instead would magnify a
+# null, which is the opposite error.
+axB.set_ylim(-1.055, 0.045)
 mB = spaghetti(axB, wB, '#b2182b', 'before any\ntumour exists')
 dB = wB.tr_endpoint - wB.prec_basal
 cB = wB.ctrl_transduced - wB.prec_basal

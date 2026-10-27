@@ -135,6 +135,14 @@ def main():
     files |= {str(q.relative_to(ROOT)) for pat in ('perceptome_validation/registry/**/*',
                                                    'perceptome_validation/*.md')
               for q in ROOT.glob(pat) if q.is_file()}
+    # The re-derivation of Note S-W: its three heavy stages are opt-in (`make_figures.py --rederive`)
+    # because they re-read 21 GB of cohort matrices, so a default-plan trace never sees the files
+    # they WRITE. Six of them -- the colorectal comparison the note quotes, the per-cohort gene
+    # coverage, and the pseudobulk arm of the corrected reference -- were therefore missing from the
+    # first bundle built after that note went in. A trace cannot see what only an opt-in stage
+    # produces; name those outputs explicitly.
+    files |= {str(q.relative_to(ROOT)) for q in (ROOT / 'results/E46_rederivation').glob('*')
+              if q.is_file()}
     # bytecode caches get traced like any other read, but shipping them makes MANIFEST.txt
     # disagree with a fresh clone (.gitignore drops them) and they regenerate anyway
     files = {f for f in sorted(files)

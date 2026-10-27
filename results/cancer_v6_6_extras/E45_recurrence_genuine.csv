@@ -1,0 +1,17 @@
+cell_type,rec_25,rank_25,rec_17,rank_17,frac_25,frac_17
+megakaryocytes,18,1,12,1,0.72,0.706
+cytotrophoblasts,18,2,12,2,0.72,0.706
+gastric progenitor cells,13,3,11,3,0.52,0.647
+late spermatids,11,4,7,4,0.44,0.412
+gastric chief cells,10,5,6,5,0.4,0.353
+esophageal apical cells,9,6,6,6,0.36,0.353
+hofbauer cells,6,7,2,11,0.24,0.118
+pancreatic acinar cells,6,8,4,8,0.24,0.235
+migrating cytotrophoblasts,5,9,4,7,0.2,0.235
+differentiating spermatogonia,5,10,3,10,0.2,0.176
+epididymal clear cells,4,11,2,14,0.16,0.118
+early primary spermatocytes,4,12,4,9,0.16,0.235
+enteric stem cells,2,13,2,13,0.08,0.118
+syncytiotrophoblasts,2,14,1,18,0.08,0.059
+undifferentiated spermatogonia,2,15,1,20,0.08,0.059
+paneth cells,2,16,2,12,0.08,0.118
