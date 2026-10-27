@@ -1,0 +1,7 @@
+{
+ "verdict": "FAIL",
+ "prediction": "CONFIRMED",
+ "ratio_readiness": 0.513052305907377,
+ "ratio_activity": 0.9897027253211075,
+ "estimator": "ulm"
+}

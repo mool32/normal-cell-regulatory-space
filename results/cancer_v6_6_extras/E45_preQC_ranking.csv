@@ -1,0 +1,155 @@
+cell,recurrence_top5,occupancy_pct
+cytotrophoblasts,18,10.89
+megakaryocytes,17,8.27
+erythrocytes,16,9.45
+gastric progenitor cells,12,9.15
+pancreatic acinar cells,7,6.45
+late spermatids,6,5.98
+gastric chief cells,5,5.52
+migrating cytotrophoblasts,5,3.18
+epididymal clear cells,5,2.61
+hofbauer cells,4,3.09
+esophageal apical cells,4,2.99
+differentiating spermatogonia,4,2.42
+platelets,3,2.51
+early primary spermatocytes,3,2.15
+syncytiotrophoblasts,2,2.19
+paneth cells,2,1.66
+enteric stem cells,2,1.56
+erythrocyte progenitors,2,1.45
+undifferentiated spermatogonia,2,1.23
+esophageal basal cells,1,1.49
+esophageal suprabasal cells,1,1.17
+breast myoepithelial cells,1,0.92
+late primary spermatocytes,1,0.89
+granulosa cells,1,0.72
+mucous neck cells,1,0.4
+breast secretory cells,0,0.9
+basal keratinocytes,0,0.63
+extravillous trophoblasts,0,0.59
+parietal cells,0,0.59
+early spermatids,0,0.54
+suprabasal keratinocytes,0,0.5
+oocytes,0,0.45
+tuft cells,0,0.43
+oligodendrocytes,0,0.37
+epididymal principal cells,0,0.35
+kupffer cells,0,0.35
+epididymal efferent duct ciliated cells,0,0.33
+oligodendrocyte progenitor cells,0,0.33
+colonocytes,0,0.28
+ocular epithelial cells,0,0.27
+respiratory ciliated cells,0,0.22
+enteric transient amplifying cells,0,0.21
+lacrimal acinar cells,0,0.2
+melanocytes,0,0.2
+sertoli cells,0,0.19
+thyrotrophs,0,0.19
+retinal amacrine cells,0,0.18
+decidual stromal cells,0,0.15
+pdcs,0,0.15
+breast lactating cells,0,0.14
+epididymal basal cells,0,0.14
+ovarian stromal cells,0,0.13
+leydig cells,0,0.12
+mast cells,0,0.12
+plasma cells,0,0.12
+hepatocytes,0,0.11
+neutrophil progenitors,0,0.1
+retinal bipolar cells,0,0.1
+retinal horizontal cells,0,0.1
+müller glia,0,0.09
+other brain neurons,0,0.09
+pancreatic duct cells,0,0.09
+corticotrophs,0,0.08
+endometrial secretory cells,0,0.08
+goblet cells,0,0.08
+megakaryocyte-erythroid progenitors,0,0.08
+pancreatic islet cells,0,0.07
+megakaryocyte progenitors,0,0.06
+microglia,0,0.06
+brain excitatory neurons,0,0.05
+cone photoreceptor cells,0,0.05
+hepatic stellate cells,0,0.05
+lactotrophs,0,0.05
+retinal pigment epithelial cells,0,0.05
+urothelial cells,0,0.05
+alveolar cells type 1,0,0.04
+bergmann glia,0,0.04
+brain inhibitory neurons,0,0.04
+fallopian secretory cells,0,0.04
+monocytes,0,0.04
+prostatic hillock cells,0,0.04
+salivary duct cells,0,0.04
+submucosal glandular cells,0,0.04
+b-cells,0,0.03
+enterocytes,0,0.03
+ependymal cells,0,0.03
+macrophages,0,0.03
+prostatic glandular cells,0,0.03
+retinal ganglion cells,0,0.03
+cardiomyocytes,0,0.02
+neutrophils,0,0.02
+respiratory deuterosomal cells,0,0.02
+adrenal medulla cells,0,0.01
+alveolar cells type 2,0,0.01
+astrocytes,0,0.01
+cdc,0,0.01
+choroid plexus epithelial cells,0,0.01
+conjunctival goblet cells,0,0.01
+epididymal efferent duct absorptive cells,0,0.01
+monocyte progenitors,0,0.01
+myonuclei,0,0.01
+neuroendocrine cells,0,0.01
+nk-cells,0,0.01
+papillary tip epithelial cells,0,0.01
+pericytes,0,0.01
+peritubular myoid cells,0,0.01
+podocytes,0,0.01
+respiratory secretory cells,0,0.01
+rod photoreceptor cells,0,0.01
+salivary acinar cells,0,0.01
+adipocytes,0,0.0
+adrenal cortex cells,0,0.0
+basal prostatic cells,0,0.0
+breast hormone-responsive cells,0,0.0
+cholangiocytes,0,0.0
+distal convoluted tubule cells,0,0.0
+endometrial ciliated cells,0,0.0
+endometrial glandular cells,0,0.0
+endometrial luminal cells,0,0.0
+endometrial stromal cells,0,0.0
+epicardial cells,0,0.0
+fallopian tube ciliated cells,0,0.0
+fibro-adipogenic progenitors,0,0.0
+fibroblasts,0,0.0
+foveolar cells,0,0.0
+gonadotrophs,0,0.0
+hematopoietic stem cells,0,0.0
+innate lymphoid cells,0,0.0
+loop of henle epithelial cells,0,0.0
+lymphatic endothelial cells,0,0.0
+medullary thymic epithelial cells,0,0.0
+mesothelial cells,0,0.0
+myosatellite cells,0,0.0
+pituicytes/fscs,0,0.0
+pituitary stem cells,0,0.0
+prostatic club cells,0,0.0
+proximal tubule cells,0,0.0
+renal collecting duct intercalated cells,0,0.0
+renal collecting duct principal cells,0,0.0
+renal connecting tubule cells,0,0.0
+respiratory basal cells,0,0.0
+respiratory ionocytes,0,0.0
+salivary basal cells,0,0.0
+salivary ionocytes,0,0.0
+salivary myoepithelial cells,0,0.0
+schwann cells,0,0.0
+smooth muscle cells,0,0.0
+somatotrophs,0,0.0
+t-cells,0,0.0
+thymic myoid cells,0,0.0
+thymocytes,0,0.0
+transitional alveolar cells,0,0.0
+vascular endothelial cells,0,0.0
+vascular smooth muscle cells,0,0.0

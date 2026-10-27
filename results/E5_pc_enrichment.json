@@ -1,0 +1,470 @@
+{
+ "PC1": {
+  "neg": [
+   {
+    "term": "Disease R-HSA-1643685",
+    "lib": "KEGG_2021_Human",
+    "padj": 4.0866300564947766e-05,
+    "overlap": "30/1736"
+   },
+   {
+    "term": "Cytokine Signaling In Immune System R-HSA-1280215",
+    "lib": "KEGG_2021_Human",
+    "padj": 4.0866300564947766e-05,
+    "overlap": "18/702"
+   },
+   {
+    "term": "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+    "lib": "KEGG_2021_Human",
+    "padj": 4.0866300564947766e-05,
+    "overlap": "14/424"
+   },
+   {
+    "term": "Immune System R-HSA-168256",
+    "lib": "KEGG_2021_Human",
+    "padj": 4.0866300564947766e-05,
+    "overlap": "31/1943"
+   },
+   {
+    "term": "Immune System R-HSA-168256",
+    "lib": "Reactome_2022",
+    "padj": 4.0866300564947766e-05,
+    "overlap": "31/1943"
+   },
+   {
+    "term": "Diseases Of Signal Transduction By Growth Factor Receptors And Second Messengers R-HSA-5663202",
+    "lib": "Reactome_2022",
+    "padj": 4.0866300564947766e-05,
+    "overlap": "14/424"
+   }
+  ],
+  "pos": [
+   {
+    "term": "RUNX1 Regulates Transcription Of Genes Involved In Interleukin Signaling R-HSA-8939247",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.7549986587261116,
+    "overlap": "1/5"
+   },
+   {
+    "term": "Inactivation, Recovery And Regulation Of Phototransduction Cascade R-HSA-2514859",
+    "lib": "Reactome_2022",
+    "padj": 0.7549986587261116,
+    "overlap": "1/32"
+   },
+   {
+    "term": "Glycerophospholipid Biosynthesis R-HSA-1483206",
+    "lib": "Reactome_2022",
+    "padj": 0.7549986587261116,
+    "overlap": "2/127"
+   },
+   {
+    "term": "Phototransduction Cascade R-HSA-2514856",
+    "lib": "Reactome_2022",
+    "padj": 0.7549986587261116,
+    "overlap": "1/33"
+   },
+   {
+    "term": "COPI-independent Golgi-to-ER Retrograde Traffic R-HSA-6811436",
+    "lib": "Reactome_2022",
+    "padj": 0.7549986587261116,
+    "overlap": "1/34"
+   },
+   {
+    "term": "M Phase R-HSA-68886",
+    "lib": "Reactome_2022",
+    "padj": 0.7549986587261116,
+    "overlap": "4/380"
+   }
+  ]
+ },
+ "PC2": {
+  "neg": [
+   {
+    "term": "RORA Activates Gene Expression R-HSA-1368082",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.0012368240865465,
+    "overlap": "4/18"
+   },
+   {
+    "term": "RORA Activates Gene Expression R-HSA-1368082",
+    "lib": "Reactome_2022",
+    "padj": 0.0012368240865465,
+    "overlap": "4/18"
+   },
+   {
+    "term": "Circadian Clock R-HSA-400253",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.0103496088794829,
+    "overlap": "5/69"
+   },
+   {
+    "term": "Circadian Clock R-HSA-400253",
+    "lib": "Reactome_2022",
+    "padj": 0.0103496088794829,
+    "overlap": "5/69"
+   },
+   {
+    "term": "Heme Signaling R-HSA-9707616",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.0177148497978888,
+    "overlap": "4/45"
+   },
+   {
+    "term": "Heme Signaling R-HSA-9707616",
+    "lib": "Reactome_2022",
+    "padj": 0.0177148497978888,
+    "overlap": "4/45"
+   }
+  ],
+  "pos": [
+   {
+    "term": "Eukaryotic Translation Elongation R-HSA-156842",
+    "lib": "KEGG_2021_Human",
+    "padj": 4.867525191287902e-145,
+    "overlap": "70/90"
+   },
+   {
+    "term": "Eukaryotic Translation Elongation R-HSA-156842",
+    "lib": "Reactome_2022",
+    "padj": 4.867525191287902e-145,
+    "overlap": "70/90"
+   },
+   {
+    "term": "Peptide Chain Elongation R-HSA-156902",
+    "lib": "KEGG_2021_Human",
+    "padj": 7.47793928648622e-145,
+    "overlap": "69/86"
+   },
+   {
+    "term": "Peptide Chain Elongation R-HSA-156902",
+    "lib": "Reactome_2022",
+    "padj": 7.47793928648622e-145,
+    "overlap": "69/86"
+   },
+   {
+    "term": "Selenocysteine Synthesis R-HSA-2408557",
+    "lib": "KEGG_2021_Human",
+    "padj": 1.2666224444382293e-142,
+    "overlap": "69/90"
+   },
+   {
+    "term": "Viral mRNA Translation R-HSA-192823",
+    "lib": "Reactome_2022",
+    "padj": 1.2666224444382293e-142,
+    "overlap": "69/90"
+   }
+  ]
+ },
+ "PC3": {
+  "neg": [
+   {
+    "term": "RAC1 GTPase Cycle R-HSA-9013149",
+    "lib": "KEGG_2021_Human",
+    "padj": 8.661215146952106e-11,
+    "overlap": "15/178"
+   },
+   {
+    "term": "RAC1 GTPase Cycle R-HSA-9013149",
+    "lib": "Reactome_2022",
+    "padj": 8.661215146952106e-11,
+    "overlap": "15/178"
+   },
+   {
+    "term": "RHO GTPase Cycle R-HSA-9012999",
+    "lib": "KEGG_2021_Human",
+    "padj": 4.014258858778269e-10,
+    "overlap": "20/441"
+   },
+   {
+    "term": "RHO GTPase Cycle R-HSA-9012999",
+    "lib": "Reactome_2022",
+    "padj": 4.014258858778269e-10,
+    "overlap": "20/441"
+   },
+   {
+    "term": "Signal Transduction R-HSA-162582",
+    "lib": "Reactome_2022",
+    "padj": 9.252641569096103e-10,
+    "overlap": "44/2465"
+   },
+   {
+    "term": "Signal Transduction R-HSA-162582",
+    "lib": "KEGG_2021_Human",
+    "padj": 9.252641569096103e-10,
+    "overlap": "44/2465"
+   }
+  ],
+  "pos": [
+   {
+    "term": "Metabolism R-HSA-1430728",
+    "lib": "KEGG_2021_Human",
+    "padj": 3.860226582572054e-15,
+    "overlap": "48/2049"
+   },
+   {
+    "term": "Metabolism R-HSA-1430728",
+    "lib": "Reactome_2022",
+    "padj": 3.860226582572054e-15,
+    "overlap": "48/2049"
+   },
+   {
+    "term": "Biological Oxidations R-HSA-211859",
+    "lib": "KEGG_2021_Human",
+    "padj": 8.67247090431204e-08,
+    "overlap": "13/218"
+   },
+   {
+    "term": "Phase I - Functionalization Of Compounds R-HSA-211945",
+    "lib": "KEGG_2021_Human",
+    "padj": 8.67247090431204e-08,
+    "overlap": "10/104"
+   },
+   {
+    "term": "Phase I - Functionalization Of Compounds R-HSA-211945",
+    "lib": "Reactome_2022",
+    "padj": 8.67247090431204e-08,
+    "overlap": "10/104"
+   },
+   {
+    "term": "Biological Oxidations R-HSA-211859",
+    "lib": "Reactome_2022",
+    "padj": 8.67247090431204e-08,
+    "overlap": "13/218"
+   }
+  ]
+ },
+ "PC4": {
+  "neg": [
+   {
+    "term": "Metabolism R-HSA-1430728",
+    "lib": "KEGG_2021_Human",
+    "padj": 7.383305660747843e-23,
+    "overlap": "57/2049"
+   },
+   {
+    "term": "Metabolism R-HSA-1430728",
+    "lib": "Reactome_2022",
+    "padj": 7.383305660747843e-23,
+    "overlap": "57/2049"
+   },
+   {
+    "term": "Metabolism Of Lipids R-HSA-556833",
+    "lib": "KEGG_2021_Human",
+    "padj": 2.6033331281129816e-11,
+    "overlap": "26/732"
+   },
+   {
+    "term": "Metabolism Of Lipids R-HSA-556833",
+    "lib": "Reactome_2022",
+    "padj": 2.6033331281129816e-11,
+    "overlap": "26/732"
+   },
+   {
+    "term": "Biological Oxidations R-HSA-211859",
+    "lib": "Reactome_2022",
+    "padj": 5.405539547618955e-09,
+    "overlap": "14/218"
+   },
+   {
+    "term": "Biological Oxidations R-HSA-211859",
+    "lib": "KEGG_2021_Human",
+    "padj": 5.405539547618955e-09,
+    "overlap": "14/218"
+   }
+  ],
+  "pos": [
+   {
+    "term": "Cellular Responses To Stress R-HSA-2262752",
+    "lib": "KEGG_2021_Human",
+    "padj": 8.194859035360856e-07,
+    "overlap": "21/722"
+   },
+   {
+    "term": "Cellular Responses To Stress R-HSA-2262752",
+    "lib": "Reactome_2022",
+    "padj": 8.194859035360856e-07,
+    "overlap": "21/722"
+   },
+   {
+    "term": "Cellular Responses To Stimuli R-HSA-8953897",
+    "lib": "Reactome_2022",
+    "padj": 8.194859035360856e-07,
+    "overlap": "21/736"
+   },
+   {
+    "term": "Cellular Responses To Stimuli R-HSA-8953897",
+    "lib": "KEGG_2021_Human",
+    "padj": 8.194859035360856e-07,
+    "overlap": "21/736"
+   },
+   {
+    "term": "Metabolism Of RNA R-HSA-8953854",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.0004801749256117864,
+    "overlap": "16/666"
+   },
+   {
+    "term": "Metabolism Of RNA R-HSA-8953854",
+    "lib": "Reactome_2022",
+    "padj": 0.0004801749256117864,
+    "overlap": "16/666"
+   }
+  ]
+ },
+ "PC5": {
+  "neg": [
+   {
+    "term": "Extracellular Matrix Organization R-HSA-1474244",
+    "lib": "KEGG_2021_Human",
+    "padj": 6.263928344720483e-05,
+    "overlap": "12/291"
+   },
+   {
+    "term": "Extracellular Matrix Organization R-HSA-1474244",
+    "lib": "Reactome_2022",
+    "padj": 6.263928344720483e-05,
+    "overlap": "12/291"
+   },
+   {
+    "term": "Collagen Chain Trimerization R-HSA-8948216",
+    "lib": "Reactome_2022",
+    "padj": 0.0010787338456415,
+    "overlap": "5/44"
+   },
+   {
+    "term": "Collagen Chain Trimerization R-HSA-8948216",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.0010787338456415,
+    "overlap": "5/44"
+   },
+   {
+    "term": "Assembly Of Collagen Fibrils And Other Multimeric Structures R-HSA-2022090",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.002605586503679,
+    "overlap": "5/57"
+   },
+   {
+    "term": "Assembly Of Collagen Fibrils And Other Multimeric Structures R-HSA-2022090",
+    "lib": "Reactome_2022",
+    "padj": 0.002605586503679,
+    "overlap": "5/57"
+   }
+  ],
+  "pos": [
+   {
+    "term": "Cholesterol Biosynthesis R-HSA-191273",
+    "lib": "KEGG_2021_Human",
+    "padj": 1.0057706211103536e-13,
+    "overlap": "10/26"
+   },
+   {
+    "term": "Cholesterol Biosynthesis R-HSA-191273",
+    "lib": "Reactome_2022",
+    "padj": 1.0057706211103536e-13,
+    "overlap": "10/26"
+   },
+   {
+    "term": "Activation Of Gene Expression By SREBF (SREBP) R-HSA-2426168",
+    "lib": "KEGG_2021_Human",
+    "padj": 6.98480457834748e-10,
+    "overlap": "9/42"
+   },
+   {
+    "term": "Activation Of Gene Expression By SREBF (SREBP) R-HSA-2426168",
+    "lib": "Reactome_2022",
+    "padj": 6.98480457834748e-10,
+    "overlap": "9/42"
+   },
+   {
+    "term": "Regulation Of Cholesterol Biosynthesis By SREBP (SREBF) R-HSA-1655829",
+    "lib": "KEGG_2021_Human",
+    "padj": 6.222013569936723e-09,
+    "overlap": "9/55"
+   },
+   {
+    "term": "Regulation Of Cholesterol Biosynthesis By SREBP (SREBF) R-HSA-1655829",
+    "lib": "Reactome_2022",
+    "padj": 6.222013569936723e-09,
+    "overlap": "9/55"
+   }
+  ]
+ },
+ "PC6": {
+  "neg": [
+   {
+    "term": "POU5F1 (OCT4), SOX2, NANOG Activate Genes Related To Proliferation R-HSA-2892247",
+    "lib": "KEGG_2021_Human",
+    "padj": 0.5136510318448183,
+    "overlap": "2/12"
+   },
+   {
+    "term": "POU5F1 (OCT4), SOX2, NANOG Repress Genes Related To Differentiation R-HSA-2892245",
+    "lib": "Reactome_2022",
+    "padj": 0.5136510318448183,
+    "overlap": "1/9"
+   },
+   {
+    "term": "RHO GTPases Activate Rhotekin And Rhophilins R-HSA-5666185",
+    "lib": "Reactome_2022",
+    "padj": 0.5136510318448183,
+    "overlap": "1/9"
+   },
+   {
+    "term": "p75NTR Regulates Axonogenesis R-HSA-193697",
+    "lib": "Reactome_2022",
+    "padj": 0.5136510318448183,
+    "overlap": "1/9"
+   },
+   {
+    "term": "E2F-enabled Inhibition Of Pre-Replication Complex Formation R-HSA-113507",
+    "lib": "Reactome_2022",
+    "padj": 0.5136510318448183,
+    "overlap": "1/9"
+   },
+   {
+    "term": "TP53 Regulates Transcription Of DNA Repair Genes R-HSA-6796648",
+    "lib": "Reactome_2022",
+    "padj": 0.5136510318448183,
+    "overlap": "2/62"
+   }
+  ],
+  "pos": [
+   {
+    "term": "SRP-dependent Cotranslational Protein Targeting To Membrane R-HSA-1799339",
+    "lib": "Reactome_2022",
+    "padj": 1.249971152689791e-12,
+    "overlap": "14/108"
+   },
+   {
+    "term": "SRP-dependent Cotranslational Protein Targeting To Membrane R-HSA-1799339",
+    "lib": "KEGG_2021_Human",
+    "padj": 1.249971152689791e-12,
+    "overlap": "14/108"
+   },
+   {
+    "term": "Cellular Responses To Stimuli R-HSA-8953897",
+    "lib": "Reactome_2022",
+    "padj": 3.860873372809241e-11,
+    "overlap": "26/736"
+   },
+   {
+    "term": "Cellular Responses To Stimuli R-HSA-8953897",
+    "lib": "KEGG_2021_Human",
+    "padj": 3.860873372809241e-11,
+    "overlap": "26/736"
+   },
+   {
+    "term": "Cellular Responses To Stress R-HSA-2262752",
+    "lib": "Reactome_2022",
+    "padj": 1.2545841640385366e-10,
+    "overlap": "25/722"
+   },
+   {
+    "term": "Cellular Responses To Stress R-HSA-2262752",
+    "lib": "KEGG_2021_Human",
+    "padj": 1.2545841640385366e-10,
+    "overlap": "25/722"
+   }
+  ]
+ }
+}

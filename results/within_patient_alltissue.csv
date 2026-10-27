@@ -1,0 +1,95 @@
+tissue,patient,malig_core_pct,normal_core_pct,dataset,baseline
+colorectal,C104,11.049723756906078,8.0,colorectal (Pelka),low
+colorectal,C106,17.62114537444934,3.7572254335260116,colorectal (Pelka),low
+colorectal,C107,39.52819332566168,5.228031145717464,colorectal (Pelka),low
+colorectal,C109,15.022421524663676,2.5985663082437274,colorectal (Pelka),low
+colorectal,C110,14.797507788161992,4.156479217603912,colorectal (Pelka),low
+colorectal,C111,21.14624505928854,6.593406593406594,colorectal (Pelka),low
+colorectal,C112,8.275261324041812,4.3314500941619585,colorectal (Pelka),low
+colorectal,C113,14.683406113537117,6.8493150684931505,colorectal (Pelka),low
+colorectal,C114,17.451523545706372,1.9021739130434785,colorectal (Pelka),low
+colorectal,C115,26.61290322580645,2.7624309392265194,colorectal (Pelka),low
+colorectal,C116,34.3801652892562,3.6610878661087867,colorectal (Pelka),low
+colorectal,C122,24.314574314574315,4.571728849185497,colorectal (Pelka),low
+colorectal,C123,26.9544527532291,4.9286640726329445,colorectal (Pelka),low
+colorectal,C124,18.65284974093264,3.288084464555053,colorectal (Pelka),low
+colorectal,C125,22.888459058671824,4.257528556593977,colorectal (Pelka),low
+colorectal,C126,7.4074074074074066,4.871538204871538,colorectal (Pelka),low
+colorectal,C129,24.149338374291116,5.378151260504202,colorectal (Pelka),low
+colorectal,C130,21.682319314005717,5.555555555555555,colorectal (Pelka),low
+colorectal,C132,44.19475655430712,13.131313131313133,colorectal (Pelka),low
+colorectal,C133,30.352941176470587,1.3192612137203166,colorectal (Pelka),low
+colorectal,C134,8.093278463648835,7.742878013148284,colorectal (Pelka),low
+colorectal,C135,2.6595744680851063,2.6804123711340204,colorectal (Pelka),low
+colorectal,C136,28.169014084507044,2.8301886792452833,colorectal (Pelka),low
+colorectal,C137,42.11409395973154,7.884615384615384,colorectal (Pelka),low
+colorectal,C138,27.39273927392739,1.524390243902439,colorectal (Pelka),low
+colorectal,C139,17.353668590272054,6.8893528183716075,colorectal (Pelka),low
+colorectal,C140,16.05960264900662,5.88235294117647,colorectal (Pelka),low
+colorectal,C142,12.185929648241206,2.4,colorectal (Pelka),low
+colorectal,C143,6.794055201698514,3.4000000000000004,colorectal (Pelka),low
+colorectal,C144,26.923076923076923,6.8181818181818175,colorectal (Pelka),low
+colorectal,C149,7.503410641200546,2.054794520547945,colorectal (Pelka),low
+colorectal,C151,32.20973782771536,1.5087223008015087,colorectal (Pelka),low
+colorectal,C152,11.904761904761903,3.3175355450236967,colorectal (Pelka),low
+colorectal,C154,14.216867469879519,6.451612903225806,colorectal (Pelka),low
+colorectal,C155,29.268292682926827,3.3426183844011144,colorectal (Pelka),low
+colorectal,C156,19.1358024691358,14.285714285714285,colorectal (Pelka),low
+colorectal,C157,7.953340402969247,2.3424190800681433,colorectal (Pelka),low
+colorectal,C160,28.544061302681996,16.883116883116884,colorectal (Pelka),low
+colorectal,C161,28.57142857142857,6.25,colorectal (Pelka),low
+colorectal,C162,46.686217008797655,7.382039573820395,colorectal (Pelka),low
+colorectal,C163,14.80414746543779,5.633802816901409,colorectal (Pelka),low
+colorectal,C164,5.3731343283582085,3.3333333333333335,colorectal (Pelka),low
+colorectal,C165,44.70046082949309,3.587443946188341,colorectal (Pelka),low
+colorectal,C166,7.658928183987849,7.6923076923076925,colorectal (Pelka),low
+colorectal,C170,40.53406367682301,12.804878048780488,colorectal (Pelka),low
+colorectal,C171,6.340123598077363,9.174311926605505,colorectal (Pelka),low
+kidney,PD43948,11.5,0.0,kidney/RCC,low
+kidney,PD45816,6.3,0.9,kidney/RCC,low
+kidney,PD47512,8.3,5.3,kidney/RCC,low
+kidney,SCS_2006,41.4,14.7,kidney/RCC,low
+kidney,SS_2007,6.7,23.8,kidney/RCC,low
+kidney,SS_2017,50.9,5.6,kidney/RCC,low
+kidney,SS_2022,27.7,3.9,kidney/RCC,low
+liver,HCC03,0.3,0.7,liver/HCC,low
+liver,HCC04,18.9,2.0,liver/HCC,low
+liver,HCC05,0.2,14.3,liver/HCC,low
+liver,HCC06,1.8,7.5,liver/HCC,low
+liver,HCC07,60.4,17.4,liver/HCC,low
+liver,HCC08,49.0,16.0,liver/HCC,low
+liver,HCC09,19.8,2.3,liver/HCC,low
+liver,HCC10,32.1,18.2,liver/HCC,low
+colorectal,HTA11_6298,0.847457627118644,0.0,colorectal (HTA),low
+colorectal,HTA11_7029,1.2567324955116697,1.0869565217391304,colorectal (HTA),low
+colorectal,HTA11_7956,2.2058823529411766,0.8849557522123894,colorectal (HTA),low
+colorectal,HTA11_8099,0.3333333333333333,1.488095238095238,colorectal (HTA),low
+colorectal,HTA8_6001,5.004812319538017,0.0,colorectal (HTA),low
+colorectal,HTA8_6007,26.31578947368421,4.3478260869565215,colorectal (HTA),low
+colorectal,HTA8_6009,7.1022727272727275,1.32890365448505,colorectal (HTA),low
+colorectal,HTA8_6013,5.184174624829468,3.576982892690513,colorectal (HTA),low
+colorectal,HTA8_6016,9.037900874635568,1.6886930983847284,colorectal (HTA),low
+colorectal,HTA8_6018,12.219850586979724,1.9656019656019657,colorectal (HTA),low
+colorectal,HTA8_6019,5.004906771344456,0.4597701149425287,colorectal (HTA),low
+colorectal,HTA8_6021,29.84934086629002,6.87719298245614,colorectal (HTA),low
+colorectal,HTA8_6023,5.714285714285714,0.0,colorectal (HTA),low
+colorectal,HTA8_6024,44.44444444444444,19.047619047619047,colorectal (HTA),low
+colorectal,HTA8_6025,24.21259842519685,0.0,colorectal (HTA),low
+colorectal,HTA8_6026,12.42603550295858,2.1406727828746175,colorectal (HTA),low
+colorectal,HTA8_6027,2.631578947368421,0.0,colorectal (HTA),low
+colorectal,HTA8_6028,7.320872274143301,0.0,colorectal (HTA),low
+colorectal,SC001 (KUL01),30.513595166163142,0.0,colorectal (HTA),low
+colorectal,SC024,1.757188498402556,5.660377358490567,colorectal (HTA),low
+colorectal,SC027,15.584415584415584,2.8089887640449436,colorectal (HTA),low
+colorectal,SC028 (KUL28),4.444444444444445,2.5,colorectal (HTA),low
+colorectal,SC029,5.555555555555555,2.3255813953488373,colorectal (HTA),low
+colorectal,SC030 (KUL30),10.892857142857142,2.0338983050847457,colorectal (HTA),low
+colorectal,SC031 (KUL31),7.894736842105263,2.6058631921824107,colorectal (HTA),low
+lung,3,2.1739130434782608,24.075057532306605,lung/LUAD,high
+lung,QianLUAD_LC_3,8.863636363636363,30.28571428571429,lung/LUAD,high
+lung,QianLUAD_LC_4,43.47222222222222,29.411764705882355,lung/LUAD,high
+lung,QianLUAD_LC_5,19.98474446987033,22.362869198312236,lung/LUAD,high
+lung,QianLUAD_LC_7,20.242914979757085,33.91959798994975,lung/LUAD,high
+lung,RU675,30.973451327433622,12.359550561797752,lung/LUAD,high
+lung,RU682,6.944444444444445,33.04347826086956,lung/LUAD,high
+lung,RU684,8.670520231213873,19.469026548672566,lung/LUAD,high

@@ -1,0 +1,43 @@
+{
+ "as published": {
+  "cells": 121115,
+  "cohorts": 25,
+  "nk": 12,
+  "corefrac": 17.4,
+  "cyto_rec": 3,
+  "cyto_attr": 1,
+  "mega_rec": 10,
+  "attr_top3": [
+   "cytotrophoblasts",
+   "migrating cytotrophoblasts",
+   "pancreatic acinar cells"
+  ],
+  "rec_top2": [
+   "migrating cytotrophoblasts",
+   "pancreatic acinar cells"
+  ]
+ },
+ "deduplicated": {
+  "cells": 121115,
+  "cohorts": 25,
+  "nk": 12,
+  "corefrac": 17.2,
+  "cyto_rec": 1,
+  "cyto_attr": 1,
+  "mega_rec": 10,
+  "attr_top3": [
+   "cytotrophoblasts",
+   "migrating cytotrophoblasts",
+   "pancreatic acinar cells"
+  ],
+  "rec_top2": [
+   "cytotrophoblasts",
+   "pancreatic acinar cells"
+  ]
+ },
+ "harness": {
+  "cap_per_cohort": 6000,
+  "npc": 9,
+  "note": "E2e's harness: the cap is 6,000 cells per cohort, not the 4,000 of the paper's own figures, because this script reproduces E2e's baseline so the two passes differ only in the duplicate rows."
+ }
+}

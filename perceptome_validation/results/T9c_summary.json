@@ -1,0 +1,80 @@
+{
+ "GSE240057": {
+  "coverage": 1.0,
+  "f_raw": 0.7076277423496997,
+  "f_shape": -0.15560377923903915,
+  "verdict": "COCKTAIL",
+  "d_end": 0.5088870205101081,
+  "d_ckt": 0.36010257343463314,
+  "d_end_shape": -0.03873234868530614,
+  "d_ckt_shape": 0.006026899834237864,
+  "n_donor": 10,
+  "up": 10,
+  "wilcoxon_p": 0.001953125,
+  "wilcoxon_p_shape": 0.16015625,
+  "mean_rho": 0.801053462817567,
+  "rho_pos": 10,
+  "n_rho": 10,
+  "region_by_stage": {
+   "prec_basal": 0.0,
+   "ctrl_transduced": 0.1,
+   "tr_early": 0.4,
+   "tr_transition": 0.8,
+   "tr_endpoint": 1.0
+  }
+ },
+ "GSE148714": {
+  "coverage": 1.0,
+  "cb_af4": 0.07904726459905043,
+  "bm_af4": 0.048791383831225166,
+  "cb_af9": 0.06812639806544496,
+  "bm_af9": 0.060536294440848404,
+  "specific": true,
+  "top1": {
+   "BM_MLL-AF4": "late spermatids",
+   "BM_MLL-AF9": "megakaryocytes",
+   "CB_MLL-AF4": "megakaryocytes",
+   "CB_MLL-AF9": "gastric progenitor cells",
+   "Ctrl": "esophageal apical cells"
+  }
+ },
+ "GSE240057_hpa": {
+  "coverage": 0.9863013698630136,
+  "f_raw": 0.6254552968294304,
+  "f_shape": -0.31399715717942,
+  "verdict": "AMBIGUOUS",
+  "d_end": 0.5419982709627964,
+  "d_ckt": 0.33899568944607383,
+  "d_end_shape": -0.04050637605289177,
+  "d_ckt_shape": 0.012718886928248551,
+  "n_donor": 10,
+  "up": 10,
+  "wilcoxon_p": 0.001953125,
+  "wilcoxon_p_shape": 0.232421875,
+  "mean_rho": 0.7881546076393048,
+  "rho_pos": 10,
+  "n_rho": 10,
+  "region_by_stage": {
+   "prec_basal": 0.0,
+   "ctrl_transduced": 0.3,
+   "tr_early": 0.2,
+   "tr_transition": 0.5333333333333333,
+   "tr_endpoint": 0.8
+  }
+ },
+ "GSE148714_hpa": {
+  "coverage": 0.9863013698630136,
+  "cb_af4": 0.08457449707138631,
+  "bm_af4": 0.05711529757369138,
+  "cb_af9": 0.06787404441110245,
+  "bm_af9": 0.06686873249109115,
+  "specific": true,
+  "top1": {
+   "BM_MLL-AF4": "late spermatids",
+   "BM_MLL-AF9": "megakaryocytes",
+   "CB_MLL-AF4": "megakaryocytes",
+   "CB_MLL-AF9": "gastric progenitor cells",
+   "Ctrl": "late primary spermatocytes"
+  }
+ }
+}

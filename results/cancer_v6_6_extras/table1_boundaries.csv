@@ -1,0 +1,4 @@
+boundary,k,occupancy_pct,chance_pct,fold,members
+core (top-2),2,23.9,1.32,18.2,cytotrophoblasts; megakaryocytes
+neighbourhood (top-4),4,41.9,2.63,15.9,cytotrophoblasts; megakaryocytes; gastric progenitor cells; late spermatids
+broader region (top-14),14,76.9,9.21,8.4,cytotrophoblasts; megakaryocytes; gastric progenitor cells; late spermatids; gastric chief cells; esophageal apical cells; hofbauer cells; pancreatic acinar cells; migrating cytotrophoblasts; differentiating spermatogonia; epididymal clear cells; early primary spermatocytes; paneth cells; undifferentiated spermatogonia

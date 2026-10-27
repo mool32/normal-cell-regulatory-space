@@ -1,0 +1,57 @@
+epithelial cells: 168295 of 370115
+[stage] to_memory on 168295 epithelial rows ...
+[stage] filter_cells min_genes=1000
+[stage]   -> 127769 cells pass
+[stage] score_modules in chunks over 127769 cells ...
+[stage]   scored 25000/127769
+[stage]   scored 50000/127769
+[stage]   scored 75000/127769
+[stage]   scored 100000/127769
+[stage]   scored 125000/127769
+[stage]   scored 127769/127769
+[stage] scored; freed AnnData
+
+[GATE] patients both arms: 46 | normal-duet median 3.2% | malig-duet median 18.8% | malig>norm 43/46
+[GATE] PASSED — reproduces manuscript numbers
+
+duet cells: malignant 18802  normal 1329
+n_genes median  malig-duet 4351  normal-duet 2395  (confound check)
+
+patients with >=10 duet cells in BOTH arms (paired test): 30
+
+[VERDICT] corr(delta, duet_distinctiveness) over 44 modules: rho=+0.37 (p=0.013)
+          positive rho => malignant goes DEEPER on the same released-brake axis (quantitative)
+          near-zero    => malignant differs on OTHER modules (qualitative detuning)
+
+--- modules MOST separating malignant-duet from normal-duet (by |paired delta|, sig) ---
+  mTOR             delta=+1.57  (malig HIGHER) distinct=-0.12 [integrity/other]  pW=1.9e-09
+  HIF              delta=+1.50  (malig HIGHER) distinct=+0.17 [integrity/other]  pW=5.6e-09
+  Cell Cycle       delta=+1.31  (malig HIGHER) distinct=-0.37 [integrity/other]  pW=2.6e-08
+  ER               delta=+1.12  (malig HIGHER) distinct=-0.86 [RELEASED-BRAKE(target-def)]  pW=5.6e-09
+  NRF2             delta=+0.83  (malig HIGHER) distinct=-0.45 [integrity/other]  pW=9.3e-09
+  HSF1             delta=+0.74  (malig HIGHER) distinct=+0.04 [integrity/other]  pW=4.2e-04
+  SREBP            delta=+0.73  (malig HIGHER) distinct=-0.87 [RELEASED-BRAKE(target-def)]  pW=3.1e-07
+  UPR-ATF6         delta=+0.71  (malig HIGHER) distinct=+0.44 [integrity/other]  pW=1.4e-04
+  Autophagy        delta=+0.69  (malig HIGHER) distinct=-0.38 [integrity/other]  pW=6.9e-06
+  UPR-PERK         delta=+0.62  (malig HIGHER) distinct=-0.54 [RELEASED-BRAKE(target-def)]  pW=1.0e-06
+  Wnt              delta=+0.57  (malig HIGHER) distinct=-0.79 [RELEASED-BRAKE(target-def)]  pW=1.4e-06
+  p53              delta=+0.57  (malig HIGHER) distinct=+0.12 [integrity/other]  pW=1.7e-06
+  PPARα            delta=-0.54  (malig LOWER ) distinct=-0.52 [RELEASED-BRAKE(target-def)]  pW=1.2e-05
+  cGAS-STING       delta=+0.45  (malig HIGHER) distinct=+0.85 [duet-HIGH]  pW=9.3e-03
+  MR               delta=-0.36  (malig LOWER ) distinct=-1.72 [RELEASED-BRAKE(target-def)]  pW=2.0e-07
+  UPR-IRE1         delta=+0.36  (malig HIGHER) distinct=-0.39 [integrity/other]  pW=3.0e-03
+  AhR              delta=+0.36  (malig HIGHER) distinct=-0.74 [RELEASED-BRAKE(target-def)]  pW=1.4e-06
+  PI3K/PTEN        delta=-0.35  (malig LOWER ) distinct=-1.51 [RELEASED-BRAKE(target-def)]  pW=2.6e-04
+
+--- off-diagonal spotlights (Fig 6B) ---
+  Type I IFN     delta=+0.30  distinct=-1.45  pW=2.9e-02
+  HIF            delta=+1.50  distinct=+0.17  pW=5.6e-09
+  UPR-PERK       delta=+0.62  distinct=-0.54  pW=1.0e-06
+  UPR-IRE1       delta=+0.36  distinct=-0.39  pW=3.0e-03
+  UPR-ATF6       delta=+0.71  distinct=+0.44  pW=1.4e-04
+  HSF1           delta=+0.74  distinct=+0.04  pW=4.2e-04
+  NRF2           delta=+0.83  distinct=-0.45  pW=9.3e-09
+  cGAS-STING     delta=+0.45  distinct=+0.85  pW=9.3e-03
+  p53            delta=+0.57  distinct=+0.12  pW=1.7e-06
+
+saved results/pelka_diff_occupancy_modules.csv and per-cell matrix (20131 cells)

@@ -1,0 +1,35 @@
+{
+ "perceptome_bundled": 0.625,
+ "perceptome_rebuilt_pb": 0.6381578947368421,
+ "perceptome_rebuilt_sc": 0.6513157894736842,
+ "perm_null_mean": 0.1443282894736842,
+ "perm_null_p": 9.999000099990002e-05,
+ "random_unmatched": {
+  "median_pb": 0.6052631578947368,
+  "p95_pb": 0.6644736842105263,
+  "p50_pb": 0.6052631578947368,
+  "perceptome_pct_pb": 0.781,
+  "median_sc": 0.6118421052631579,
+  "p95_sc": 0.6776315789473685,
+  "perceptome_pct_sc": 0.791
+ },
+ "random_matched": {
+  "median_pb": 0.6118421052631579,
+  "p95_pb": 0.671381578947368,
+  "p50_pb": 0.6118421052631579,
+  "perceptome_pct_pb": 0.707,
+  "median_sc": 0.618421052631579,
+  "p95_sc": 0.6776315789473685,
+  "perceptome_pct_sc": 0.773
+ },
+ "hvg2000_pca9": 0.6842105263157895,
+ "hvg2000_seurat_pca9": 0.7105263157894737,
+ "hallmark50": 0.625,
+ "hallmark50_sc": 0.6052631578947368,
+ "progeny-14": 0.5,
+ "reactome-top44": 0.5986842105263158,
+ "kegg-signalling-46": 0.5657894736842105,
+ "hallmark-50-trim5": 0.5986842105263158,
+ "reactome-top44-trim5": 0.48026315789473684,
+ "verdict": "REMOVE THE CLAIM"
+}

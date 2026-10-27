@@ -1,0 +1,45 @@
+module,sensor,TF output,feedback element,receptor field,conf.
+AMPK,"PRKAG1, PRKAG2, PRKAG3",No direct AMPK transcription factor; output via T…,ULK1,No ligand class; intracellular AMP/ADP:ATP e…,medium
+AR,AR,AR,unclear,"Androgens: testosterone, 5a-dihydrotestoster…",low
+AhR,AHR,"AHR, ARNT","AHRR, CYP1A1, TIPARP",—,rec.
+Autophagy,"MTOR, RPTOR, RRAGA","TFEB, TFE3, FOXO3","RRAGD, FLCN",No ligand/receptor; nutrient and energy depr…,medium
+BMP,"BMPR1A, BMPR1B, ACVR1","SMAD1, SMAD5, SMAD9 with SMAD4","SMAD6, BAMBI",BMP and GDF ligands of the TGF-beta superfam…,high
+Calcium,"CALM1, CALM2, CALM3","NFATC1, NFATC2, NFATC3",RCAN1,No single ligand class; any cytosolic Ca2+ r…,medium
+Cell Cycle,"CCND1, CDK4, CDK6","E2F1, E2F2, E2F3","E2F7, E2F8",No dedicated ligand class; mitogenic growth …,high
+Circadian,"CSNK1D, CSNK1E, PRKAA1","CLOCK, BMAL1, NPAS2","PER1, PER2, PER3",—,rec.
+ER,"ESR1, ESR2","ESR1, ESR2",NRIP1,"Estrogens: 17b-estradiol, estrone, xenoestro…",medium
+ERK/MAPK,"EGFR, FGFR1, FGFR2","FOS, JUN, JUND","DUSP1, DUSP2, DUSP3",—,rec.
+FXR,NR1H4,"NR1H4, RXRA","NR0B2, FGF19","Bile acids: chenodeoxycholic, lithocholic, d…",high
+GR,NR3C1,NR3C1,FKBP5,"Glucocorticoids: cortisol, corticosterone, d…",high
+HIF,"EGLN1, EGLN2, EGLN3","HIF1A, EPAS1, ARNT","EGLN1, EGLN2, EGLN3",—,rec.
+HSF1,HSF1,"HSF1, HSF2","HSP90AA1, HSP90AB1, HSPA1A",—,rec.
+Hedgehog,"PTCH1, PTCH2, SMO","GLI1, GLI2, GLI3","PTCH1, PTCH2, HHIP",—,rec.
+Hippo,"CDH1, NF2, FRMD6","YAP1, WWTR1, TEAD1",unclear,—,low
+Insulin/FOXO,"INSR, IGF1R, IRS1","FOXO1, FOXO3, FOXO4","INSR, IRS2",Insulin and IGF-1/IGF-2 peptide hormones (sy…,medium
+JAK-STAT,"IL6ST, IL6R, OSMR","STAT1, STAT2, STAT3","SOCS1, SOCS3, CISH","Type I/II cytokines: interleukins, interfero…",high
+LXR,"NR1H3, NR1H2","NR1H3, NR1H2, RXRA","MYLIP, ABCA1, ABCG1",Oxysterols and desmosterol (cholesterol exce…,high
+MR,NR3C2,NR3C2,FKBP5,Mineralocorticoids: aldosterone (cortisol ex…,medium
+NF-κB,"TLR4, IL1R1, TNFRSF1A","NFKB1, NFKB2, RELA","NFKBIA, TNFAIP3, CYLD",—,rec.
+NFAT,"PPP3CA, PPP3CB, PPP3R1","NFATC1, NFATC2, NFATC3",RCAN1,Immunoreceptor (TCR/BCR/Fc) and Gq-GPCR stim…,high
+NPAS4,"CAMK2A, CAMK2B, CALM1","NPAS4, ARNT2",unclear,No ligand class; membrane depolarization and…,low
+NRF2,KEAP1,"NFE2L2 heterodimerized with MAFF, MAFG, MAFK",KEAP1,"Electrophiles, oxidants/ROS, heavy metals, t…",high
+Notch,"NOTCH1, NOTCH2, NOTCH3","RBPJ, RBPJL","NUMB, NUMBL, NRARP",—,rec.
+PI3K/PTEN,"INSR, IGF1R, EGFR","FOXO1, FOXO3, FOXO4",unclear,"Insulin, IGF-1/IGF-2 and growth-factor RTK l…",low
+PPARα,PPARA,"PPARA, RXRA","ACOX1, CPT1A, CYP4A11","Free fatty acids, eicosanoids, fibrates",medium
+PPARγ,PPARG,"PPARG, RXRA",unclear,"Fatty acids, prostanoids (15d-PGJ2), thiazol…",low
+PR,PGR,PGR,unclear,"Progestogens: progesterone, 17-OH-progestero…",low
+PXR/CAR,"NR1I2, NR1I3","NR1I2, NR1I3, RXRA","CYP3A4, CYP2B6, UGT1A1","Xenobiotics, drugs, secondary bile acids (li…",high
+RAR,"RARA, RARB, RARG","RARA, RARB, RARG",CYP26A1,Retinoids: all-trans and 9-cis retinoic acid,high
+SREBP,"SCAP, INSIG1, INSIG2","SREBF1, SREBF2","INSIG1, INSIG2, PCSK9",—,rec.
+TGF-β,"TGFBR1, TGFBR2, TGFBR3","SMAD2, SMAD3 with SMAD4","SMAD7, SKIL, PMEPA1","TGF-beta1/2/3, activins, nodal, myostatin",high
+TR,"THRA, THRB","THRA, THRB, RXRA",DIO3,"Thyroid hormone: T3, generated locally from …",high
+Type I IFN,"IFNAR1, IFNAR2","STAT1, STAT2, IRF9",USP18,"Type I interferons: IFN-alpha subtypes, IFN-…",high
+UPR-ATF6,"ATF6, ATF6B, HSPA5","ATF6, ATF6B","HSPA5, CALR, PDIA3",—,rec.
+UPR-IRE1,"ERN1, ERN2, HSPA5",XBP1,"DNAJB9, HSPA5",Unfolded/misfolded proteins in the ER lumen;…,high
+UPR-PERK,"EIF2AK3, HSPA5","ATF4, DDIT3, ATF3","PPP1R15A, TRIB3",Unfolded/misfolded ER-lumenal proteins (ER p…,high
+VDR,VDR,"VDR, RXRA",CYP24A1,—,rec.
+Wnt,"FZD1, FZD2, FZD3","TCF7, TCF7L1, TCF7L2","AXIN2, NKD1, NKD2",—,rec.
+cAMP/CREB,"PRKAR1A, PRKAR2A, PRKAR2B","CREB1, ATF1, CREM","CREM, PDE4B","Gs-coupled GPCR ligands: catecholamines, pep…",high
+cGAS-STING,"CGAS, IFI16, AIM2","IRF3, IRF7, NFKB1","TREX1, DNASE2, SAMHD1",—,rec.
+mTOR,"INSR, IGF1R, TNFRSF1A","SREBF1, HIF1A","DEPTOR, DDIT4, GRB10",—,rec.
+p53,"ATM, ATR, CHEK1","TP53, TP73","MDM2, MDM4, COP1",—,rec.

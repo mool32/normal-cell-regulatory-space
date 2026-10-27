@@ -1,0 +1,201 @@
+maxrec,ratio,corefrac,enrich,top2,cyto_rank,mega_rank,both_top2,both_top5,dropped
+13,5.237258157041899,0.14281194634269806,7.3310132455918335,"['decidual stromal cells', 'late spermatids']",6,12,False,False,Circadian;ER;ERK/MAPK;NRF2;PR
+15,5.466385377194204,0.1631865350544166,8.376908799460052,"['late spermatids', 'pancreatic acinar cells']",8,4,False,False,AMPK;ER;ERK/MAPK;JAK-STAT;NFAT
+16,5.690953558762074,0.18150468235889647,9.317240361090018,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",4,9,False,False,Cell Cycle;TR;UPR-IRE1;cAMP/CREB;cGAS-STING
+21,5.821107703231498,0.1366742596810934,7.015945330296128,"['breast lactating cells', 'migrating cytotrophoblasts']",4,9,False,False,HIF;PI3K/PTEN;SREBP;UPR-PERK;Wnt
+16,5.975986099190123,0.1472728423184004,7.560005905677888,"['pancreatic acinar cells', 'late spermatids']",4,11,False,False,HIF;NF-κB;PPARα;PR;TR
+14,6.420776404977708,0.17641103518096685,9.055766472622965,"['late spermatids', 'pancreatic acinar cells']",9,8,False,False,HIF;NF-κB;NRF2;PXR/CAR;mTOR
+13,5.907927519615076,0.16049734244495065,8.2388635788408,"['late spermatids', 'pancreatic acinar cells']",5,8,False,False,BMP;Cell Cycle;Notch;PPARα;UPR-ATF6
+21,5.700534307179801,0.13730701088332067,7.048426558677128,"['breast lactating cells', 'migrating cytotrophoblasts']",14,7,False,False,AMPK;HIF;Hippo;NF-κB;SREBP
+15,5.333968216488635,0.15562515818780057,7.988758120307096,"['pancreatic acinar cells', 'breast lactating cells']",6,5,False,False,JAK-STAT;PPARα;PXR/CAR;SREBP;UPR-IRE1
+19,5.566896602872828,0.1443621867881549,7.410592255125286,"['pancreatic acinar cells', 'gastric progenitor cells']",3,9,False,False,ER;Insulin/FOXO;PI3K/PTEN;Type I IFN;UPR-IRE1
+17,5.6360644643450755,0.17359529233105542,8.911225006327511,"['breast lactating cells', 'cytotrophoblasts']",2,12,False,False,ERK/MAPK;PI3K/PTEN;RAR;SREBP;UPR-PERK
+12,5.630146917632119,0.18159959503923057,9.322112545347169,"['cytotrophoblasts', 'migrating cytotrophoblasts']",1,7,False,False,FXR;PPARα;PR;RAR;VDR
+16,5.238296111020478,0.2522779043280182,12.950265755504935,"['cytotrophoblasts', 'late spermatids']",1,6,False,False,Autophagy;BMP;ERK/MAPK;LXR;Type I IFN
+13,5.2966797364538545,0.16182611996962795,8.307074158440901,"['late spermatids', 'gastric chief cells']",6,7,False,False,GR;MR;PPARα;mTOR;p53
+15,5.198700692819318,0.18178942039989876,9.33185691386147,"['late spermatids', 'cytotrophoblasts']",2,5,False,True,Hippo;PPARγ;RAR;SREBP;UPR-PERK
+16,5.678283921590612,0.1766957732219691,9.070383025394415,"['late spermatids', 'cytotrophoblasts']",2,4,False,True,ERK/MAPK;HSF1;LXR;NF-κB;SREBP
+16,5.259238173104273,0.13768666160465706,7.067915295705729,"['late spermatids', 'pancreatic acinar cells']",4,8,False,False,ER;Hedgehog;PPARα;PPARγ;Wnt
+17,5.385715954807545,0.2111174386231334,10.837361849320848,"['esophageal apical cells', 'cytotrophoblasts']",2,3,False,True,Autophagy;Hippo;JAK-STAT;NPAS4;VDR
+12,5.214707190203554,0.1707162743609213,8.76343541719396,"['pancreatic acinar cells', 'gastric chief cells']",7,9,False,False,BMP;Calcium;Circadian;HIF;MR
+17,5.777240435835901,0.18802201974183752,9.651797013414326,"['pancreatic acinar cells', 'late spermatids']",3,12,False,False,Calcium;HIF;Insulin/FOXO;MR;NPAS4
+13,5.465510956539895,0.19355859276132625,9.936007761748082,"['cytotrophoblasts', 'gastric chief cells']",1,7,False,False,AR;MR;NPAS4;RAR;p53
+17,5.374253481777717,0.16562262718299164,8.501961528726905,"['breast lactating cells', 'late spermatids']",4,7,False,False,NF-κB;PXR/CAR;RAR;SREBP;cAMP/CREB
+14,5.4617475560842506,0.1340167046317388,6.879524171095925,"['late spermatids', 'pancreatic acinar cells']",9,4,False,False,Autophagy;ER;FXR;PR;SREBP
+17,5.991971023119185,0.22345608706656542,11.470745802750358,"['late spermatids', 'pancreatic acinar cells']",3,5,False,True,Autophagy;Cell Cycle;ERK/MAPK;HSF1;LXR
+15,6.0677351890108735,0.19352695520121488,9.93438370032903,"['late spermatids', 'cytotrophoblasts']",2,5,False,True,Autophagy;ERK/MAPK;HSF1;PPARγ;mTOR
+14,5.296948364515079,0.20592887876486965,10.571015776596642,"['cytotrophoblasts', 'late spermatids']",1,5,False,True,Insulin/FOXO;JAK-STAT;cAMP/CREB;cGAS-STING;p53
+14,4.889559462725873,0.18704125537838523,9.601451109423776,"['migrating cytotrophoblasts', 'cytotrophoblasts']",2,8,False,False,AR;Circadian;Insulin/FOXO;PPARγ;Type I IFN
+18,6.206316605596921,0.1735320172108327,8.907976883489411,"['pancreatic acinar cells', 'late spermatids']",3,9,False,False,AMPK;Cell Cycle;HIF;Insulin/FOXO;PI3K/PTEN
+17,5.408593058459436,0.16926094659579854,8.68872859191766,"['esophageal apical cells', 'pancreatic acinar cells']",6,12,False,False,FXR;Hedgehog;Hippo;NPAS4;PI3K/PTEN
+15,5.39452090285144,0.20586560364464693,10.567767653758542,"['gastric chief cells', 'migrating cytotrophoblasts']",9,3,False,False,AR;GR;TGF-β;cGAS-STING;p53
+15,5.609604085885164,0.16404074917742345,8.420758457774404,"['gastric chief cells', 'pancreatic acinar cells']",12,6,False,False,AR;AhR;Insulin/FOXO;Type I IFN;cGAS-STING
+17,5.991851748628449,0.1771703366236396,9.094743946680167,"['late spermatids', 'pancreatic acinar cells']",5,3,False,True,HSF1;Hippo;NPAS4;Notch;TR
+17,5.832615878438182,0.16280688433308024,8.357420062431453,"['late spermatids', 'cytotrophoblasts']",2,5,False,True,HSF1;Hippo;NFAT;PPARα;cGAS-STING
+15,5.305314995250682,0.21485067071627437,11.02900109676875,"['pancreatic acinar cells', 'cytotrophoblasts']",2,4,False,True,Autophagy;BMP;Calcium;PXR/CAR;UPR-IRE1
+15,5.323559527061798,0.22826499620349278,11.717603138445963,"['late spermatids', 'megakaryocytes']",3,2,False,True,AhR;HSF1;LXR;TGF-β;TR
+19,7.613665387726452,0.15511895722601873,7.962773137602295,"['late spermatids', 'pancreatic acinar cells']",5,6,False,False,Cell Cycle;HIF;HSF1;Type I IFN;p53
+17,4.271870009742361,0.2300999746899519,11.811798700750865,"['cytotrophoblasts', 'migrating cytotrophoblasts']",1,5,False,True,Circadian;Hippo;JAK-STAT;LXR;Wnt
+15,6.163039027486602,0.1305682105796001,6.702501476419473,"['late spermatids', 'pancreatic acinar cells']",3,6,False,False,Cell Cycle;HSF1;SREBP;TR;UPR-IRE1
+15,5.966103465798035,0.18185269552012148,9.33510503669957,"['late spermatids', 'cytotrophoblasts']",2,7,False,False,HSF1;PPARγ;TGF-β;VDR;mTOR
+14,5.42448470839122,0.14910782080485954,7.65420146798279,"['pancreatic acinar cells', 'late spermatids']",6,11,False,False,ER;NF-κB;PI3K/PTEN;UPR-ATF6;Wnt
+16,5.515785792314671,0.18204252088078968,9.34484940521387,"['late spermatids', 'pancreatic acinar cells']",6,5,False,False,Notch;PR;Wnt;mTOR;p53
+15,5.3349432559107,0.17460769425461908,8.963194971737114,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",3,6,False,False,Calcium;NF-κB;NRF2;TR;UPR-IRE1
+16,6.394783137941399,0.19574158440901038,10.048067999662534,"['late spermatids', 'pancreatic acinar cells']",3,15,False,False,HIF;NFAT;NPAS4;PR;PXR/CAR
+17,5.637847012256126,0.1660971905846621,8.526322450012655,"['esophageal apical cells', 'pancreatic acinar cells']",7,6,False,False,Insulin/FOXO;JAK-STAT;NPAS4;Type I IFN;cAMP/CREB
+14,4.957941650154623,0.25259427992913186,12.966506369695436,"['migrating cytotrophoblasts', 'late spermatids']",3,4,False,True,JAK-STAT;LXR;UPR-PERK;Wnt;cAMP/CREB
+13,5.47611319107196,0.17144393824348267,8.800788829832111,"['migrating cytotrophoblasts', 'late spermatids']",6,9,False,False,AR;NF-κB;PI3K/PTEN;PR;UPR-PERK
+18,6.211291961267749,0.1695456846368008,8.70334514468911,"['gastric chief cells', 'late spermatids']",3,6,False,False,AR;FXR;GR;HSF1;JAK-STAT
+19,5.8269708321020195,0.10845355606175652,5.5672825445035015,"['esophageal apical cells', 'late spermatids']",8,9,False,False,FXR;HSF1;MR;NPAS4;TR
+14,6.270953115467821,0.1207605669450772,6.199042436513963,"['breast lactating cells', 'pancreatic acinar cells']",20,13,False,False,ERK/MAPK;HIF;SREBP;UPR-IRE1;VDR
+16,4.939295715709102,0.240097443685143,12.325002109170674,"['cytotrophoblasts', 'late spermatids']",1,8,False,False,Autophagy;BMP;Hedgehog;LXR;p53
+14,5.366788989434191,0.1962477853707922,10.074052982367334,"['late spermatids', 'cytotrophoblasts']",2,8,False,False,FXR;Hedgehog;PXR/CAR;Type I IFN;cAMP/CREB
+17,7.17049846822081,0.15590989622880283,8.003374673078545,"['late spermatids', 'cytotrophoblasts']",2,8,False,False,HIF;HSF1;NF-κB;NRF2;RAR
+16,5.554523653413084,0.1820108833206783,9.34322534379482,"['pancreatic acinar cells', 'cytotrophoblasts']",2,8,False,False,Cell Cycle;ER;Hippo;PXR/CAR;UPR-IRE1
+15,5.060180253540376,0.16856492027334852,8.652999240698557,"['breast lactating cells', 'late spermatids']",8,6,False,False,AR;Hippo;PXR/CAR;SREBP;cGAS-STING
+15,5.220405013599293,0.22158947101999493,11.374926179026406,"['megakaryocytes', 'late spermatids']",6,1,False,False,JAK-STAT;NF-κB;PPARγ;TGF-β;mTOR
+13,6.184704822028717,0.2331055429005315,11.966084535560618,"['late spermatids', 'migrating cytotrophoblasts']",3,4,False,True,Calcium;NF-κB;RAR;UPR-ATF6;mTOR
+13,6.156409371139311,0.19434953176411035,9.976609297224332,"['pancreatic acinar cells', 'esophageal apical cells']",5,8,False,False,HIF;NF-κB;NFAT;Type I IFN;cAMP/CREB
+18,5.552251186940813,0.140723867375348,7.223825191934531,"['late spermatids', 'pancreatic acinar cells']",3,12,False,False,HSF1;Hippo;PPARα;PR;Wnt
+19,6.845799277940701,0.20671981776765375,10.611617312072893,"['pancreatic acinar cells', 'late spermatids']",3,12,False,False,Cell Cycle;HIF;LXR;NPAS4;Notch
+13,5.432006309851668,0.18286509744368515,9.387075002109171,"['late spermatids', 'pancreatic acinar cells']",3,8,False,False,BMP;ERK/MAPK;GR;Insulin/FOXO;VDR
+11,5.556706673206599,0.19321057960010124,9.91814308613853,"['cytotrophoblasts', 'late primary spermatocytes']",1,10,False,False,Cell Cycle;Circadian;RAR;Type I IFN;cAMP/CREB
+15,5.646822591107676,0.20963047329789927,10.761030962625496,"['late spermatids', 'cytotrophoblasts']",2,7,False,False,Cell Cycle;ERK/MAPK;MR;PPARα;RAR
+17,5.670168290648667,0.1887496836243989,9.689150426052477,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",3,6,False,False,Calcium;ERK/MAPK;PPARα;UPR-IRE1;cAMP/CREB
+16,6.086467377755349,0.159136927360162,8.169028937821649,"['pancreatic acinar cells', 'late spermatids']",6,4,False,False,AhR;BMP;HSF1;Notch;cAMP/CREB
+15,5.588105581659641,0.1886547709440648,9.684278241795326,"['late spermatids', 'pancreatic acinar cells']",5,6,False,False,AhR;JAK-STAT;NRF2;PPARα;UPR-PERK
+16,5.830810204184745,0.24357757529739307,12.503648865266179,"['cytotrophoblasts', 'megakaryocytes']",1,2,True,True,Cell Cycle;GR;PPARα;RAR;TGF-β
+14,5.452647689273023,0.16059225512528474,8.24373576309795,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",10,7,False,False,AMPK;PR;UPR-IRE1;Wnt;mTOR
+12,5.087842017154469,0.1730890913692736,8.885240023622712,"['late spermatids', 'megakaryocytes']",3,2,False,True,Autophagy;MR;NFAT;PPARα;Type I IFN
+17,5.084423045000511,0.2575930144267274,13.223108073905339,"['megakaryocytes', 'cytotrophoblasts']",2,1,True,True,Calcium;NFAT;PPARγ;TGF-β;VDR
+19,6.476990528668275,0.13784484940521388,7.076035602800979,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",13,9,False,False,HIF;Hedgehog;Notch;PR;UPR-ATF6
+15,5.861688605052878,0.22497468995191092,11.54870075086476,"['megakaryocytes', 'esophageal apical cells']",9,1,False,False,AhR;FXR;NPAS4;RAR;TGF-β
+19,6.3043188514489,0.14724120475828903,7.558381844258837,"['late spermatids', 'gastric chief cells']",6,7,False,False,GR;HSF1;NF-κB;NRF2;UPR-PERK
+16,5.767723587122825,0.16144646924829156,8.2875854214123,"['late spermatids', 'pancreatic acinar cells']",6,8,False,False,AhR;GR;PPARα;PR;p53
+17,6.540614075569933,0.14863325740318906,7.6298405466970385,"['pancreatic acinar cells', 'gastric chief cells']",6,7,False,False,FXR;HSF1;NPAS4;UPR-IRE1;cAMP/CREB
+15,6.203375807024704,0.17846747658820553,9.161330464861217,"['late spermatids', 'gastric progenitor cells']",6,5,False,False,Cell Cycle;ER;ERK/MAPK;Type I IFN;UPR-PERK
+13,5.961687964469349,0.19115413819286256,9.812579093900279,"['pancreatic acinar cells', 'megakaryocytes']",5,2,False,True,GR;NPAS4;Notch;PPARα;cAMP/CREB
+13,6.09033956968718,0.2201025056947608,11.298595292331056,"['late spermatids', 'cytotrophoblasts']",2,8,False,False,Calcium;HIF;NFAT;PXR/CAR;p53
+16,5.577499890836302,0.17093773728170084,8.774803847127309,"['pancreatic acinar cells', 'cytotrophoblasts']",2,7,False,False,PI3K/PTEN;PXR/CAR;RAR;UPR-IRE1;cAMP/CREB
+16,5.409025760006589,0.17726524930397367,9.099616130937315,"['late spermatids', 'cytotrophoblasts']",2,4,False,True,Circadian;HSF1;NF-κB;NRF2;PPARγ
+13,5.4223578122489675,0.17125411288281447,8.79104446131781,"['migrating cytotrophoblasts', 'late spermatids']",6,12,False,False,AMPK;NFAT;NRF2;PI3K/PTEN;UPR-ATF6
+17,5.644039535205353,0.17527208301695774,8.997300261537164,"['esophageal apical cells', 'gastric chief cells']",4,11,False,False,AR;BMP;NF-κB;NPAS4;VDR
+16,5.956922218008813,0.17479751961528728,8.972939340251413,"['pancreatic acinar cells', 'late spermatids']",8,5,False,False,FXR;Hedgehog;NPAS4;Notch;PR
+13,5.609114170033032,0.2086180713743356,10.709060997215895,"['late spermatids', 'gastric chief cells']",4,6,False,False,AMPK;AR;ERK/MAPK;LXR;NPAS4
+14,4.9487310706553425,0.17030498607947356,8.742322618746309,"['late spermatids', 'pancreatic acinar cells']",4,5,False,True,Hippo;JAK-STAT;PPARα;PPARγ;Wnt
+15,5.332635734271303,0.15236648949633005,7.821479794144943,"['migrating cytotrophoblasts', 'pancreatic acinar cells']",6,15,False,False,NRF2;PPARγ;PR;UPR-ATF6;Wnt
+14,5.4818697717542735,0.20956719817767655,10.757782839787396,"['pancreatic acinar cells', 'late primary spermatocytes']",4,6,False,False,Calcium;ERK/MAPK;LXR;Notch;cAMP/CREB
+12,4.896132611640377,0.19321057960010124,9.91814308613853,"['cytotrophoblasts', 'late spermatids']",1,7,False,False,Autophagy;BMP;Hippo;RAR;Wnt
+14,4.76801653435778,0.21984940521386992,11.285602800978657,"['megakaryocytes', 'late spermatids']",4,1,False,True,JAK-STAT;PI3K/PTEN;PPARγ;TGF-β;Wnt
+16,6.032514683612625,0.22554416603391547,11.577933856407661,"['late spermatids', 'megakaryocytes']",5,2,False,True,Circadian;HIF;HSF1;TGF-β;TR
+18,5.52724736172151,0.2524677296886864,12.960010124019236,"['megakaryocytes', 'late spermatids']",6,1,False,False,BMP;Calcium;ERK/MAPK;JAK-STAT;UPR-PERK
+14,6.0133112266383595,0.17213996456593267,8.836518181051211,"['pancreatic acinar cells', 'late spermatids']",5,8,False,False,ER;HIF;NF-κB;TR;cAMP/CREB
+13,5.002089317124727,0.16666666666666666,8.555555555555555,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",5,11,False,False,AMPK;BMP;Circadian;NRF2;UPR-ATF6
+15,5.8079987476818085,0.18802201974183752,9.651797013414326,"['late spermatids', 'cytotrophoblasts']",2,7,False,False,JAK-STAT;PPARγ;RAR;UPR-PERK;mTOR
+15,5.296990147284501,0.16188939508985067,8.310322281279001,"['gastric chief cells', 'migrating cytotrophoblasts']",4,10,False,False,AR;FXR;UPR-PERK;Wnt;p53
+15,5.105643346435741,0.15999114148316881,8.212878596136,"['gastric chief cells', 'late spermatids']",7,4,False,False,AR;BMP;GR;NFAT;SREBP
+14,5.144891878074411,0.17533535813718046,9.000548384375264,"['migrating cytotrophoblasts', 'cytotrophoblasts']",2,7,False,False,Circadian;PXR/CAR;UPR-IRE1;cGAS-STING;p53
+14,5.546653270981467,0.19763983801569224,10.145511684805536,"['late primary spermatocytes', 'late spermatids']",4,5,False,True,AMPK;Cell Cycle;Wnt;cAMP/CREB;cGAS-STING
+15,5.715558752331111,0.18992027334851935,9.749240698557328,"['cytotrophoblasts', 'pancreatic acinar cells']",1,7,False,False,BMP;Cell Cycle;PPARγ;RAR;cAMP/CREB
+14,5.711329032214794,0.16340799797519615,8.388277229393402,"['late spermatids', 'gastric progenitor cells']",8,6,False,False,BMP;FXR;JAK-STAT;UPR-ATF6;cGAS-STING
+14,4.970910629017056,0.18745254365983297,9.622563907871426,"['esophageal apical cells', 'migrating cytotrophoblasts']",4,10,False,False,MR;NPAS4;NRF2;PPARγ;TR
+16,6.099987647666433,0.17207668944570995,8.833270058213111,"['pancreatic acinar cells', 'late spermatids']",4,9,False,False,HIF;PR;Type I IFN;Wnt;cAMP/CREB
+15,4.762531849994951,0.18485826373070108,9.489390871509322,"['cytotrophoblasts', 'pancreatic acinar cells']",1,7,False,False,Autophagy;BMP;Insulin/FOXO;MR;VDR
+15,6.009448093940409,0.20697291824854466,10.624609803425294,"['pancreatic acinar cells', 'late spermatids']",5,6,False,False,AMPK;AR;Calcium;HIF;NFAT
+15,5.373269304713936,0.17169703872437359,8.81378132118451,"['esophageal apical cells', 'late spermatids']",3,10,False,False,MR;Notch;PPARγ;UPR-PERK;VDR
+15,5.24360620170806,0.21076942546190838,10.819497173711298,"['megakaryocytes', 'migrating cytotrophoblasts']",6,1,False,False,BMP;Calcium;PPARγ;PR;cGAS-STING
+19,6.076728347716245,0.2035876993166287,10.450835231586941,"['esophageal apical cells', 'cytotrophoblasts']",2,7,False,False,Calcium;NF-κB;NPAS4;RAR;VDR
+15,4.65422445334229,0.21431283219438116,11.0013920526449,"['cytotrophoblasts', 'gastric chief cells']",1,7,False,False,Calcium;FXR;Hippo;LXR;MR
+13,5.072753614587977,0.18893950898506706,9.698894794566776,"['pancreatic acinar cells', 'late spermatids']",3,5,False,True,Circadian;ERK/MAPK;Hedgehog;Notch;PPARγ
+16,5.3051593273431505,0.18390913692736016,9.440669028937823,"['esophageal apical cells', 'late spermatids']",3,9,False,False,ER;LXR;PI3K/PTEN;TR;VDR
+16,4.783357313698019,0.1826436345229056,9.37570657217582,"['late spermatids', 'cytotrophoblasts']",2,6,False,False,Circadian;ER;ERK/MAPK;Hedgehog;Hippo
+16,5.5589887575394155,0.22854973424449507,11.732219691217415,"['cytotrophoblasts', 'gastric chief cells']",1,6,False,False,AR;Cell Cycle;LXR;RAR;Wnt
+15,5.296749854758697,0.16536952670210073,8.488969037374504,"['esophageal apical cells', 'gastric chief cells']",5,13,False,False,GR;MR;NPAS4;PPARγ;UPR-ATF6
+12,5.061349400048392,0.20168944570994685,10.35339154644394,"['cytotrophoblasts', 'megakaryocytes']",1,2,True,True,Autophagy;JAK-STAT;PPARγ;TGF-β;UPR-ATF6
+15,5.376960791228246,0.25996583143507973,13.344912680334094,"['cytotrophoblasts', 'migrating cytotrophoblasts']",1,4,False,True,Insulin/FOXO;JAK-STAT;LXR;UPR-ATF6;mTOR
+14,5.4586419710467835,0.20017084282460137,10.275436598329538,"['megakaryocytes', 'late spermatids']",5,1,False,True,ER;FXR;TGF-β;cAMP/CREB;cGAS-STING
+18,5.031139333586837,0.269109086307264,13.814266430439552,"['megakaryocytes', 'cytotrophoblasts']",2,1,True,True,ER;JAK-STAT;LXR;NF-κB;TGF-β
+12,4.906902229543593,0.19295747911921032,9.90515059478613,"['late spermatids', 'cytotrophoblasts']",2,7,False,False,AMPK;Autophagy;BMP;TR;cAMP/CREB
+18,7.025689461954588,0.1834345735256897,9.416308107652071,"['pancreatic acinar cells', 'late spermatids']",3,4,False,True,Cell Cycle;HSF1;NPAS4;Notch;UPR-IRE1
+18,5.590397631244055,0.11778663629460896,6.04638066312326,"['late spermatids', 'pancreatic acinar cells']",13,8,False,False,Circadian;HSF1;JAK-STAT;PR;p53
+14,5.4109032292179435,0.14157808149835485,7.267674850248882,"['pancreatic acinar cells', 'late spermatids']",6,11,False,False,BMP;FXR;Hedgehog;PPARγ;UPR-ATF6
+16,5.771593360227148,0.17985952923310555,9.23278916729942,"['late spermatids', 'pancreatic acinar cells']",3,5,False,True,AhR;FXR;NFAT;RAR;UPR-PERK
+17,5.486961801429307,0.16211085801063022,8.321690711212351,"['esophageal apical cells', 'late spermatids']",7,9,False,False,ER;ERK/MAPK;MR;NPAS4;p53
+13,5.513015862606513,0.18242217160212604,9.36433814224247,"['esophageal apical cells', 'migrating cytotrophoblasts']",4,8,False,False,Calcium;NF-κB;NRF2;PPARα;p53
+17,6.12362905721408,0.14429891166793216,7.407344132287184,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",7,9,False,False,ERK/MAPK;HIF;NFAT;TR;UPR-IRE1
+15,5.166231494169188,0.14686155403695267,7.538893107230237,"['gastric chief cells', 'late spermatids']",8,4,False,False,AR;GR;Insulin/FOXO;PPARα;SREBP
+14,5.240044257275736,0.21035813718046065,10.798384375263646,"['cytotrophoblasts', 'megakaryocytes']",1,2,True,True,Insulin/FOXO;NRF2;RAR;TGF-β;UPR-PERK
+19,6.192244304345337,0.13727537332320933,7.046802497258079,"['late spermatids', 'esophageal apical cells']",7,6,False,False,GR;HSF1;Insulin/FOXO;PXR/CAR;Type I IFN
+15,5.44089934548632,0.1726461655277145,8.862503163756012,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",3,7,False,False,NF-κB;PR;UPR-IRE1;cAMP/CREB;p53
+16,5.403545139445931,0.23038471273095418,11.826415253522315,"['cytotrophoblasts', 'late spermatids']",1,5,False,True,Calcium;LXR;NF-κB;PPARγ;RAR
+15,5.635255669882925,0.21307896735003798,10.93805365730195,"['esophageal apical cells', 'megakaryocytes']",6,2,False,False,FXR;NFAT;NPAS4;TGF-β;Type I IFN
+17,5.586685367376937,0.1506580612503164,7.733780477516241,"['late spermatids', 'esophageal apical cells']",4,9,False,False,AMPK;Circadian;HSF1;PXR/CAR;VDR
+19,5.141361112495977,0.17973297899266008,9.226292921623218,"['gastric chief cells', 'migrating cytotrophoblasts']",7,11,False,False,AR;Insulin/FOXO;MR;NPAS4;UPR-IRE1
+14,5.5773957774776255,0.160876993166287,8.2583523158694,"['pancreatic acinar cells', 'gastric progenitor cells']",5,6,False,False,AMPK;ER;TR;UPR-IRE1;mTOR
+14,5.634274267120515,0.14116679321690712,7.246562051801232,"['late spermatids', 'pancreatic acinar cells']",11,12,False,False,FXR;PXR/CAR;RAR;TR;mTOR
+16,5.316263677419101,0.19504555808656038,10.012338648443434,"['late spermatids', 'pancreatic acinar cells']",4,7,False,False,Calcium;Hedgehog;NFAT;NRF2;PR
+15,4.995648167288676,0.1896988104277398,9.737872268623978,"['late spermatids', 'breast lactating cells']",3,6,False,False,JAK-STAT;LXR;Notch;SREBP;Wnt
+14,4.587722169403866,0.1948240951657808,10.000970218510082,"['migrating cytotrophoblasts', 'late spermatids']",3,6,False,False,Circadian;LXR;NF-κB;Wnt;cAMP/CREB
+14,4.924144182107043,0.17039989875980766,8.74719480300346,"['cytotrophoblasts', 'late spermatids']",1,5,False,True,Hippo;Insulin/FOXO;JAK-STAT;cAMP/CREB;p53
+13,5.47004474773084,0.16878638319412806,8.664367670631908,"['pancreatic acinar cells', 'cytotrophoblasts']",2,8,False,False,Hippo;Insulin/FOXO;RAR;UPR-ATF6;cGAS-STING
+19,6.09091941902421,0.15821943811693243,8.121931156669199,"['late spermatids', 'cytotrophoblasts']",2,5,False,True,Cell Cycle;HSF1;Hedgehog;SREBP;TR
+14,5.1211969479101045,0.19431789420399898,9.974985235805281,"['migrating cytotrophoblasts', 'late spermatids']",4,15,False,False,Cell Cycle;Circadian;Hedgehog;NRF2;PI3K/PTEN
+15,5.4375015847672845,0.1838774993672488,9.439044967518772,"['esophageal apical cells', 'cytotrophoblasts']",2,8,False,False,Calcium;MR;PPARα;RAR;UPR-PERK
+17,5.004484764192023,0.19539357124778536,10.030203324052982,"['late spermatids', 'cytotrophoblasts']",2,4,False,True,AhR;NFAT;PPARγ;PR;TGF-β
+15,5.555707807752079,0.1654011642622121,8.490593098793555,"['pancreatic acinar cells', 'cytotrophoblasts']",2,6,False,False,Autophagy;HSF1;Notch;PPARγ;TR
+14,4.889211820440126,0.16533788914198938,8.487344975955455,"['migrating cytotrophoblasts', 'pancreatic acinar cells']",3,11,False,False,Circadian;Notch;PXR/CAR;UPR-IRE1;Wnt
+18,5.579291517888896,0.17704378638319412,9.088247701003965,"['late spermatids', 'megakaryocytes']",5,2,False,True,HSF1;PR;TGF-β;TR;UPR-PERK
+14,4.6517108583325015,0.19276765375854213,9.89540622627183,"['late spermatids', 'cytotrophoblasts']",2,6,False,False,BMP;Circadian;LXR;TR;Type I IFN
+15,5.671536051159555,0.23035307517084283,11.824791192103266,"['cytotrophoblasts', 'pancreatic acinar cells']",1,6,False,False,HIF;Insulin/FOXO;LXR;NRF2;PPARγ
+17,5.462886863387897,0.14493166287015946,7.439825360668186,"['late spermatids', 'esophageal apical cells']",6,8,False,False,GR;Hedgehog;Insulin/FOXO;NPAS4;PXR/CAR
+16,5.704649095883969,0.16865983295368261,8.657871424955708,"['esophageal apical cells', 'cytotrophoblasts']",2,10,False,False,AhR;BMP;ERK/MAPK;VDR;p53
+18,5.902671322637143,0.1643571247785371,8.436999071964904,"['pancreatic acinar cells', 'late spermatids']",3,9,False,False,Cell Cycle;Notch;PPARγ;UPR-ATF6;UPR-IRE1
+14,5.43935518422281,0.15252467729688687,7.829600101240193,"['pancreatic acinar cells', 'late spermatids']",10,4,False,False,JAK-STAT;Notch;PI3K/PTEN;PR;SREBP
+16,5.145076190218048,0.1919134396355353,9.851556567957479,"['late spermatids', 'cytotrophoblasts']",2,3,False,True,Hedgehog;JAK-STAT;NFAT;cAMP/CREB;p53
+14,4.765983131975662,0.1927992913186535,9.89703028769088,"['migrating cytotrophoblasts', 'gastric chief cells']",3,7,False,False,AR;Circadian;JAK-STAT;NFAT;PPARγ
+17,4.777146135275107,0.14812705644140725,7.603855563992239,"['pancreatic acinar cells', 'late spermatids']",6,9,False,False,Circadian;Insulin/FOXO;NF-κB;PI3K/PTEN;PR
+13,4.871687608826354,0.15518223234624146,7.966021260440395,"['breast lactating cells', 'late spermatids']",4,6,False,False,Circadian;ER;SREBP;TR;cGAS-STING
+16,6.221665266713727,0.14243229562136167,7.311524508563233,"['esophageal apical cells', 'late spermatids']",3,7,False,False,AhR;BMP;HSF1;PPARγ;RAR
+15,5.371176892729385,0.1698304226778031,8.71796169746056,"['migrating cytotrophoblasts', 'pancreatic acinar cells']",5,12,False,False,Hedgehog;NRF2;PPARγ;UPR-ATF6;UPR-IRE1
+14,7.1877306152532805,0.21573652239939256,11.074474816502152,"['gastric chief cells', 'migrating cytotrophoblasts']",8,5,False,False,GR;HIF;Hedgehog;UPR-ATF6;mTOR
+13,5.562012758358664,0.19745001265502404,10.135767316291235,"['megakaryocytes', 'late spermatids']",8,1,False,False,Calcium;FXR;GR;JAK-STAT;PPARγ
+19,5.572046316779419,0.15901037711971652,8.162532692145449,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",9,11,False,False,Insulin/FOXO;NPAS4;PPARγ;UPR-ATF6;UPR-IRE1
+15,5.383626348793542,0.19052138699063528,9.780097865519279,"['late spermatids', 'cytotrophoblasts']",2,6,False,False,FXR;Notch;PPARγ;Wnt;cGAS-STING
+18,5.661627615451148,0.19884206529992407,10.207226018729436,"['esophageal apical cells', 'cytotrophoblasts']",2,6,False,False,Cell Cycle;GR;Hippo;PI3K/PTEN;VDR
+12,5.001624723398824,0.18488990129081245,9.491014932928373,"['late spermatids', 'esophageal apical cells']",6,3,False,False,Calcium;GR;PPARγ;TGF-β;TR
+16,5.709873832289204,0.17780308782586687,9.127225175061167,"['late spermatids', 'migrating cytotrophoblasts']",8,5,False,False,ER;Hedgehog;PXR/CAR;UPR-ATF6;cGAS-STING
+15,4.5529110290798585,0.17634776006074412,9.052518349784865,"['pancreatic acinar cells', 'cytotrophoblasts']",2,9,False,False,Insulin/FOXO;LXR;PI3K/PTEN;TR;Wnt
+18,5.646520950221782,0.28053024550746647,14.400552602716612,"['megakaryocytes', 'migrating cytotrophoblasts']",3,1,False,True,AR;Autophagy;HIF;NFAT;TGF-β
+14,5.808395255445339,0.16786889395089852,8.617269889479457,"['pancreatic acinar cells', 'late spermatids']",6,9,False,False,Insulin/FOXO;NPAS4;PR;Type I IFN;cAMP/CREB
+16,6.337770901818664,0.16179448240951658,8.30545009702185,"['gastric chief cells', 'late spermatids']",7,5,False,False,AR;GR;HSF1;NFAT;cGAS-STING
+17,5.526075204821822,0.1834345735256897,9.416308107652071,"['late spermatids', 'pancreatic acinar cells']",3,10,False,False,AMPK;Cell Cycle;ERK/MAPK;PI3K/PTEN;TR
+13,5.152982794482018,0.16419893697798027,8.428878764869655,"['gastric chief cells', 'late spermatids']",8,4,False,False,AR;Circadian;FXR;JAK-STAT;cGAS-STING
+13,5.036233295769293,0.17754998734497596,9.114232683708765,"['late spermatids', 'migrating cytotrophoblasts']",6,14,False,False,AMPK;LXR;MR;NPAS4;UPR-ATF6
+14,4.891343046300516,0.145153125790939,7.451193790601535,"['late spermatids', 'pancreatic acinar cells']",4,9,False,False,ER;Hedgehog;Insulin/FOXO;MR;PI3K/PTEN
+14,5.015562287680599,0.2572450012655024,13.205243398295792,"['megakaryocytes', 'late spermatids']",4,1,False,True,LXR;PR;TGF-β;cAMP/CREB;cGAS-STING
+19,5.58664899140767,0.2011199696279423,10.324158440901037,"['esophageal apical cells', 'migrating cytotrophoblasts']",3,7,False,False,LXR;NPAS4;PI3K/PTEN;PR;VDR
+19,5.780341863521931,0.16612882814477348,8.527946511431706,"['late spermatids', 'megakaryocytes']",6,2,False,False,ER;HSF1;Hedgehog;TGF-β;p53
+15,6.26352940416766,0.16543280182232345,8.492217160212604,"['late spermatids', 'megakaryocytes']",6,2,False,False,Autophagy;HSF1;JAK-STAT;RAR;Type I IFN
+15,5.057019875440939,0.169735509997469,8.713089513203409,"['gastric chief cells', 'migrating cytotrophoblasts']",4,10,False,False,AR;Circadian;FXR;NRF2;UPR-PERK
+15,5.092981610480665,0.16970387243735763,8.711465451784358,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",5,7,False,False,BMP;Circadian;FXR;NRF2;Notch
+11,5.022027425137479,0.21409136927360162,10.99002362271155,"['late spermatids', 'cytotrophoblasts']",2,3,False,True,AhR;Autophagy;PPARγ;TGF-β;cAMP/CREB
+14,5.429391012120943,0.15341052898000507,7.8750738209735935,"['late spermatids', 'pancreatic acinar cells']",5,10,False,False,ERK/MAPK;FXR;NF-κB;PI3K/PTEN;TR
+15,5.756229219969885,0.17723361174386232,9.097992069518266,"['late spermatids', 'pancreatic acinar cells']",3,8,False,False,ER;Hippo;PI3K/PTEN;RAR;Type I IFN
+14,5.000306791435808,0.2034927866362946,10.44596304732979,"['cytotrophoblasts', 'late spermatids']",1,3,False,True,MR;PPARα;RAR;TGF-β;p53
+18,5.57677827884461,0.20308149835484687,10.424850248882139,"['pancreatic acinar cells', 'cytotrophoblasts']",2,10,False,False,Calcium;Cell Cycle;LXR;NRF2;UPR-IRE1
+17,5.781874530512918,0.13208681346494558,6.780456424533873,"['late spermatids', 'esophageal apical cells']",5,10,False,False,HSF1;TR;UPR-ATF6;UPR-PERK;Wnt
+17,5.297259969463195,0.14739939255884585,7.566502151354087,"['pancreatic acinar cells', 'breast lactating cells']",7,8,False,False,AhR;PPARα;PPARγ;TGF-β;UPR-IRE1
+17,4.994815337913117,0.17587319665907364,9.028157428499114,"['pancreatic acinar cells', 'cytotrophoblasts']",2,7,False,False,Hippo;Insulin/FOXO;Notch;PI3K/PTEN;PPARγ
+13,5.770200045001024,0.1920083523158694,9.85642875221463,"['gastric progenitor cells', 'pancreatic acinar cells']",7,4,False,False,Calcium;ER;Hedgehog;UPR-IRE1;mTOR
+15,5.3457583722345925,0.179986079473551,9.239285412975619,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",5,7,False,False,Calcium;FXR;Insulin/FOXO;PI3K/PTEN;cAMP/CREB
+15,5.597002851977966,0.2086180713743356,10.709060997215895,"['gastric chief cells', 'migrating cytotrophoblasts']",3,7,False,False,AR;Calcium;FXR;Insulin/FOXO;NPAS4
+14,5.659374422362428,0.19105922551252846,9.807706909643128,"['pancreatic acinar cells', 'migrating cytotrophoblasts']",4,8,False,False,Cell Cycle;GR;Insulin/FOXO;NRF2;mTOR
+17,6.499702285796365,0.1266767906859023,6.502741921876318,"['late spermatids', 'pancreatic acinar cells']",6,11,False,False,FXR;HIF;HSF1;Hedgehog;TR
+16,5.448505472766421,0.18463680080992154,9.478022441575973,"['migrating cytotrophoblasts', 'gastric chief cells']",3,10,False,False,AR;ERK/MAPK;FXR;PI3K/PTEN;PPARγ
+14,5.380009238495794,0.1920083523158694,9.85642875221463,"['pancreatic acinar cells', 'cytotrophoblasts']",2,8,False,False,LXR;NFAT;PPARα;UPR-IRE1;mTOR
+14,4.717759921348925,0.2037775246772969,10.46057960010124,"['migrating cytotrophoblasts', 'cytotrophoblasts']",2,4,False,True,Autophagy;MR;UPR-PERK;Wnt;cAMP/CREB
+17,5.69876138086686,0.15834598835737787,8.128427402345398,"['esophageal apical cells', 'late spermatids']",3,12,False,False,BMP;PI3K/PTEN;PPARα;VDR;mTOR
+17,4.641924981018068,0.1722981523664895,8.84463848814646,"['breast lactating cells', 'megakaryocytes']",13,2,False,False,BMP;Circadian;SREBP;TGF-β;UPR-PERK
+17,4.706688010581126,0.17258289040749178,8.859255040917912,"['breast lactating cells', 'cytotrophoblasts']",2,10,False,False,Circadian;LXR;NRF2;PPARα;SREBP
+18,7.2651562010464605,0.20472665148063782,10.509301442672742,"['late spermatids', 'gastric chief cells']",3,5,False,True,BMP;GR;HIF;HSF1;cAMP/CREB
+16,5.332308238397442,0.1452480384712731,7.456065974858686,"['breast lactating cells', 'late spermatids']",7,5,False,False,ER;GR;SREBP;cAMP/CREB;p53

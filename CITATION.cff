@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Human malignancies show increased occupancy of a shared region of normal-cell regulatory space — analysis code"
+authors:
+  - family-names: Spiro
+    given-names: Theodor
+    orcid: "https://orcid.org/0009-0004-5382-9346"
+    affiliation: "Vaika Inc., East Aurora, NY, USA"
+    email: tspiro@vaika.org
+license: MIT
+repository-code: "https://github.com/mool32/normal-cell-regulatory-space"
+abstract: >-
+  Code and derived tables for the paper. One command
+  (scripts/make_figures.py) rebuilds every figure, both documents and the
+  verification harnesses from the committed derived tables.
+keywords:
+  - single-cell RNA-seq
+  - cancer
+  - regulatory modules
+  - cell state

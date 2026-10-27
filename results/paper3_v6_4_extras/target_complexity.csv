@@ -1,0 +1,145 @@
+cell,n_cells_assigned,median_ngenes,mean_ngenes
+erythrocytes,82227,890.0,1256.6980553832682
+megakaryocytes,68023,1396.0,1736.662261293974
+pancreatic acinar cells,57283,992.0,1201.81547754133
+cytotrophoblasts,45556,2430.0,2795.8410088682062
+late spermatids,37601,763.0,1024.3339272891678
+gastric chief cells,35489,904.0,1309.2360731494266
+gastric progenitor cells,27280,2506.5,2774.0162756598243
+platelets,25709,1541.0,1731.8741296822125
+esophageal apical cells,23060,1521.0,1875.6832610581093
+hofbauer cells,15285,2527.0,2860.182466470396
+epididymal clear cells,12546,3150.0,3492.6455443966206
+breast myoepithelial cells,9953,1630.0,1890.970662111926
+differentiating spermatogonia,9423,2483.0,2770.8335986416214
+early primary spermatocytes,8545,2384.0,2787.3717963721474
+syncytiotrophoblasts,8048,2990.0,3366.807654075547
+migrating cytotrophoblasts,7555,3802.0,3864.3778954334875
+esophageal suprabasal cells,7275,2751.0,2978.8188316151204
+paneth cells,7150,2456.0,2754.8784615384616
+undifferentiated spermatogonia,7113,2576.0,2761.8442288767046
+late primary spermatocytes,7003,1202.0,1438.8057975153506
+breast secretory cells,5830,2475.0,2780.4015437392795
+erythrocyte progenitors,5696,2171.0,2394.051790730337
+esophageal basal cells,5602,3657.0,3859.4784005712245
+enteric stem cells,4339,2375.0,2773.465314588615
+parietal cells,3193,2098.0,2344.260569996868
+early spermatids,3071,1449.0,1607.1764897427547
+suprabasal keratinocytes,2602,3152.0,3531.3685626441197
+oocytes,2531,1522.0,1806.295930462268
+oligodendrocyte progenitor cells,2055,3582.0,3742.94501216545
+oligodendrocytes,1974,3427.5,3816.192502532928
+mucous neck cells,1931,1618.0,1797.4370792335578
+tuft cells,1770,2104.0,2508.515254237288
+kupffer cells,1456,2286.0,2448.9869505494507
+granulosa cells,1407,3534.0,3664.1186922530205
+epididymal efferent duct ciliated cells,1387,3155.0,3458.2177361211247
+decidual stromal cells,1258,1678.0,1875.7217806041335
+thyrotrophs,1256,3527.0,3678.453821656051
+extravillous trophoblasts,1191,4224.0,4245.32241813602
+basal keratinocytes,1175,4570.0,4674.669787234043
+pdcs,1150,2348.5,2714.3626086956524
+retinal amacrine cells,1114,4020.5,4174.900359066427
+lacrimal acinar cells,1069,3450.0,3668.551917680075
+sertoli cells,1056,2831.5,2914.9289772727275
+epididymal principal cells,974,3168.5,3478.716632443532
+breast lactating cells,903,1881.0,2192.6821705426355
+colonocytes,836,3144.5,3324.502392344498
+plasma cells,733,2125.0,2362.319236016371
+mast cells,691,2537.0,2749.179450072359
+enteric transient amplifying cells,661,2964.0,3055.2980332829047
+ovarian stromal cells,660,1480.5,1683.6757575757576
+retinal horizontal cells,633,2703.0,3043.554502369668
+corticotrophs,600,3158.5,3338.778333333333
+respiratory ciliated cells,584,2485.5,2923.419520547945
+other brain neurons,556,3910.0,4283.440647482014
+ocular epithelial cells,533,5093.0,5202.294559099437
+leydig cells,502,2070.0,2203.864541832669
+neutrophil progenitors,492,2649.0,3239.9959349593496
+hepatocytes,492,3006.0,3095.817073170732
+epididymal basal cells,488,4852.5,4955.508196721312
+melanocytes,470,6117.0,6072.36170212766
+pancreatic islet cells,461,1676.0,1856.4555314533623
+retinal bipolar cells,446,2825.5,3228.5650224215246
+endometrial secretory cells,438,4589.5,4710.579908675799
+megakaryocyte-erythroid progenitors,334,2073.0,2320.7844311377244
+goblet cells,333,1995.0,2268.3993993993995
+brain excitatory neurons,326,3701.0,4206.895705521472
+lactotrophs,317,3362.0,3562.1955835962144
+cone photoreceptor cells,311,3096.0,3329.347266881029
+submucosal glandular cells,267,3887.0,4065.445692883895
+brain inhibitory neurons,238,3433.0,3643.3991596638657
+bergmann glia,216,4269.5,4471.268518518518
+hepatic stellate cells,215,1320.0,1444.9209302325582
+retinal pigment epithelial cells,209,4147.0,4577.511961722488
+retinal ganglion cells,198,4249.0,4424.434343434344
+microglia,197,4960.0,4868.883248730965
+urothelial cells,195,4469.0,4832.758974358974
+prostatic glandular cells,188,3537.0,3855.8829787234044
+megakaryocyte progenitors,179,2888.0,3252.8994413407822
+ependymal cells,177,4409.0,4866.485875706215
+b-cells,166,3425.0,4094.367469879518
+monocytes,160,3829.0,3970.5
+macrophages,159,4990.0,5219.044025157233
+pancreatic duct cells,148,5122.5,5302.364864864865
+salivary duct cells,146,3555.0,3909.349315068493
+müller glia,144,4303.0,4370.743055555556
+fallopian secretory cells,137,2341.0,2577.802919708029
+neutrophils,127,2331.0,2415.3385826771655
+rod photoreceptor cells,76,2666.0,3303.907894736842
+cardiomyocytes,65,2595.0,2852.9846153846156
+monocyte progenitors,61,2660.0,2929.655737704918
+cdc,57,4074.0,4410.105263157895
+epididymal efferent duct absorptive cells,54,3507.5,3902.3333333333335
+prostatic hillock cells,50,3669.5,3849.38
+peritubular myoid cells,49,1824.0,2153.3061224489797
+podocytes,47,3207.0,3164.851063829787
+enterocytes,44,2548.5,2788.5227272727275
+salivary acinar cells,40,2366.5,2763.525
+adrenal medulla cells,35,2947.0,3301.4857142857145
+respiratory deuterosomal cells,32,3195.5,3108.59375
+choroid plexus epithelial cells,30,4241.0,4159.3
+astrocytes,25,4798.0,5332.92
+alveolar cells type 1,23,6282.0,6206.913043478261
+conjunctival goblet cells,23,5622.0,5466.304347826087
+papillary tip epithelial cells,19,3851.0,3833.0526315789475
+hematopoietic stem cells,19,2020.0,2085.6315789473683
+alveolar cells type 2,18,3520.5,4014.1111111111113
+distal convoluted tubule cells,15,3554.0,3512.4
+somatotrophs,15,2619.0,2684.733333333333
+pericytes,14,4798.0,4644.571428571428
+myonuclei,14,4790.5,5026.214285714285
+smooth muscle cells,13,2503.0,2556.769230769231
+pituitary stem cells,12,4058.0,4370.25
+nk-cells,11,4668.0,4845.636363636364
+respiratory ionocytes,11,5075.0,4504.545454545455
+respiratory secretory cells,9,2366.0,2551.1111111111113
+lymphatic endothelial cells,8,4810.0,4925.75
+fibroblasts,8,5237.0,5065.75
+thymocytes,7,4853.0,4306.714285714285
+endometrial glandular cells,7,5458.0,6561.714285714285
+fibro-adipogenic progenitors,5,4390.0,4241.2
+salivary ionocytes,5,7749.0,6152.0
+t-cells,5,2671.0,2598.4
+breast hormone-responsive cells,4,4910.0,5057.5
+adipocytes,4,2768.5,2979.5
+vascular endothelial cells,4,3492.0,3975.25
+cholangiocytes,4,1517.0,1621.75
+adrenal cortex cells,4,4631.0,4628.0
+mesothelial cells,3,4936.0,4238.333333333333
+proximal tubule cells,3,1563.0,2492.0
+medullary thymic epithelial cells,2,3606.0,3606.0
+basal prostatic cells,2,1773.0,1773.0
+renal collecting duct principal cells,2,1491.0,1491.0
+endometrial ciliated cells,2,3438.5,3438.5
+renal collecting duct intercalated cells,2,4615.0,4615.0
+schwann cells,2,7268.0,7268.0
+gonadotrophs,2,4848.0,4848.0
+foveolar cells,1,1918.0,1918.0
+respiratory basal cells,1,2194.0,2194.0
+endometrial luminal cells,1,7292.0,7292.0
+pituicytes/fscs,1,3503.0,3503.0
+salivary basal cells,1,5018.0,5018.0
+transitional alveolar cells,1,4852.0,4852.0
+renal connecting tubule cells,1,4201.0,4201.0
+fallopian tube ciliated cells,1,1496.0,1496.0

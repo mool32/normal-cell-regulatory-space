@@ -1,0 +1,56 @@
+sample,cos_A,cos_A_shape,top1,arm,donor,stage
+P1-TP1,0.2985869810469382,0.6974471416941639,endometrial secretory cells,prec_basal,P1,0
+P1-TP2,0.4467904648552915,0.6539715877383038,esophageal basal cells,ctrl_transduced,P1,1
+P1-TP3,0.5869558178528741,0.7711153897688412,epididymal clear cells,tr_early,P1,2
+P1-TP4,0.7616926853096057,0.7725565388319406,migrating cytotrophoblasts,tr_transition,P1,3
+P1-TP5,0.822207153948946,0.7320887930666125,migrating cytotrophoblasts,tr_endpoint,P1,4
+P2-TP1,0.35778308605286724,0.777145664348433,endometrial secretory cells,prec_basal,P2,0
+P2-TP2,0.6591030154058753,0.712763516326623,esophageal basal cells,ctrl_transduced,P2,1
+P2-TP3,0.6324433287087529,0.8023534932630758,esophageal basal cells,tr_early,P2,2
+P2-TP4,0.8124275457115957,0.6291746804092999,migrating cytotrophoblasts,tr_transition,P2,3
+P2-TP5,0.7934407308535864,0.6404858869942597,migrating cytotrophoblasts,tr_transition,P2,3
+P2-TP6,0.7863802064035951,0.5924208765893002,migrating cytotrophoblasts,tr_endpoint,P2,4
+P3-TP1,0.16801752706434964,0.6908096838669611,endometrial secretory cells,prec_basal,P3,0
+P3-TP2,0.3308062772755539,0.6168554486533211,ocular epithelial cells,ctrl_transduced,P3,1
+P3-TP3,0.38757185669156075,0.7640089620332641,epididymal clear cells,tr_early,P3,2
+P3-TP4,0.6573361327109829,0.6630564142201706,esophageal basal cells,tr_transition,P3,3
+P3-TP5,0.8281119841510799,0.6824762785898048,migrating cytotrophoblasts,tr_endpoint,P3,4
+P4-TP1,0.2553879937288879,0.7240677568615297,endometrial secretory cells,prec_basal,P4,0
+P4-TP2,0.47994389150027034,0.7487677323255071,esophageal basal cells,ctrl_transduced,P4,1
+P4-TP3,0.6061563381095629,0.7600212650795353,esophageal basal cells,tr_early,P4,2
+P4-TP4,0.532221168420872,0.794624739963108,epididymal clear cells,tr_transition,P4,3
+P4-TP5,0.49306371561244966,0.7406271172473297,epididymal clear cells,tr_endpoint,P4,4
+P5-TP1,0.17532651781748815,0.7236937776431802,endometrial secretory cells,prec_basal,P5,0
+P5-TP2,0.5774438437769249,0.6758235115420985,esophageal basal cells,ctrl_transduced,P5,1
+P5-TP3,0.5735076886161016,0.6734117636470675,basal keratinocytes,tr_early,P5,2
+P5-TP4,0.6925678008702303,0.5200749068017003,migrating cytotrophoblasts,tr_transition,P5,3
+P5-TP5,0.6556545745452447,0.582967687816103,migrating cytotrophoblasts,tr_transition,P5,3
+P5-TP6,0.7470913146812803,0.6283340696450179,migrating cytotrophoblasts,tr_endpoint,P5,4
+P6-TP1,0.39940394081553193,0.7650966979131602,endometrial secretory cells,prec_basal,P6,0
+P6-TP2,0.9195140120798094,0.7147172632674393,late spermatids,ctrl_transduced,P6,1
+P6-TP3,0.7468124909656156,0.670225251602487,esophageal basal cells,tr_early,P6,2
+P6-TP4,0.8370657017682586,0.7163395962227845,migrating cytotrophoblasts,tr_transition,P6,3
+P6-TP5,0.761035599679737,0.6746471894616058,migrating cytotrophoblasts,tr_transition,P6,3
+P6-TP6,0.8163147447125745,0.8219200688968932,cytotrophoblasts,tr_endpoint,P6,4
+P7-TP1,0.1583036906927051,0.7209449672442808,endometrial secretory cells,prec_basal,P7,0
+P7-TP2,0.725653400345578,0.827449787884727,esophageal basal cells,ctrl_transduced,P7,1
+P7-TP3,0.6640578086831802,0.6971757437419792,esophageal basal cells,tr_early,P7,2
+P7-TP4,0.7812929891178673,0.6305212021639702,migrating cytotrophoblasts,tr_transition,P7,3
+P7-TP5,0.7931873424156607,0.6734007396153644,migrating cytotrophoblasts,tr_transition,P7,3
+P7-TP6,0.8030498555297789,0.6772999027212104,migrating cytotrophoblasts,tr_endpoint,P7,4
+P8-TP1,0.31447112901765295,0.6811816789751368,endometrial secretory cells,prec_basal,P8,0
+P8-TP2,0.6385004519423039,0.7692391941774658,esophageal basal cells,ctrl_transduced,P8,1
+P8-TP3,0.502280139881533,0.7729343652703515,epididymal clear cells,tr_early,P8,2
+P8-TP4,0.5217832825187263,0.7395694909826239,esophageal basal cells,tr_transition,P8,3
+P8-TP5,0.7359082165882915,0.6831645633293468,migrating cytotrophoblasts,tr_transition,P8,3
+P8-TP6,0.7646245904005762,0.67541124861894,migrating cytotrophoblasts,tr_endpoint,P8,4
+P9-TP1,0.23492072504172265,0.7572597008431807,endometrial secretory cells,prec_basal,P9,0
+P9-TP2,0.7498850825238257,0.8383522039280354,esophageal basal cells,ctrl_transduced,P9,1
+P9-TP3,0.6502286963491414,0.743192909069005,esophageal basal cells,tr_early,P9,2
+P9-TP4,0.7531986453037091,0.659497557333715,esophageal basal cells,tr_transition,P9,3
+P9-TP5,0.8291271977537248,0.6658517896664063,migrating cytotrophoblasts,tr_endpoint,P9,4
+P10-TP1,0.2362885245190367,0.7535112270333265,endometrial secretory cells,prec_basal,P10,0
+P10-TP2,0.6718754104380785,0.7934870489222104,esophageal basal cells,ctrl_transduced,P10,1
+P10-TP3,0.5310887515277342,0.7712171813026936,epididymal clear cells,tr_early,P10,2
+P10-TP4,0.8728440730282003,0.7722741249813634,migrating cytotrophoblasts,tr_transition,P10,3
+P10-TP5,0.7973895577042575,0.6874046645287766,migrating cytotrophoblasts,tr_endpoint,P10,4

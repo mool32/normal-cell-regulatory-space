@@ -1,0 +1,50 @@
+{
+ "PC1": {
+  "var_pct": 31.2,
+  "eta2_family": 0.45,
+  "p_anova": 1.3796255790116904e-12,
+  "quality": "IL-2/STAT5 Signaling",
+  "spearman_r": -0.89,
+  "n_genes": 198
+ },
+ "PC2": {
+  "var_pct": 21.2,
+  "eta2_family": 0.58,
+  "p_anova": 4.649444048441123e-20,
+  "quality": "Ribosomal / translation",
+  "spearman_r": 0.75,
+  "n_genes": 98
+ },
+ "PC3": {
+  "var_pct": 11.0,
+  "eta2_family": 0.7,
+  "p_anova": 3.852105303337309e-29,
+  "quality": "Xenobiotic Metabolism",
+  "spearman_r": 0.5,
+  "n_genes": 199
+ },
+ "PC4": {
+  "var_pct": 8.1,
+  "eta2_family": 0.36,
+  "p_anova": 1.3249868690712119e-08,
+  "quality": "Unfolded Protein Response",
+  "spearman_r": 0.31,
+  "n_genes": 112
+ },
+ "PC5": {
+  "var_pct": 6.5,
+  "eta2_family": 0.45,
+  "p_anova": 2.096214391203468e-12,
+  "quality": "Cholesterol biosynthesis",
+  "spearman_r": 0.54,
+  "n_genes": 20
+ },
+ "PC6": {
+  "var_pct": 5.8,
+  "eta2_family": 0.31,
+  "p_anova": 1.1440515849594968e-06,
+  "quality": "Myc Targets V1",
+  "spearman_r": 0.17,
+  "n_genes": 199
+ }
+}

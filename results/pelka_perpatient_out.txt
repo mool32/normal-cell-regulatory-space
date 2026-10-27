@@ -1,0 +1,56 @@
+epithelial cells: 168295 of 370115
+normal-epi maps to (top6): {'paneth cells': '18%', 'colonocytes': '14%', 'enteric stem cells': '10%', 'enteric transient amplifying cells': '8%', 'parietal cells': '7%', 'enterocytes': '6%'}
+normal-epi eryth-default: 5.2%
+
+per-patient (n>=20 each), patients with both arms: 46
+  C104               malig   724   9.8%  normal    52   7.7%  ratio 1.3
+  C106               malig   681  16.6%  normal   692   2.2%  ratio 7.7
+  C107               malig  1738  35.9%  normal   899   3.3%  ratio 10.8
+  C109               malig   892  14.5%  normal  1116   2.0%  ratio 7.3
+  C110               malig   642  11.7%  normal   409   2.9%  ratio 4.0
+  C111               malig   506  19.6%  normal   547   5.3%  ratio 3.7
+  C112               malig  1148  10.3%  normal   532   3.2%  ratio 3.2
+  C113               malig  1833  15.2%  normal   292   5.8%  ratio 2.6
+  C114               malig  1084  16.2%  normal   369   1.1%  ratio 15.0
+  C115               malig   373  22.0%  normal   181   1.1%  ratio 19.9
+  C116               malig   606  33.5%  normal   956   2.7%  ratio 12.3
+  C122               malig  1386  22.4%  normal  1905   2.7%  ratio 8.4
+  C123               malig  2942  25.6%  normal  1543   3.4%  ratio 7.5
+  C124               malig   580  18.1%  normal  6633   3.3%  ratio 5.6
+  C125               malig  1551  21.1%  normal  2893   2.6%  ratio 8.1
+  C126               malig   621   6.9%  normal  2999   2.7%  ratio 2.6
+  C129               malig  2117  23.3%  normal   598   3.8%  ratio 6.1
+  C130               malig  2450  19.8%  normal  1495   2.8%  ratio 7.1
+  C132               malig  1068  39.9%  normal    99   8.1%  ratio 4.9
+  C133               malig   850  28.2%  normal   380   0.5%  ratio 53.6
+  C134               malig   729   8.0%  normal  1369   7.2%  ratio 1.1
+  C135               malig   564   2.1%  normal   485   2.7%  ratio 0.8
+  C136               malig  1136  27.9%  normal  1485   2.8%  ratio 9.9
+  C137               malig   596  41.3%  normal   520   5.0%  ratio 8.3
+  C138               malig   303  24.8%  normal   328   1.2%  ratio 20.3
+  C139               malig  2426  18.0%  normal  1437   4.2%  ratio 4.2
+  C140               malig  1813  15.2%  normal   476   3.4%  ratio 4.5
+  C142               malig   796  11.8%  normal  1125   2.0%  ratio 5.8
+  C143               malig   943   5.7%  normal  1500   2.3%  ratio 2.5
+  C144               malig   650  26.0%  normal    44   6.8%  ratio 3.8
+  C149               malig   733   6.3%  normal   146   2.1%  ratio 3.1
+  C151               malig   267  32.6%  normal  2122   1.0%  ratio 32.9
+  C152               malig   715  11.5%  normal   633   2.8%  ratio 4.0
+  C154               malig  1660  12.7%  normal    31   6.5%  ratio 2.0
+  C155               malig  1107  27.9%  normal  1078   3.1%  ratio 9.1
+  C156               malig   486  20.0%  normal    42   7.1%  ratio 2.8
+  C157               malig  1887   7.5%  normal  2348   1.8%  ratio 4.1
+  C160               malig  2088  25.0%  normal    77  10.4%  ratio 2.4
+  C161               malig  2324  29.1%  normal    64   4.7%  ratio 6.2
+  C162               malig  6820  44.3%  normal  1316   6.4%  ratio 6.9
+  C163               malig  1736  12.8%  normal   142   4.9%  ratio 2.6
+  C164               malig  1006   4.5%  normal    60   1.7%  ratio 2.7
+  C165               malig  1085  42.0%  normal   223   3.6%  ratio 11.7
+  C166               malig  4610   7.1%  normal    26   7.7%  ratio 0.9
+  C170               malig  2921  40.7%  normal   164   7.9%  ratio 5.1
+  C171               malig  4369   6.4%  normal   109  10.1%  ratio 0.6
+
+normal-epi duet%: median 3.2 range [0.5,10.4]
+malig-epi  duet%: median 18.8 range [2.1,44.3]
+malignant>normal in 43/46 patients
+paired Wilcoxon malignant>normal: p=0.00000

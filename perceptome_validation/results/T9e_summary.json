@@ -1,0 +1,400 @@
+{
+ "readiness_all": {
+  "means": {
+   "fresh_acinar": 0.8835538858733237,
+   "fresh_ductal": 0.16654926430585804,
+   "acinar_organoid": 0.4967734020545327,
+   "acinar_K_organoid": 0.43742613101819583,
+   "acinar_KPTS_organoid": 0.4375549878371355,
+   "ductal_KPTS_cultured": 0.46625018536498714
+  },
+  "means_shape": {
+   "fresh_acinar": 0.7855570609699873,
+   "fresh_ductal": 0.5999076342188139,
+   "acinar_organoid": 0.6428813700931215,
+   "acinar_K_organoid": 0.6237334606608098,
+   "acinar_KPTS_organoid": 0.6162463791883743,
+   "ductal_KPTS_cultured": 0.7814166369175084
+  },
+  "dK": -0.05921841421739721,
+  "dk": -0.05934727103633686,
+  "dK_shape": -0.02663499090474719,
+  "dk_shape": -0.019147909432311705,
+  "k_prime": 1.0021759586210228,
+  "k_prime_shape": 0.718900543303694,
+  "g": 0.8672229584464304,
+  "p_KPTS": 0.8095238095238096,
+  "p_K": 0.7857142857142857,
+  "ductal_raw": 0.2997009210591291,
+  "ductal_shape": 0.18150900269869452,
+  "top1": {
+   "fresh_acinar": "esophageal basal cells",
+   "fresh_ductal": "ocular epithelial cells",
+   "acinar_organoid": "granulosa cells",
+   "acinar_K_organoid": "syncytiotrophoblasts",
+   "acinar_KPTS_organoid": "migrating cytotrophoblasts",
+   "ductal_KPTS_cultured": "endometrial secretory cells"
+  },
+  "R2": {
+   "fresh_acinar": "3/5",
+   "fresh_ductal": "0/5",
+   "acinar_organoid": "1/6",
+   "acinar_K_organoid": "0/5",
+   "acinar_KPTS_organoid": "1/3",
+   "ductal_KPTS_cultured": "2/4"
+  }
+ },
+ "P1_readiness_all_raw": {
+  "d_prec": 0.5610001007366892,
+  "d_tr": 0.08372812941497909,
+  "delta": 0.47727197132171006,
+  "perm_p": 0.0024997500249975004,
+  "G5_uninformative": false
+ },
+ "P1_readiness_all_shape": {
+  "d_prec": 0.17502290730974568,
+  "d_tr": 0.08158841345284851,
+  "delta": 0.09343449385689717,
+  "perm_p": 0.018598140185981403,
+  "G5_uninformative": false
+ },
+ "arm_matrix_all": {
+  "matrix": {
+   "fresh_acinar": {
+    "fresh_acinar": 0.0,
+    "fresh_ductal": 0.561,
+    "acinar_organoid": 0.2848,
+    "acinar_K_organoid": 0.3369,
+    "acinar_KPTS_organoid": 0.371,
+    "ductal_KPTS_cultured": 0.3693
+   },
+   "fresh_ductal": {
+    "fresh_acinar": 0.561,
+    "fresh_ductal": 0.0,
+    "acinar_organoid": 0.2867,
+    "acinar_K_organoid": 0.2678,
+    "acinar_KPTS_organoid": 0.2698,
+    "ductal_KPTS_cultured": 0.1665
+   },
+   "acinar_organoid": {
+    "fresh_acinar": 0.2848,
+    "fresh_ductal": 0.2867,
+    "acinar_organoid": 0.0,
+    "acinar_K_organoid": 0.0042,
+    "acinar_KPTS_organoid": 0.0626,
+    "ductal_KPTS_cultured": 0.1367
+   },
+   "acinar_K_organoid": {
+    "fresh_acinar": 0.3369,
+    "fresh_ductal": 0.2678,
+    "acinar_organoid": 0.0042,
+    "acinar_K_organoid": 0.0,
+    "acinar_KPTS_organoid": 0.0509,
+    "ductal_KPTS_cultured": 0.1313
+   },
+   "acinar_KPTS_organoid": {
+    "fresh_acinar": 0.371,
+    "fresh_ductal": 0.2698,
+    "acinar_organoid": 0.0626,
+    "acinar_K_organoid": 0.0509,
+    "acinar_KPTS_organoid": 0.0,
+    "ductal_KPTS_cultured": 0.0837
+   },
+   "ductal_KPTS_cultured": {
+    "fresh_acinar": 0.3693,
+    "fresh_ductal": 0.1665,
+    "acinar_organoid": 0.1367,
+    "acinar_K_organoid": 0.1313,
+    "acinar_KPTS_organoid": 0.0837,
+    "ductal_KPTS_cultured": 0.0
+   }
+  },
+  "spread": {
+   "fresh_acinar": 0.024010383769415798,
+   "fresh_ductal": 0.008886210770710968,
+   "acinar_organoid": 0.017349999497319506,
+   "acinar_K_organoid": 0.012573247304532863,
+   "acinar_KPTS_organoid": 0.06934046716828557,
+   "ductal_KPTS_cultured": 0.028592305670298857
+  }
+ },
+ "substitution_all": {
+  "acinar_KPTS_organoid": {
+   "d": 0.08372812941497909,
+   "delta": 0.47727197132171006
+  },
+  "acinar_K_organoid": {
+   "d": 0.1313291774514812,
+   "delta": 0.42967092328520795
+  },
+  "acinar_organoid": {
+   "d": 0.13670544781378346,
+   "delta": 0.4242946529229057
+  },
+  "LOO_KPTS_distance": [
+   0.107308711984752,
+   0.09926553590911347,
+   0.09362500919025463
+  ],
+  "LOO_all_closer_than_no_driver": true,
+  "d_prec": 0.5610001007366892
+ },
+ "readiness_hpa": {
+  "means": {
+   "fresh_acinar": 0.8452645042035585,
+   "fresh_ductal": 0.03733925682529367,
+   "acinar_organoid": 0.3836267658689873,
+   "acinar_K_organoid": 0.32142585687067754,
+   "acinar_KPTS_organoid": 0.326984696771686,
+   "ductal_KPTS_cultured": 0.32806680348083295
+  },
+  "means_shape": {
+   "fresh_acinar": 0.7727355457013652,
+   "fresh_ductal": 0.5795239293363957,
+   "acinar_organoid": 0.6384713602248401,
+   "acinar_K_organoid": 0.620423373553411,
+   "acinar_KPTS_organoid": 0.6006006346350249,
+   "ductal_KPTS_cultured": 0.769000848109807
+  },
+  "dK": -0.056642069097301295,
+  "dk": -0.06220090899830977,
+  "dK_shape": -0.03787072558981519,
+  "dk_shape": -0.01804798667142904,
+  "k_prime": 1.0981397747222006,
+  "k_prime_shape": 0.47656828302974996,
+  "g": 0.8907114105448787,
+  "p_KPTS": 0.8095238095238096,
+  "p_K": 0.7857142857142857,
+  "ductal_raw": 0.2907275466555393,
+  "ductal_shape": 0.18947691877341122,
+  "top1": {
+   "fresh_acinar": "cytotrophoblasts",
+   "fresh_ductal": "ocular epithelial cells",
+   "acinar_organoid": "granulosa cells",
+   "acinar_K_organoid": "granulosa cells",
+   "acinar_KPTS_organoid": "ocular epithelial cells",
+   "ductal_KPTS_cultured": "epididymal clear cells"
+  },
+  "R2": {
+   "fresh_acinar": "3/5",
+   "fresh_ductal": "0/5",
+   "acinar_organoid": "1/6",
+   "acinar_K_organoid": "1/5",
+   "acinar_KPTS_organoid": "1/3",
+   "ductal_KPTS_cultured": "3/4"
+  }
+ },
+ "P1_readiness_hpa_raw": {
+  "d_prec": 0.5923069177915588,
+  "d_tr": 0.0869925860846067,
+  "delta": 0.5053143317069521,
+  "perm_p": 0.0033996600339966003,
+  "G5_uninformative": false
+ },
+ "P1_readiness_hpa_shape": {
+  "d_prec": 0.16518137798430854,
+  "d_tr": 0.0819807366165789,
+  "delta": 0.08320064136772964,
+  "perm_p": 0.0244975502449755,
+  "G5_uninformative": false
+ },
+ "arm_matrix_hpa": {
+  "matrix": {
+   "fresh_acinar": {
+    "fresh_acinar": 0.0,
+    "fresh_ductal": 0.5923,
+    "acinar_organoid": 0.3164,
+    "acinar_K_organoid": 0.3694,
+    "acinar_KPTS_organoid": 0.4113,
+    "ductal_KPTS_cultured": 0.4167
+   },
+   "fresh_ductal": {
+    "fresh_acinar": 0.5923,
+    "fresh_ductal": 0.0,
+    "acinar_organoid": 0.2551,
+    "acinar_K_organoid": 0.2334,
+    "acinar_KPTS_organoid": 0.2442,
+    "ductal_KPTS_cultured": 0.1406
+   },
+   "acinar_organoid": {
+    "fresh_acinar": 0.3164,
+    "fresh_ductal": 0.2551,
+    "acinar_organoid": 0.0,
+    "acinar_K_organoid": 0.004,
+    "acinar_KPTS_organoid": 0.0636,
+    "ductal_KPTS_cultured": 0.1315
+   },
+   "acinar_K_organoid": {
+    "fresh_acinar": 0.3694,
+    "fresh_ductal": 0.2334,
+    "acinar_organoid": 0.004,
+    "acinar_K_organoid": 0.0,
+    "acinar_KPTS_organoid": 0.0509,
+    "ductal_KPTS_cultured": 0.1233
+   },
+   "acinar_KPTS_organoid": {
+    "fresh_acinar": 0.4113,
+    "fresh_ductal": 0.2442,
+    "acinar_organoid": 0.0636,
+    "acinar_K_organoid": 0.0509,
+    "acinar_KPTS_organoid": 0.0,
+    "ductal_KPTS_cultured": 0.087
+   },
+   "ductal_KPTS_cultured": {
+    "fresh_acinar": 0.4167,
+    "fresh_ductal": 0.1406,
+    "acinar_organoid": 0.1315,
+    "acinar_K_organoid": 0.1233,
+    "acinar_KPTS_organoid": 0.087,
+    "ductal_KPTS_cultured": 0.0
+   }
+  },
+  "spread": {
+   "fresh_acinar": 0.02907270126235355,
+   "fresh_ductal": 0.007365119993570546,
+   "acinar_organoid": 0.01698089610073661,
+   "acinar_K_organoid": 0.012100168176283899,
+   "acinar_KPTS_organoid": 0.07088158528179751,
+   "ductal_KPTS_cultured": 0.027866519243760185
+  }
+ },
+ "substitution_hpa": {
+  "acinar_KPTS_organoid": {
+   "d": 0.0869925860846067,
+   "delta": 0.5053143317069521
+  },
+  "acinar_K_organoid": {
+   "d": 0.12328135000226736,
+   "delta": 0.4690255677892914
+  },
+  "acinar_organoid": {
+   "d": 0.13145823100024423,
+   "delta": 0.4608486867913145
+  },
+  "LOO_KPTS_distance": [
+   0.11440457687583772,
+   0.10185135897518183,
+   0.09438481909793417
+  ],
+  "LOO_all_closer_than_no_driver": true,
+  "d_prec": 0.5923069177915588
+ },
+ "activity_viper": {
+  "means": {
+   "fresh_acinar": 0.04131517267402568,
+   "fresh_ductal": -0.14734532558838265,
+   "acinar_organoid": 0.021686670995279354,
+   "acinar_K_organoid": -0.018987076598051364,
+   "acinar_KPTS_organoid": -0.016402266899488076,
+   "ductal_KPTS_cultured": -0.038609710132179814
+  },
+  "means_shape": {
+   "fresh_acinar": 0.39270492613510566,
+   "fresh_ductal": 0.17498621392453553,
+   "acinar_organoid": 0.28078212694035837,
+   "acinar_K_organoid": 0.27054698038023167,
+   "acinar_KPTS_organoid": 0.162668487774257,
+   "ductal_KPTS_cultured": 0.01905161718937048
+  },
+  "dK": -0.03808893789476743,
+  "dk": -0.040673747593330714,
+  "dK_shape": -0.11811363916610138,
+  "dk_shape": -0.010235146560126696,
+  "k_prime": 1.0678624777016525,
+  "k_prime_shape": 0.08665507753709263,
+  "g": 0.3400792173697488,
+  "p_KPTS": 0.8095238095238096,
+  "p_K": 0.8354978354978355,
+  "ductal_raw": 0.10873561545620283,
+  "ductal_shape": -0.15593459673516505,
+  "top1": {
+   "fresh_acinar": "alveolar cells type 2",
+   "fresh_ductal": "alveolar cells type 2",
+   "acinar_organoid": "alveolar cells type 2",
+   "acinar_K_organoid": "alveolar cells type 2",
+   "acinar_KPTS_organoid": "alveolar cells type 2",
+   "ductal_KPTS_cultured": "urothelial cells"
+  },
+  "R2": {
+   "fresh_acinar": "0/5",
+   "fresh_ductal": "0/5",
+   "acinar_organoid": "0/6",
+   "acinar_K_organoid": "0/5",
+   "acinar_KPTS_organoid": "1/3",
+   "ductal_KPTS_cultured": "1/4"
+  }
+ },
+ "P1_activity_viper_raw": {
+  "d_prec": 0.045670467021798666,
+  "d_tr": 0.04850985101022465,
+  "delta": -0.002839383988425981,
+  "perm_p": 0.524047595240476,
+  "G5_uninformative": true
+ },
+ "P1_activity_viper_shape": {
+  "d_prec": 0.07065011687224487,
+  "d_tr": 0.07816187858492263,
+  "delta": -0.007511761712677756,
+  "perm_p": 0.5542445755424458,
+  "G5_uninformative": false
+ },
+ "activity_ulm": {
+  "means": {
+   "fresh_acinar": 0.3487847253825592,
+   "fresh_ductal": -0.15716003147073718,
+   "acinar_organoid": 0.157639150389703,
+   "acinar_K_organoid": 0.09118515103427238,
+   "acinar_KPTS_organoid": 0.21255536801971506,
+   "ductal_KPTS_cultured": 0.10522861592252922
+  },
+  "means_shape": {
+   "fresh_acinar": 0.6524308914420919,
+   "fresh_ductal": 0.01010835025473892,
+   "acinar_organoid": 0.29830685134070284,
+   "acinar_K_organoid": 0.27892760626882523,
+   "acinar_KPTS_organoid": 0.2740299141674047,
+   "ductal_KPTS_cultured": 0.05707096814544935
+  },
+  "dK": 0.05491621763001206,
+  "dk": -0.06645399935543062,
+  "dK_shape": -0.024276937173298152,
+  "dk_shape": -0.019379245071877604,
+  "k_prime": -1.2100978949998384,
+  "k_prime_shape": 0.7982574133442398,
+  "g": 1.4031158826048324,
+  "p_KPTS": 0.7261904761904763,
+  "p_K": 0.8766233766233766,
+  "ductal_raw": 0.2623886473932664,
+  "ductal_shape": 0.04696261789071043,
+  "top1": {
+   "fresh_acinar": "hofbauer cells",
+   "fresh_ductal": "alveolar cells type 2",
+   "acinar_organoid": "alveolar cells type 2",
+   "acinar_K_organoid": "alveolar cells type 2",
+   "acinar_KPTS_organoid": "alveolar cells type 2",
+   "ductal_KPTS_cultured": "alveolar cells type 2"
+  },
+  "R2": {
+   "fresh_acinar": "2/5",
+   "fresh_ductal": "0/5",
+   "acinar_organoid": "0/6",
+   "acinar_K_organoid": "0/5",
+   "acinar_KPTS_organoid": "0/3",
+   "ductal_KPTS_cultured": "0/4"
+  }
+ },
+ "P1_activity_ulm_raw": {
+  "d_prec": 0.18529347064639812,
+  "d_tr": 0.06712303203891701,
+  "delta": 0.11817043860748111,
+  "perm_p": 0.0332966703329667,
+  "G5_uninformative": false
+ },
+ "P1_activity_ulm_shape": {
+  "d_prec": 0.3321728551412093,
+  "d_tr": 0.1012792895413197,
+  "delta": 0.2308935655998896,
+  "perm_p": 0.028897110288971104,
+  "G5_uninformative": false
+ }
+}

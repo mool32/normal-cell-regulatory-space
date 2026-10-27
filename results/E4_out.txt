@@ -1,0 +1,27 @@
+  HCC             19485 cells >=1000 genes -> 1500 used
+  BRCA            65104 cells >=1000 genes -> 1500 used
+  Glioblastoma    25661 cells >=1000 genes -> 1500 used
+  OvarianSerous   28950 cells >=1000 genes -> 1500 used
+  RCC             26012 cells >=1000 genes -> 1500 used
+  Melanoma        12030 cells >=1000 genes -> 1500 used
+  Prostate        26109 cells >=1000 genes -> 1500 used
+  HNSCC           14808 cells >=1000 genes -> 1500 used
+  Neuroblastoma   30000 cells >=1000 genes -> 1500 used
+  B-ALL           29132 cells >=1000 genes -> 1500 used
+  DLBCL           12786 cells >=1000 genes -> 1500 used
+  SqLung          19707 cells >=1000 genes -> 1500 used
+  TNBC            15419 cells >=1000 genes -> 1500 used
+  PDAC              505 cells >=1000 genes -> 505 used
+  NSCLC             204 cells >=1000 genes -> 204 used
+  AML              6274 cells >=1000 genes -> 1500 used
+  MM               5138 cells >=1000 genes -> 1500 used
+
+=== GENE-LEVEL signature (206 catalog genes, module-grouping-independent) ===
+  Spearman(per-gene target-distinctiveness, cancer suppression) rho=+0.56  Pearson r=+0.10  p=6.3e-18  (n=202 genes)
+    genes from GOLD-16 modules       (n= 77): rho=+0.60 p=1.1e-08
+    genes from NON-gold modules      (n=125): rho=+0.54 p=7.2e-11
+  permutation null: |rho| exceeds real in 0.00% of 2000 shuffles
+
+VERDICT: gene-level signature ROBUST — mechanism survives independent of module grouping.
+saved results/E4_genelevel.csv
+python3 scripts/E4_genelevel_signature.py  75.53s user 15.49s system 95% cpu 1:35.60 total

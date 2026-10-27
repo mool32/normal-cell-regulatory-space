@@ -1,0 +1,89 @@
+{
+ "readiness (all genes, reproduction)": {
+  "f": 0.7076277423497,
+  "verdict": "REAL AT ACTIVITY LEVEL",
+  "d_end": 0.508887020510657,
+  "d_ckt": 0.3601025734350217,
+  "d_end_shape": -0.03873234868535291,
+  "d_ckt_shape": 0.006026899834247002,
+  "up": 10,
+  "n": 10,
+  "p": 0.001953125,
+  "p_shape": 0.16015625,
+  "shape_up": 3,
+  "mean_rho": 0.801053462817567,
+  "rho_pos": 10,
+  "ladder": {
+   "prec_basal": "0/10",
+   "ctrl_transduced": "1/10",
+   "tr_early": "4/10",
+   "tr_transition": "12/15",
+   "tr_endpoint": "10/10"
+  },
+  "top1": {
+   "prec_basal": "endometrial secretory cells",
+   "ctrl_transduced": "esophageal basal cells",
+   "tr_early": "esophageal basal cells",
+   "tr_transition": "migrating cytotrophoblasts",
+   "tr_endpoint": "migrating cytotrophoblasts"
+  }
+ },
+ "readiness minus delivered": {
+  "f": 0.7156079105600994,
+  "verdict": "REAL AT ACTIVITY LEVEL",
+  "d_end": 0.48420409223961275,
+  "d_ckt": 0.34650027873223893,
+  "d_end_shape": -0.012653952711031525,
+  "d_ckt_shape": 0.009072684917424901,
+  "up": 10,
+  "n": 10,
+  "p": 0.001953125,
+  "p_shape": 0.6953125,
+  "shape_up": 5,
+  "mean_rho": 0.7868511731740914,
+  "rho_pos": 10,
+  "ladder": {
+   "prec_basal": "0/10",
+   "ctrl_transduced": "1/10",
+   "tr_early": "3/10",
+   "tr_transition": "13/15",
+   "tr_endpoint": "9/10"
+  },
+  "top1": {
+   "prec_basal": "endometrial secretory cells",
+   "ctrl_transduced": "esophageal basal cells",
+   "tr_early": "esophageal basal cells",
+   "tr_transition": "migrating cytotrophoblasts",
+   "tr_endpoint": "migrating cytotrophoblasts"
+  }
+ },
+ "activity_ulm": {
+  "f": 0.3240112921382317,
+  "verdict": "PARTIAL",
+  "d_end": 0.4014240548233069,
+  "d_ckt": 0.13006592669866804,
+  "d_end_shape": 0.21401126768610887,
+  "d_ckt_shape": 0.1379437860206219,
+  "up": 10,
+  "n": 10,
+  "p": 0.001953125,
+  "p_shape": 0.001953125,
+  "shape_up": 10,
+  "mean_rho": 0.7678626213914691,
+  "rho_pos": 10,
+  "ladder": {
+   "prec_basal": "0/10",
+   "ctrl_transduced": "0/10",
+   "tr_early": "0/10",
+   "tr_transition": "2/15",
+   "tr_endpoint": "1/10"
+  },
+  "top1": {
+   "prec_basal": "urothelial cells",
+   "ctrl_transduced": "urothelial cells",
+   "tr_early": "urothelial cells",
+   "tr_transition": "foveolar cells",
+   "tr_endpoint": "foveolar cells"
+  }
+ }
+}

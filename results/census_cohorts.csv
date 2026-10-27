@@ -1,0 +1,15 @@
+cohort,rows,unique_cells,duplicated_rows,primary_rows,donors,datasets,assays,malignant_label,selection,dataset_ids
+Glioblastoma,30000,29998.0,2.0,22802.0,202.0,5,10x 3' v2; 10x 3' v3; 10x 5' v1; BD Rhapsody Whole Transcriptome Analysis; CEL-seq2; Drop-seq; STRT-seq; Smart-seq2; microwell-seq,malignant cell; neoplastic cell,author malignant annotation,774c18c5; 145dcf6a; 21722308; c888b684; 56c4912d
+Ovarian serous,30000,29102.0,898.0,16249.0,41.0,2,10x 3' v3,fallopian tube secretory epithelial cell,heuristic cell-type label,44c93f2b; b252b015
+RCC,30000,30000.0,0.0,30000.0,13.0,2,10x 3' v2; 10x 5' v2,abnormal cell,heuristic cell-type label,be39785b; bd65a70f
+Melanoma,12259,12259.0,0.0,10992.0,64.0,2,10x 3' v3; 10x 5' transcription profiling; Smart-seq2,malignant cell,author malignant annotation,b617ee1b; 7b20c613
+Prostate,30000,15905.0,14095.0,15040.0,24.0,3,10x 3' v3,basal cell of prostate epithelium; epithelial cell of prostate; luminal cell of prostate epithelium,heuristic cell-type label,04557650; b347446f; 881e0e6b
+HNSCC,18062,18062.0,0.0,18062.0,10.0,1,10x 3' v3,epithelial cell,heuristic cell-type label,b6b5ea88
+Neuroblastoma,30000,29041.0,959.0,16103.0,22.0,2,10x 3' v3,neuroblast (sensu Vertebrata),heuristic cell-type label,232e432a; afae4675
+B-ALL,30000,30000.0,0.0,30000.0,18.0,1,10x 3' v3,common lymphoid progenitor; early pro-B cell; precursor B cell; pro-B cell,heuristic cell-type label,cf83c98a
+DLBCL,19136,19136.0,0.0,19136.0,5.0,1,10x gene expression flex,malignant cell,author malignant annotation,a77176ec
+Squamous lung,30000,23745.0,6255.0,15458.0,44.0,3,10x 3' v1; 10x 3' v2; 10x 5' v1; 10x gene expression flex; BD Rhapsody Whole Transcriptome Analysis; GEXSCOPE technology; Smart-seq2; inDrop,malignant cell,author malignant annotation,1e4214ce; 232f6a5a; 1e6a6ef9
+TNBC,30000,27020.0,2980.0,17314.0,20.0,5,10x 3' v2; 10x 3' v3; 10x 5' transcription profiling,malignant cell,author malignant annotation,e500acbf; 5d3fc988; ed880090; 7b20c613; de5416ef
+NSCLC,241,,,,55.0,1,10x 3' v2; BD Rhapsody Whole Transcriptome Analysis; GEXSCOPE technology; Smart-seq2; inDrop,malignant cell,author malignant annotation,1e6a6ef9
+SCLC,25000,,,25000.0,,0,10x 3' v2; 10x 3' v3,epithelial cell,heuristic cell-type label,
+Gastric,8659,,,8659.0,,0,10x 3' v2,epithelial cell,heuristic cell-type label,

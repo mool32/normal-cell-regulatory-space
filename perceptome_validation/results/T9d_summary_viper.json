@@ -1,0 +1,89 @@
+{
+ "readiness (all genes, reproduction)": {
+  "f": 0.7076277423497,
+  "verdict": "REAL AT ACTIVITY LEVEL",
+  "d_end": 0.508887020510657,
+  "d_ckt": 0.3601025734350217,
+  "d_end_shape": -0.03873234868535291,
+  "d_ckt_shape": 0.006026899834247002,
+  "up": 10,
+  "n": 10,
+  "p": 0.001953125,
+  "p_shape": 0.16015625,
+  "shape_up": 3,
+  "mean_rho": 0.801053462817567,
+  "rho_pos": 10,
+  "ladder": {
+   "prec_basal": "0/10",
+   "ctrl_transduced": "1/10",
+   "tr_early": "4/10",
+   "tr_transition": "12/15",
+   "tr_endpoint": "10/10"
+  },
+  "top1": {
+   "prec_basal": "endometrial secretory cells",
+   "ctrl_transduced": "esophageal basal cells",
+   "tr_early": "esophageal basal cells",
+   "tr_transition": "migrating cytotrophoblasts",
+   "tr_endpoint": "migrating cytotrophoblasts"
+  }
+ },
+ "readiness minus delivered": {
+  "f": 0.7156079105600994,
+  "verdict": "REAL AT ACTIVITY LEVEL",
+  "d_end": 0.48420409223961275,
+  "d_ckt": 0.34650027873223893,
+  "d_end_shape": -0.012653952711031525,
+  "d_ckt_shape": 0.009072684917424901,
+  "up": 10,
+  "n": 10,
+  "p": 0.001953125,
+  "p_shape": 0.6953125,
+  "shape_up": 5,
+  "mean_rho": 0.7868511731740914,
+  "rho_pos": 10,
+  "ladder": {
+   "prec_basal": "0/10",
+   "ctrl_transduced": "1/10",
+   "tr_early": "3/10",
+   "tr_transition": "13/15",
+   "tr_endpoint": "9/10"
+  },
+  "top1": {
+   "prec_basal": "endometrial secretory cells",
+   "ctrl_transduced": "esophageal basal cells",
+   "tr_early": "esophageal basal cells",
+   "tr_transition": "migrating cytotrophoblasts",
+   "tr_endpoint": "migrating cytotrophoblasts"
+  }
+ },
+ "activity_viper": {
+  "f": -0.6026752919171044,
+  "verdict": "ABUNDANCE ARTEFACT",
+  "d_end": 0.05212494778906651,
+  "d_ckt": -0.03141441812493949,
+  "d_end_shape": 0.0283863705238031,
+  "d_ckt_shape": 0.016012914393050602,
+  "up": 9,
+  "n": 10,
+  "p": 0.00390625,
+  "p_shape": 0.01953125,
+  "shape_up": 8,
+  "mean_rho": 0.6062672006784201,
+  "rho_pos": 9,
+  "ladder": {
+   "prec_basal": "0/10",
+   "ctrl_transduced": "5/10",
+   "tr_early": "5/10",
+   "tr_transition": "13/15",
+   "tr_endpoint": "10/10"
+  },
+  "top1": {
+   "prec_basal": "melanocytes",
+   "ctrl_transduced": "pancreatic acinar cells",
+   "tr_early": "melanocytes",
+   "tr_transition": "pancreatic acinar cells",
+   "tr_endpoint": "pancreatic acinar cells"
+  }
+ }
+}

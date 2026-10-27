@@ -1,0 +1,26 @@
+cohort,selection,purity_class,malig_frac_of_arm,n_source,note
+HCC,"celltype==""Hepatocyte"" (all hepatocytes, tumor+normal)",PROXY — AT RISK,68%,71915.0,fraction of the hepatocyte arm from tumor samples (rest = normal-adjacent hepatocytes)
+BRCA,pf=None (ALL cells of the breast atlas),AT RISK (no malignant filter),24%,100064.0,annotated Cancer-Epithelial fraction of the arm actually used
+NSCLC,"cell_type==""malignant cell"" (census)",author census-malignant,5%,5000.0,census malignant label
+BCC,disease==BCC & basal/keratinocyte cell types,PROXY — AT RISK,12%,152189.0,basal/keratinocyte fraction of BCC-sample cells (rest = immune/stroma/normal)
+Colon (Pelka),"ClusterMidway==""EpiT"" (author tumor-epithelial)",author-annotated (high),64%,370115.0,EpiT as fraction of all epithelial (rest = normal-sample Epi)
+Glioblastoma,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+OvarianSerous,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+RCC,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+Melanoma,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+Prostate,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+HNSCC,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+Neuroblastoma,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+B-ALL,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+DLBCL,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+SqLung,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+TNBC,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+PDAC,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+AML,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+MM,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+SCLC,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+Gastric,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+Osteosarcoma,pre-filtered *_malignant.h5ad (author/inferCNV in source pipeline),author-annotated (high),n/a — arm is pre-filtered to malignant in the source,,
+GermCell,marker-based malignant label,MARKER — overstates (bounded by drop-4),not available in source,,POU5F1/SALL4 etc. risk selecting stem/high-output cells
+Ewing,marker-based malignant label,MARKER — overstates (bounded by drop-4),not available in source,,POU5F1/SALL4 etc. risk selecting stem/high-output cells
+Seminoma,marker-based malignant label,MARKER — overstates (bounded by drop-4),not available in source,,POU5F1/SALL4 etc. risk selecting stem/high-output cells
