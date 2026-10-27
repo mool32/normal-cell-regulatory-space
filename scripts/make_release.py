@@ -129,6 +129,12 @@ def main():
     out = Path(sys.argv[sys.argv.index('--out') + 1]) if '--out' in sys.argv else ROOT / 'release'
     files = traced_inputs() | cited_scripts() | {f for f in ALWAYS if (ROOT / f).exists()}
     files |= {str(p.relative_to(ROOT)) for p in (ROOT / 'manuscript/figures').glob('*.png')}
+    # The pre-registration record. No script OPENS these, so the trace never sees them -- and the
+    # bundle shipped the code that runs T1-T9 without the frozen prompts, the amendments log or the
+    # verdicts that make those tests pre-registered. The paper cites them by path.
+    files |= {str(q.relative_to(ROOT)) for pat in ('perceptome_validation/registry/**/*',
+                                                   'perceptome_validation/*.md')
+              for q in ROOT.glob(pat) if q.is_file()}
     # bytecode caches get traced like any other read, but shipping them makes MANIFEST.txt
     # disagree with a fresh clone (.gitignore drops them) and they regenerate anyway
     files = {f for f in sorted(files)

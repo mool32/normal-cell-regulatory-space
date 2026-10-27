@@ -1,0 +1,11 @@
+{
+ "results/hpa_download/rna_single_cell_type.tsv": "93a9cddda40e886d2fd85136a531b4525bbb882cf24722091fe9dcf56fe831cc",
+ "perceptome_validation/cache/panel25.h5ad": "5408a4548500496ddb9bc9ea8be278e5267cd0f8a60f2787b41e61c2b3fd6f3a",
+ "tool/perceptome2/perceptome/catalog/data/modules_v03.json": "03affa007b14e2246153619941eacf9d9940edb47a7a3d7ce78e9e1cf89a4e04",
+ "tool/perceptome2/perceptome/eigenspace/data/reference_v03.json": "16b380e16170f650c10b9768d3f7852948dfecc84c71038355b5db5da69d110e",
+ "tool/perceptome2/perceptome/perceptivity/data/hpa_perceptivity_v03_scscaled.npz": "c5facc5af5b5de935c514a3d86c89d6c6dfab27215949154e280d1001622ae75",
+ "tool/perceptome2/perceptome/perceptivity/data/hpa_perceptivity_v03.npz": "e9b6c5bc3eb79d9a3128847d677a6e55cd97633291ce33dce6f1b492ee645b99",
+ "results/E7_S_raw.npz": "51f3061b38c04a21f89d4e906ff39b33905c6946cb3a978647532513ede0c133",
+ "perceptome_validation/scripts/T0_gate.py": "588e7ab6b919117aa7770fc2c3439dab00875269b85ce6394274318369110e38",
+ "perceptome_validation/scripts/prereg_lib.py": "43f09b96e67d73c9cb73d6c16098c58b7892e2df5e63b8abf490166241bd18c6"
+}

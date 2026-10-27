@@ -1,0 +1,50 @@
+{
+ "perceptome-44": {
+  "path": "perceptome_validation/panels/perceptome-44.json",
+  "sha256": "38dc181de3a2f3c2c37a353cad972fea54fceabb6b178080d1730a794a1a8913",
+  "n_sets": 44,
+  "n_unique_genes": 206
+ },
+ "hallmark-50": {
+  "path": "perceptome_validation/panels/hallmark-50.json",
+  "sha256": "a2e254f23f42e92a4ffdbafdf06603c5d001d4f4c7c0944b05ee6e165aee2c76",
+  "n_sets": 50,
+  "n_unique_genes": 4384
+ },
+ "hallmark-50-trim5": {
+  "path": "perceptome_validation/panels/hallmark-50-trim5.json",
+  "sha256": "8b3f194311e7d285300deb8ba357cf84de67f114c0980dff0b614b26eb82d29b",
+  "n_sets": 50,
+  "n_unique_genes": 184
+ },
+ "progeny-14": {
+  "path": "perceptome_validation/panels/progeny-14.json",
+  "sha256": "c9c65cb824d78f9b463c35edea777835f8a017edea16a30f570c61a5e3e8823e",
+  "n_sets": 14,
+  "n_unique_genes": 1295
+ },
+ "reactome-top44": {
+  "path": "perceptome_validation/panels/reactome-top44.json",
+  "sha256": "e0b81afefe176fcece09dc16d3d9f6cf91a705fe4aa744b236318824e5db2322",
+  "n_sets": 44,
+  "n_unique_genes": 3774
+ },
+ "reactome-top44-trim5": {
+  "path": "perceptome_validation/panels/reactome-top44-trim5.json",
+  "sha256": "0fc4f2c0e7987323fca45fc450f21ddc8dc47813b5fef7ba06ff3c404b61295c",
+  "n_sets": 44,
+  "n_unique_genes": 69
+ },
+ "kegg-signalling-46": {
+  "path": "perceptome_validation/panels/kegg-signalling-46.json",
+  "sha256": "4cf586df570b9058734f271517cadd5a4bb2fbce02d40f94df2f0c96bb40056f",
+  "n_sets": 46,
+  "n_unique_genes": 2383
+ },
+ "kegg-signalling-44": {
+  "path": "perceptome_validation/panels/kegg-signalling-44.json",
+  "sha256": "8db95fb973a54ad13a75c84ef5614d97d52e04778956c0cdc317bc384105d5f2",
+  "n_sets": 44,
+  "n_unique_genes": 2352
+ }
+}

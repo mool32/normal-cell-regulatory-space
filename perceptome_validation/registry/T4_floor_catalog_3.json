@@ -1,0 +1,222 @@
+{
+ "AMPK": [
+  "PRKAA1",
+  "PRKAA2",
+  "STK11"
+ ],
+ "AR": [
+  "FKBP5",
+  "TMPRSS2",
+  "AR"
+ ],
+ "AhR": [
+  "ARNT",
+  "CYP1B1",
+  "AHR"
+ ],
+ "Autophagy": [
+  "MAP1LC3B",
+  "ATG5",
+  "BECN1"
+ ],
+ "BMP": [
+  "ID1",
+  "BMPR1A",
+  "SMAD5"
+ ],
+ "Calcium": [
+  "CALM1",
+  "ITPR1",
+  "PLCG1"
+ ],
+ "Cell Cycle": [
+  "RB1",
+  "CCND1",
+  "CDK4"
+ ],
+ "Circadian": [
+  "CRY1",
+  "CLOCK",
+  "PER1"
+ ],
+ "ER": [
+  "CCND1",
+  "ESR1",
+  "TFF1"
+ ],
+ "ERK/MAPK": [
+  "FOS",
+  "DUSP1",
+  "MAPK1"
+ ],
+ "FXR": [
+  "NR1H4",
+  "SLC51A",
+  "NR0B2"
+ ],
+ "GR": [
+  "DUSP1",
+  "FKBP5",
+  "NR3C1"
+ ],
+ "HIF": [
+  "HIF1A",
+  "VEGFA",
+  "SLC2A1"
+ ],
+ "HSF1": [
+  "HSP90AA1",
+  "DNAJB1",
+  "HSPA4"
+ ],
+ "Hedgehog": [
+  "SUFU",
+  "PTCH1",
+  "GLI2"
+ ],
+ "Hippo": [
+  "TEAD1",
+  "YAP1",
+  "WWTR1"
+ ],
+ "Insulin/FOXO": [
+  "INSR",
+  "GSK3B",
+  "FOXO1"
+ ],
+ "JAK-STAT": [
+  "JAK1",
+  "STAT3",
+  "STAT1"
+ ],
+ "LXR": [
+  "ABCA1",
+  "MYLIP",
+  "NR1H2"
+ ],
+ "MR": [
+  "FKBP5",
+  "NR3C2",
+  "SGK1"
+ ],
+ "NF-κB": [
+  "NFKBIA",
+  "NFKB1",
+  "TNFAIP3"
+ ],
+ "NFAT": [
+  "PPP3CA",
+  "NFATC2",
+  "NFATC1"
+ ],
+ "NPAS4": [
+  "CALM1",
+  "ARNT2",
+  "CAMK2B"
+ ],
+ "NRF2": [
+  "NFE2L2",
+  "TXNRD1",
+  "NQO1"
+ ],
+ "Notch": [
+  "RBPJ",
+  "HES1",
+  "NOTCH1"
+ ],
+ "PI3K/PTEN": [
+  "FOXO3",
+  "PIK3CA",
+  "AKT1"
+ ],
+ "PPARα": [
+  "PPARA",
+  "CPT1A",
+  "ACOX1"
+ ],
+ "PPARγ": [
+  "PPARG",
+  "CD36",
+  "FABP4"
+ ],
+ "PR": [
+  "FOXO1",
+  "PGR",
+  "HAND2"
+ ],
+ "PXR/CAR": [
+  "ABCB1",
+  "CYP3A4",
+  "CYP2B6"
+ ],
+ "RAR": [
+  "RARB",
+  "TGM2",
+  "RARA"
+ ],
+ "SREBP": [
+  "SREBF2",
+  "SREBF1",
+  "HMGCR"
+ ],
+ "TGF-β": [
+  "SMAD2",
+  "SMAD3",
+  "TGFB1"
+ ],
+ "TR": [
+  "THRB",
+  "THRA",
+  "DIO2"
+ ],
+ "Type I IFN": [
+  "STAT1",
+  "IFNAR1",
+  "STAT2"
+ ],
+ "UPR-ATF6": [
+  "HSPA5",
+  "CALR",
+  "XBP1"
+ ],
+ "UPR-IRE1": [
+  "XBP1",
+  "ERN1",
+  "SEC61A1"
+ ],
+ "UPR-PERK": [
+  "PPP1R15A",
+  "ATF4",
+  "EIF2AK3"
+ ],
+ "VDR": [
+  "S100A8",
+  "VDR",
+  "CAMP"
+ ],
+ "Wnt": [
+  "CTNNB1",
+  "GSK3B",
+  "APC"
+ ],
+ "cAMP/CREB": [
+  "CREM",
+  "PDE4B",
+  "CREB1"
+ ],
+ "cGAS-STING": [
+  "IRF3",
+  "CXCL10",
+  "IFNB1"
+ ],
+ "mTOR": [
+  "RHEB",
+  "RPTOR",
+  "MTOR"
+ ],
+ "p53": [
+  "CDKN1A",
+  "MDM2",
+  "BAX"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "RWDMEW": "pca",
+ "RCTALU": "varimax",
+ "RJTTFY": "quartimax",
+ "RGJECZ": "promax",
+ "RDCVCH": "ica",
+ "RPFTBT": "sparsepca_0.01",
+ "RDCXUV": "sparsepca_0.05",
+ "RZTNRG": "sparsepca_0.1",
+ "RYHXGK": "sparsepca_0.5",
+ "RVQAAZ": "nmf9"
+}

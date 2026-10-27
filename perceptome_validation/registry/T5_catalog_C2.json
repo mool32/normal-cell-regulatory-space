@@ -1,0 +1,507 @@
+{
+  "curator": "C2",
+  "screened_candidates": [
+    "EGF/ErbB growth factor (EGFR-ELK1)",
+    "FGF morphogen (FGFR1-ETV5)",
+    "Insulin/IGF anabolic (INSR-FOXO1)",
+    "TNF inflammatory (TNFRSF1A-RELA)",
+    "Bacterial LPS/TLR (TLR4-NFKB1)",
+    "Lymphotoxin non-canonical NF-kB (LTBR-RELB)",
+    "Type I interferon (IFNAR1-STAT2/IRF9)",
+    "Type II interferon (IFNGR1-STAT1)",
+    "IL-6/gp130 (IL6R-STAT3)",
+    "IL-2/common gamma chain (IL2RB-STAT5A)",
+    "IL-4 type-2 cytokine (IL4R-STAT6)",
+    "IL-17 mucosal cytokine (IL17RA-CEBPB)",
+    "TGF-beta (TGFBR2-SMAD3)",
+    "BMP/GDF (BMPR1A-SMAD1)",
+    "Canonical WNT (FZD1-TCF7L2)",
+    "Hedgehog (PTCH1-GLI2)",
+    "Notch juxtacrine (NOTCH1-RBPJ)",
+    "Cell density/Hippo (NF2-TEAD1)",
+    "ECM stiffness/adhesion (ITGB1-SRF)",
+    "Fluid shear stress (PIEZO1-KLF2)",
+    "Osmotic/tonicity (WNK1-NFAT5)",
+    "Heat shock/proteotoxic (HSP90AA1-HSF1)",
+    "ER unfolded protein IRE1 (ERN1-XBP1)",
+    "Amino-acid starvation ISR (EIF2AK4-ATF4)",
+    "DNA double-strand break (ATM-TP53)",
+    "Cytosolic DNA STING (CGAS-IRF3)",
+    "Cytosolic viral RNA (RIGI-IRF7)",
+    "Electrophile/oxidative (KEAP1-NFE2L2)",
+    "Oxygen tension (EGLN1-HIF1A)",
+    "Mitochondrial stress UPRmt (OMA1-ATF5)",
+    "Thiol-redox stress kinase (MAP3K5-JUN)",
+    "Energy charge AMPK (PRKAG2-ESRRA)",
+    "Lysosomal nutrient sufficiency (SLC38A9-TFEB)",
+    "Intracellular glucose (GCK-MLXIPL)",
+    "Membrane sterol depletion (SCAP-SREBF2)",
+    "Free fatty acid catabolic (CD36-PPARA)",
+    "Oxysterol efflux (NR1H3-LXR)",
+    "Bile acid (NR1H4-FXR)",
+    "Xenobiotic drug (NR1I2-PXR)",
+    "Aryl hydrocarbon (AHR)",
+    "Zinc/heavy metal (MTF1)",
+    "Glucocorticoid (NR3C1)",
+    "Estrogen (ESR1)",
+    "Thyroid hormone (THRB)",
+    "Vitamin D (VDR)",
+    "Retinoic acid (RARA)",
+    "Circadian clock (NR1D1-ARNTL)",
+    "Gs-cAMP catecholamine (ADRB2-CREB1)",
+    "Gq-calcium NFAT (AGTR1-NFATC1)",
+    "IL-1 / IL1R1",
+    "IL-18 / IL18R1",
+    "IL-33 / IL1RL1",
+    "IL-10 / IL10RA",
+    "Leptin / LEPR",
+    "Growth hormone / GHR",
+    "Prolactin / PRLR",
+    "Erythropoietin / EPOR",
+    "Thrombopoietin / MPL",
+    "GM-CSF / CSF2RB",
+    "G-CSF / CSF3R",
+    "IL-12/IL-23 / STAT4",
+    "IL-21 / IL21R",
+    "IL-7 / IL7R",
+    "IL-15 / IL15RA",
+    "IL-22 / IL22RA1",
+    "Type III interferon / IFNLR1",
+    "PDGF / PDGFRB",
+    "VEGF / KDR",
+    "HGF / MET",
+    "NGF / NTRK1",
+    "IGF-1 / IGF1R",
+    "SCF / KIT",
+    "Activin-Nodal / ACVR1B",
+    "GDF15 / GFRAL",
+    "Wnt/PCP non-canonical",
+    "Wnt/Ca2+",
+    "Ephrin / EPHA2",
+    "Semaphorin / PLXNA1",
+    "Slit / ROBO1",
+    "Netrin / DCC",
+    "Cadherin adherens junction / CDH1",
+    "NLRP3 inflammasome",
+    "AIM2 inflammasome",
+    "NOD1/NOD2 peptidoglycan",
+    "Dectin-1 / CLEC7A-CARD9",
+    "TLR3 endosomal dsRNA",
+    "TLR9 CpG DNA",
+    "TLR7/8 ssRNA",
+    "OAS-RNase L",
+    "PKR / EIF2AK2",
+    "HRI / EIF2AK1 heme-ISR",
+    "PERK / EIF2AK3",
+    "ATF6 UPR branch",
+    "TCR / CD3-ZAP70",
+    "BCR / CD79A-SYK",
+    "Fc-gamma receptor / FCGR2A",
+    "Complement C5a / C5AR1",
+    "RANKL / TNFRSF11A",
+    "CD40 / TNFRSF5",
+    "FAS/TRAIL death receptors",
+    "CD44 / hyaluronan",
+    "Syndecan / SDC1",
+    "PIEZO stretch (standalone)",
+    "TRPV1 thermo/vanilloid",
+    "TRPM8 cold",
+    "Cold shock CIRBP/RBM3",
+    "Iron IRP-IRE / ACO1-IREB2",
+    "Hepcidin BMP-SMAD iron / HJV",
+    "Copper / ATOX1-ATP7A",
+    "Selenium / SECISBP2",
+    "Extracellular calcium / CASR",
+    "Natriuretic peptide / NPR1-cGMP",
+    "Nitric oxide / GUCY1A1",
+    "Adenosine / ADORA2A",
+    "Prostaglandin E2 / PTGER2",
+    "Glucagon / GCGR",
+    "Chemokine / CXCR4",
+    "Sphingosine-1-phosphate / S1PR1",
+    "Lysophosphatidic acid / LPAR1",
+    "Purinergic ATP / P2RX7",
+    "Short-chain fatty acid / FFAR2",
+    "Lactate / HCAR1",
+    "Succinate / SUCNR1",
+    "Proton sensing / GPR68",
+    "Bile acid GPCR / GPBAR1",
+    "CAR / NR1I3",
+    "PPAR-gamma / PPARG",
+    "PPAR-delta / PPARD",
+    "SREBP-1c / SREBF1",
+    "Androgen / AR",
+    "Progesterone / PGR",
+    "Mineralocorticoid / NR3C2",
+    "HNF4A lipid-sensing",
+    "NAD+ / SIRT1",
+    "RB-E2F mitogen checkpoint",
+    "MYC growth program",
+    "BCL2 apoptosis",
+    "Autophagy ULK1",
+    "Proteasome bounce-back / NFE2L1",
+    "Heme / BACH1",
+    "HIF-2alpha / EPAS1",
+    "Replication stress / ATR-CHEK1",
+    "Nucleotide excision repair / UV-DDB",
+    "Telomere shelterin / TERF2",
+    "Melanopsin light / OPN4",
+    "LINC nuclear-envelope mechanosensing / SUN1",
+    "Gap junction / GJA1",
+    "mTORC2 / RICTOR",
+    "Amino-acid GPCR / GPRC6A",
+    "Polyamine sensing / AZIN1",
+    "Primary cilium mechanosensing / PKD2"
+  ],
+  "dropped": {
+    "IL-1 / IL1R1": "criterion 4 redundant: same MYD88-IRAK-NF-kB cascade and TF output as retained Bacterial LPS/TLR (TLR4-NFKB1)",
+    "IL-18 / IL18R1": "criterion 4 redundant: IL-1-family MyD88-NF-kB output covered by TLR4 module",
+    "IL-33 / IL1RL1": "criterion 4 redundant: IL-1-family MyD88-NF-kB output covered by TLR4 module",
+    "IL-10 / IL10RA": "criterion 4 redundant: STAT3 output covered by IL-6/gp130 (IL6R-STAT3)",
+    "Leptin / LEPR": "criterion 4 redundant: JAK2-STAT3 output covered by IL-6/gp130 (IL6R-STAT3)",
+    "Growth hormone / GHR": "criterion 4 redundant: STAT5 output covered by IL-2/common gamma chain (IL2RB-STAT5A)",
+    "Prolactin / PRLR": "criterion 4 redundant: STAT5 output covered by IL-2/common gamma chain",
+    "Erythropoietin / EPOR": "criterion 4 redundant: JAK2-STAT5 output covered by IL-2/common gamma chain",
+    "Thrombopoietin / MPL": "criterion 4 redundant: JAK2-STAT5 output covered by IL-2/common gamma chain",
+    "GM-CSF / CSF2RB": "criterion 4 redundant: JAK2-STAT5 output covered by IL-2/common gamma chain",
+    "G-CSF / CSF3R": "criterion 4 redundant: STAT3 output covered by IL-6/gp130",
+    "IL-12/IL-23 / STAT4": "criterion 4 redundant: class-I heterodimeric cytokine-receptor field covered by IL-6/gp130 and IL-2 modules",
+    "IL-21 / IL21R": "criterion 4 redundant: gamma-c receptor field and STAT3 output already covered",
+    "IL-7 / IL7R": "criterion 4 redundant: gamma-c/STAT5 covered by IL-2 module",
+    "IL-15 / IL15RA": "criterion 4 redundant: gamma-c/STAT5 covered by IL-2 module",
+    "IL-22 / IL22RA1": "criterion 4 redundant: STAT3 output covered by IL-6/gp130",
+    "Type III interferon / IFNLR1": "criterion 4 redundant: ISGF3 (STAT2/IRF9) output covered by Type I interferon module",
+    "PDGF / PDGFRB": "criterion 4 redundant: RTK-RAS-ERK-ETS output covered by EGF/ErbB (EGFR-ELK1)",
+    "VEGF / KDR": "criterion 4 redundant: RTK-ERK output covered by EGF/ErbB; KDR retained only as component of the shear-stress mechanosensory complex",
+    "HGF / MET": "criterion 4 redundant: RTK-ERK output covered by EGF/ErbB",
+    "NGF / NTRK1": "criterion 4 redundant: RTK-ERK output covered by EGF/ErbB; CREB output covered by Gs-cAMP module",
+    "IGF-1 / IGF1R": "criterion 4 redundant: PI3K-AKT-FOXO output covered by Insulin/IGF anabolic (INSR-FOXO1)",
+    "SCF / KIT": "criterion 4 redundant: RTK-ERK/PI3K outputs covered by EGF/ErbB and Insulin modules",
+    "Activin-Nodal / ACVR1B": "criterion 4 redundant: SMAD2/3 output covered by TGF-beta (TGFBR2-SMAD3)",
+    "GDF15 / GFRAL": "criterion 2: no dedicated TF output with documented target set (RET-ERK, CNS-restricted)",
+    "Wnt/PCP non-canonical": "criterion 2: cytoskeletal (RHOA/JNK planar polarity) output, no TF with documented target set",
+    "Wnt/Ca2+": "criterion 4 redundant: calcineurin-NFAT output covered by Gq-calcium NFAT (AGTR1-NFATC1)",
+    "Ephrin / EPHA2": "criterion 2: cytoskeletal repulsion output, no TF",
+    "Semaphorin / PLXNA1": "criterion 2: cytoskeletal collapse output, no TF",
+    "Slit / ROBO1": "criterion 2: cytoskeletal output, no TF",
+    "Netrin / DCC": "criterion 2: cytoskeletal output, no TF",
+    "Cadherin adherens junction / CDH1": "criterion 2/4: no dedicated TF; contact-inhibition sensing covered by Cell density/Hippo (NF2-TEAD1)",
+    "NLRP3 inflammasome": "criterion 2: output is caspase-1 cleavage of IL-1beta/GSDMD, not a transcription factor",
+    "AIM2 inflammasome": "criterion 2: caspase-1 output, no TF; DNA field covered by cGAS-STING",
+    "NOD1/NOD2 peptidoglycan": "criterion 4 redundant: RIPK2-NF-kB output covered by Bacterial LPS/TLR (TLR4-NFKB1)",
+    "Dectin-1 / CLEC7A-CARD9": "criterion 4 redundant: SYK-CARD9-NF-kB/NFAT outputs already covered",
+    "TLR3 endosomal dsRNA": "criterion 4 redundant: dsRNA receptor field and IRF3/IRF7 output covered by Cytosolic viral RNA (RIGI-IRF7)",
+    "TLR9 CpG DNA": "criterion 4 redundant: DNA receptor field and IRF output covered by Cytosolic DNA STING (CGAS-IRF3)",
+    "TLR7/8 ssRNA": "criterion 4 redundant: viral RNA field and IRF7 output covered by Cytosolic viral RNA (RIGI-IRF7)",
+    "OAS-RNase L": "criterion 2: RNA-cleavage output, no TF",
+    "PKR / EIF2AK2": "criterion 4 redundant: eIF2alpha-ATF4 output covered by Amino-acid starvation ISR (EIF2AK4-ATF4)",
+    "HRI / EIF2AK1 heme-ISR": "criterion 4 redundant: ATF4 output covered by GCN2 ISR; EIF2AK1 retained as relay component of Mitochondrial stress UPRmt",
+    "PERK / EIF2AK3": "criterion 4 redundant: ATF4 output (GCN2 ISR module) and ER-unfolded-protein field (IRE1-XBP1 module)",
+    "ATF6 UPR branch": "criterion 4 redundant: ER-unfolded-protein receptor field covered by ER unfolded protein IRE1 (ERN1-XBP1)",
+    "TCR / CD3-ZAP70": "criterion 4 redundant: calcineurin-NFAT output covered by Gq-calcium NFAT (AGTR1-NFATC1)",
+    "BCR / CD79A-SYK": "criterion 4 redundant: ITAM-SYK-NFAT/NF-kB outputs already covered",
+    "Fc-gamma receptor / FCGR2A": "criterion 4 redundant: ITAM-SYK-NFAT output already covered",
+    "Complement C5a / C5AR1": "criterion 2: Gi chemotactic output, no dedicated TF with documented target set",
+    "RANKL / TNFRSF11A": "criterion 4 redundant: NF-kB (RELA) and NFATC1 outputs already covered",
+    "CD40 / TNFRSF5": "criterion 4 redundant: canonical and non-canonical NF-kB outputs covered by TNF and Lymphotoxin modules",
+    "FAS/TRAIL death receptors": "criterion 2: caspase-8 apoptotic output, no TF",
+    "CD44 / hyaluronan": "criterion 2: no dedicated TF output with documented target set",
+    "Syndecan / SDC1": "criterion 4 redundant: adhesion/ECM field covered by ECM stiffness/adhesion (ITGB1-SRF)",
+    "PIEZO stretch (standalone)": "criterion 4 redundant: PIEZO1 retained as the sensor of Fluid shear stress (PIEZO1-KLF2)",
+    "TRPV1 thermo/vanilloid": "criterion 2: Ca2+ flux only; NFAT output covered by Gq-calcium NFAT",
+    "TRPM8 cold": "criterion 2: Ca2+ flux only, no dedicated TF",
+    "Cold shock CIRBP/RBM3": "criterion 2: post-transcriptional (RNA-binding) output, no TF",
+    "Iron IRP-IRE / ACO1-IREB2": "criterion 2: post-transcriptional IRE-binding output, no TF",
+    "Hepcidin BMP-SMAD iron / HJV": "criterion 4 redundant: SMAD1/5 output covered by BMP/GDF (BMPR1A-SMAD1)",
+    "Copper / ATOX1-ATP7A": "criterion 2: trafficking output, no TF",
+    "Selenium / SECISBP2": "criterion 2: translational recoding output, no TF",
+    "Extracellular calcium / CASR": "criterion 2: no dedicated TF with documented target set (Gq/Gi second messengers only)",
+    "Natriuretic peptide / NPR1-cGMP": "criterion 2: cGMP-PKG post-translational output, no dedicated TF",
+    "Nitric oxide / GUCY1A1": "criterion 2: cGMP-PKG output, no dedicated TF",
+    "Adenosine / ADORA2A": "criterion 4 redundant: Gs-cAMP-CREB output covered by Gs-cAMP catecholamine (ADRB2-CREB1)",
+    "Prostaglandin E2 / PTGER2": "criterion 4 redundant: Gs-cAMP-CREB output covered by ADRB2-CREB1 module",
+    "Glucagon / GCGR": "criterion 4 redundant: Gs-cAMP-CREB output covered by ADRB2-CREB1 module",
+    "Chemokine / CXCR4": "criterion 2: Gi chemotactic output, no dedicated TF",
+    "Sphingosine-1-phosphate / S1PR1": "criterion 4 redundant: Gi/Gq second-messenger outputs covered by cAMP and NFAT modules",
+    "Lysophosphatidic acid / LPAR1": "criterion 4 redundant: Gq-Ca2+ output covered by Gq-calcium NFAT",
+    "Purinergic ATP / P2RX7": "criterion 2: ion-channel/inflammasome output, no TF",
+    "Short-chain fatty acid / FFAR2": "criterion 4 redundant: fatty-acid ligand field covered by Free fatty acid catabolic (CD36-PPARA); Gi-cAMP covered",
+    "Lactate / HCAR1": "criterion 4 redundant: Gi-cAMP output covered by cAMP module",
+    "Succinate / SUCNR1": "criterion 4 redundant: Gq-Ca2+ output covered by Gq-calcium NFAT",
+    "Proton sensing / GPR68": "criterion 4 redundant: Gq/Gs second-messenger outputs already covered",
+    "Bile acid GPCR / GPBAR1": "criterion 4 redundant: bile-acid receptor field covered by Bile acid (NR1H4-FXR)",
+    "CAR / NR1I3": "criterion 4 redundant: lipophilic-xenobiotic field and CYP target set covered by Xenobiotic drug (NR1I2-PXR)",
+    "PPAR-gamma / PPARG": "criterion 4 redundant: fatty-acid ligand field covered by Free fatty acid catabolic (CD36-PPARA)",
+    "PPAR-delta / PPARD": "criterion 4 redundant: fatty-acid ligand field covered by CD36-PPARA",
+    "SREBP-1c / SREBF1": "criterion 4 redundant: same SCAP-INSIG sensor machinery as Membrane sterol depletion (SCAP-SREBF2)",
+    "Androgen / AR": "criterion 4 redundant: steroid nuclear-receptor field with shared coactivator/feedback machinery covered by Estrogen (ESR1) and Glucocorticoid (NR3C1)",
+    "Progesterone / PGR": "criterion 4 redundant: steroid nuclear-receptor field covered by Estrogen (ESR1)",
+    "Mineralocorticoid / NR3C2": "criterion 4 redundant: corticosteroid field covered by Glucocorticoid (NR3C1)",
+    "HNF4A lipid-sensing": "criterion 1: no regulated sensor input (constitutively liganded lineage TF)",
+    "NAD+ / SIRT1": "criterion 2: deacetylase output, no dedicated TF; acts through PGC1alpha/FOXO already retained",
+    "RB-E2F mitogen checkpoint": "criterion 1: no external sensor; integrates mitogenic input downstream of retained RTK modules",
+    "MYC growth program": "criterion 1: no sensor input; downstream integrator",
+    "BCL2 apoptosis": "criterion 2: no TF output",
+    "Autophagy ULK1": "criterion 2: no TF output; lysosomal-nutrient arm retained as SLC38A9-TFEB",
+    "Proteasome bounce-back / NFE2L1": "criterion 4 redundant: proteostasis field covered by Heat shock/proteotoxic (HSP90AA1-HSF1)",
+    "Heme / BACH1": "criterion 4 redundant: small-MAF/ARE output covered by Electrophile/oxidative (KEAP1-NFE2L2)",
+    "HIF-2alpha / EPAS1": "criterion 4 redundant: oxygen field and PHD/VHL sensor covered by Oxygen tension (EGLN1-HIF1A)",
+    "Replication stress / ATR-CHEK1": "criterion 4 redundant: genotoxic field and TP53 output covered by DNA double-strand break (ATM-TP53)",
+    "Nucleotide excision repair / UV-DDB": "criterion 2: repair-complex output, no dedicated TF; genotoxic field covered by ATM-TP53",
+    "Telomere shelterin / TERF2": "criterion 4 redundant: DNA-damage field and TP53 output covered by ATM-TP53",
+    "Melanopsin light / OPN4": "criterion 1: photoreceptor absent from general somatic cells; timing field covered by Circadian clock (NR1D1-ARNTL)",
+    "LINC nuclear-envelope mechanosensing / SUN1": "criterion 2: no dedicated TF with documented target set",
+    "Gap junction / GJA1": "criterion 2: no TF output",
+    "mTORC2 / RICTOR": "criterion 2: AKT/SGK phosphorylation output, no dedicated TF",
+    "Amino-acid GPCR / GPRC6A": "criterion 4 redundant: amino-acid field covered by Lysosomal nutrient sufficiency (SLC38A9-TFEB)",
+    "Polyamine sensing / AZIN1": "criterion 2: translational/post-translational output, no TF",
+    "Primary cilium mechanosensing / PKD2": "criterion 2/4: Ca2+ output only; flow field covered by Fluid shear stress (PIEZO1-KLF2)"
+  },
+  "modules": {
+    "EGF/ErbB growth factor (EGFR-ELK1)": {
+      "genes": ["EGFR", "GRB2", "SOS1", "MAPK1", "ELK1", "DUSP6"],
+      "sensor": "EGFR", "tf": "ELK1", "feedback": "DUSP6",
+      "receptor_field": "EGF-family (ErbB) growth-factor ligand"
+    },
+    "FGF morphogen (FGFR1-ETV5)": {
+      "genes": ["FGFR1", "FRS2", "PTPN11", "ETV5", "SPRY2"],
+      "sensor": "FGFR1", "tf": "ETV5", "feedback": "SPRY2",
+      "receptor_field": "FGF heparin-binding morphogen"
+    },
+    "Insulin/IGF anabolic (INSR-FOXO1)": {
+      "genes": ["INSR", "IRS1", "PIK3CA", "AKT1", "FOXO1", "TRIB3"],
+      "sensor": "INSR", "tf": "FOXO1", "feedback": "TRIB3",
+      "receptor_field": "insulin/IGF anabolic hormone"
+    },
+    "TNF inflammatory (TNFRSF1A-RELA)": {
+      "genes": ["TNFRSF1A", "TRADD", "RIPK1", "IKBKB", "RELA", "NFKBIA"],
+      "sensor": "TNFRSF1A", "tf": "RELA", "feedback": "NFKBIA",
+      "receptor_field": "TNF-superfamily death-domain cytokine"
+    },
+    "Bacterial LPS/TLR (TLR4-NFKB1)": {
+      "genes": ["TLR4", "LY96", "MYD88", "IRAK4", "NFKB1", "IRAK3"],
+      "sensor": "TLR4", "tf": "NFKB1", "feedback": "IRAK3",
+      "receptor_field": "bacterial LPS / surface-TLR PAMP"
+    },
+    "Lymphotoxin non-canonical NF-kB (LTBR-RELB)": {
+      "genes": ["LTBR", "TRAF3", "MAP3K14", "CHUK", "RELB", "NFKB2"],
+      "sensor": "LTBR", "tf": "RELB", "feedback": "NFKB2",
+      "receptor_field": "lymphotoxin/BAFF developmental TNF-superfamily ligand"
+    },
+    "Type I interferon (IFNAR1-STAT2/IRF9)": {
+      "genes": ["IFNAR1", "JAK1", "TYK2", "STAT2", "IRF9", "USP18"],
+      "sensor": "IFNAR1", "tf": "STAT2", "feedback": "USP18",
+      "receptor_field": "type I interferon antiviral cytokine"
+    },
+    "Type II interferon (IFNGR1-STAT1)": {
+      "genes": ["IFNGR1", "IFNGR2", "JAK2", "STAT1", "SOCS1"],
+      "sensor": "IFNGR1", "tf": "STAT1", "feedback": "SOCS1",
+      "receptor_field": "type II interferon (IFN-gamma) immune-activation cytokine"
+    },
+    "IL-6/gp130 (IL6R-STAT3)": {
+      "genes": ["IL6R", "IL6ST", "JAK1", "STAT3", "SOCS3"],
+      "sensor": "IL6R", "tf": "STAT3", "feedback": "SOCS3",
+      "receptor_field": "gp130-family inflammatory/acute-phase cytokine"
+    },
+    "IL-2/common gamma chain (IL2RB-STAT5A)": {
+      "genes": ["IL2RA", "IL2RB", "IL2RG", "JAK3", "STAT5A", "CISH"],
+      "sensor": "IL2RB", "tf": "STAT5A", "feedback": "CISH",
+      "receptor_field": "common gamma-chain lymphotropic cytokine"
+    },
+    "IL-4 type-2 cytokine (IL4R-STAT6)": {
+      "genes": ["IL4R", "IL13RA1", "JAK3", "STAT6", "SOCS1"],
+      "sensor": "IL4R", "tf": "STAT6", "feedback": "SOCS1",
+      "receptor_field": "IL-4/IL-13 type-2 cytokine"
+    },
+    "IL-17 mucosal cytokine (IL17RA-CEBPB)": {
+      "genes": ["IL17RA", "IL17RC", "TRAF3IP2", "TRAF6", "CEBPB", "TNFAIP3"],
+      "sensor": "IL17RA", "tf": "CEBPB", "feedback": "TNFAIP3",
+      "receptor_field": "IL-17-family mucosal/epithelial cytokine"
+    },
+    "TGF-beta (TGFBR2-SMAD3)": {
+      "genes": ["TGFBR1", "TGFBR2", "SMAD2", "SMAD3", "SMAD4", "SMAD7"],
+      "sensor": "TGFBR2", "tf": "SMAD3", "feedback": "SMAD7",
+      "receptor_field": "TGF-beta cytostatic/fibrogenic ligand"
+    },
+    "BMP/GDF (BMPR1A-SMAD1)": {
+      "genes": ["BMPR1A", "BMPR2", "SMAD1", "SMAD5", "SMAD6", "BAMBI"],
+      "sensor": "BMPR1A", "tf": "SMAD1", "feedback": "SMAD6",
+      "receptor_field": "BMP/GDF morphogen"
+    },
+    "Canonical WNT (FZD1-TCF7L2)": {
+      "genes": ["FZD1", "LRP6", "DVL1", "CTNNB1", "TCF7L2", "AXIN2"],
+      "sensor": "FZD1", "tf": "TCF7L2", "feedback": "AXIN2",
+      "receptor_field": "canonical WNT morphogen"
+    },
+    "Hedgehog (PTCH1-GLI2)": {
+      "genes": ["PTCH1", "SMO", "SUFU", "GLI2", "HHIP"],
+      "sensor": "PTCH1", "tf": "GLI2", "feedback": "HHIP",
+      "receptor_field": "Hedgehog morphogen"
+    },
+    "Notch juxtacrine (NOTCH1-RBPJ)": {
+      "genes": ["NOTCH1", "ADAM10", "PSEN1", "RBPJ", "HES1", "NRARP"],
+      "sensor": "NOTCH1", "tf": "RBPJ", "feedback": "NRARP",
+      "receptor_field": "juxtacrine DSL (Delta/Jagged) cell-contact ligand"
+    },
+    "Cell density/Hippo (NF2-TEAD1)": {
+      "genes": ["NF2", "STK3", "LATS1", "YAP1", "TEAD1", "AMOTL2"],
+      "sensor": "NF2", "tf": "TEAD1", "feedback": "AMOTL2",
+      "receptor_field": "cell density / cortical tension (contact inhibition)"
+    },
+    "ECM stiffness/adhesion (ITGB1-SRF)": {
+      "genes": ["ITGB1", "PTK2", "RHOA", "MRTFA", "SRF", "ACTB"],
+      "sensor": "ITGB1", "tf": "SRF", "feedback": "ACTB",
+      "receptor_field": "extracellular-matrix stiffness / integrin adhesion tension"
+    },
+    "Fluid shear stress (PIEZO1-KLF2)": {
+      "genes": ["PIEZO1", "PECAM1", "KDR", "MEF2C", "KLF2", "NOS3"],
+      "sensor": "PIEZO1", "tf": "KLF2", "feedback": "NOS3",
+      "receptor_field": "fluid shear stress / membrane stretch"
+    },
+    "Osmotic/tonicity (WNK1-NFAT5)": {
+      "genes": ["WNK1", "STK39", "OXSR1", "NFAT5", "SLC5A3", "AKR1B1"],
+      "sensor": "WNK1", "tf": "NFAT5", "feedback": "SLC5A3",
+      "receptor_field": "extracellular tonicity / hyperosmotic stress"
+    },
+    "Heat shock/proteotoxic (HSP90AA1-HSF1)": {
+      "genes": ["HSP90AA1", "HSF1", "HSPA1A", "DNAJB1", "HSPH1", "BAG3"],
+      "sensor": "HSP90AA1", "tf": "HSF1", "feedback": "HSPA1A",
+      "receptor_field": "cytosolic protein misfolding / thermal stress"
+    },
+    "ER unfolded protein IRE1 (ERN1-XBP1)": {
+      "genes": ["ERN1", "HSPA5", "XBP1", "DNAJB9", "EDEM1"],
+      "sensor": "ERN1", "tf": "XBP1", "feedback": "DNAJB9",
+      "receptor_field": "ER unfolded-protein / secretory load"
+    },
+    "Amino-acid starvation ISR (EIF2AK4-ATF4)": {
+      "genes": ["EIF2AK4", "EIF2S1", "ATF4", "DDIT3", "PPP1R15A"],
+      "sensor": "EIF2AK4", "tf": "ATF4", "feedback": "PPP1R15A",
+      "receptor_field": "uncharged tRNA / amino-acid deprivation"
+    },
+    "DNA double-strand break (ATM-TP53)": {
+      "genes": ["ATM", "CHEK2", "TP53", "MDM2", "CDKN1A", "PPM1D"],
+      "sensor": "ATM", "tf": "TP53", "feedback": "MDM2",
+      "receptor_field": "DNA double-strand break / genotoxic stress"
+    },
+    "Cytosolic DNA STING (CGAS-IRF3)": {
+      "genes": ["CGAS", "STING1", "TBK1", "IRF3", "TREX1"],
+      "sensor": "CGAS", "tf": "IRF3", "feedback": "TREX1",
+      "receptor_field": "cytosolic double-stranded DNA"
+    },
+    "Cytosolic viral RNA (RIGI-IRF7)": {
+      "genes": ["RIGI", "IFIH1", "MAVS", "TRAF3", "IRF7", "RNF125"],
+      "sensor": "RIGI", "tf": "IRF7", "feedback": "RNF125",
+      "receptor_field": "cytosolic viral RNA (5'-triphosphate / long dsRNA)"
+    },
+    "Electrophile/oxidative (KEAP1-NFE2L2)": {
+      "genes": ["KEAP1", "CUL3", "RBX1", "NFE2L2", "MAFG"],
+      "sensor": "KEAP1", "tf": "NFE2L2", "feedback": "KEAP1",
+      "receptor_field": "electrophile / reactive-oxygen-species thiol stress"
+    },
+    "Oxygen tension (EGLN1-HIF1A)": {
+      "genes": ["EGLN1", "VHL", "HIF1A", "ARNT", "EGLN3", "HIF1AN"],
+      "sensor": "EGLN1", "tf": "HIF1A", "feedback": "EGLN3",
+      "receptor_field": "molecular oxygen tension (hypoxia)"
+    },
+    "Mitochondrial stress UPRmt (OMA1-ATF5)": {
+      "genes": ["OMA1", "DELE1", "EIF2AK1", "ATF5", "LONP1", "HSPD1"],
+      "sensor": "OMA1", "tf": "ATF5", "feedback": "LONP1",
+      "receptor_field": "mitochondrial import / matrix proteotoxic stress"
+    },
+    "Thiol-redox stress kinase (MAP3K5-JUN)": {
+      "genes": ["MAP3K5", "TXN", "MAP2K4", "MAPK8", "JUN", "DUSP1"],
+      "sensor": "MAP3K5", "tf": "JUN", "feedback": "DUSP1",
+      "receptor_field": "ASK1 thioredoxin-gated stress-kinase input (UV/oxidant/ribotoxic)"
+    },
+    "Energy charge AMPK (PRKAG2-ESRRA)": {
+      "genes": ["PRKAG2", "PRKAA1", "STK11", "PPARGC1A", "ESRRA", "PPM1E"],
+      "sensor": "PRKAG2", "tf": "ESRRA", "feedback": "PPM1E",
+      "receptor_field": "AMP:ATP energy charge"
+    },
+    "Lysosomal nutrient sufficiency (SLC38A9-TFEB)": {
+      "genes": ["SLC38A9", "RRAGA", "MTOR", "RPTOR", "TFEB", "RRAGD"],
+      "sensor": "SLC38A9", "tf": "TFEB", "feedback": "RRAGD",
+      "receptor_field": "lysosomal amino-acid sufficiency / mTORC1 nutrient status"
+    },
+    "Intracellular glucose (GCK-MLXIPL)": {
+      "genes": ["SLC2A2", "GCK", "MLXIPL", "MLX", "TXNIP"],
+      "sensor": "GCK", "tf": "MLXIPL", "feedback": "TXNIP",
+      "receptor_field": "intracellular glucose / carbohydrate flux"
+    },
+    "Membrane sterol depletion (SCAP-SREBF2)": {
+      "genes": ["SCAP", "INSIG1", "MBTPS1", "MBTPS2", "SREBF2"],
+      "sensor": "SCAP", "tf": "SREBF2", "feedback": "INSIG1",
+      "receptor_field": "ER-membrane cholesterol depletion"
+    },
+    "Free fatty acid catabolic (CD36-PPARA)": {
+      "genes": ["CD36", "SLC27A1", "PPARA", "RXRA", "ANGPTL4"],
+      "sensor": "CD36", "tf": "PPARA", "feedback": "ANGPTL4",
+      "receptor_field": "free fatty-acid / lipid-catabolic ligand"
+    },
+    "Oxysterol efflux (NR1H3-LXR)": {
+      "genes": ["NR1H3", "NR1H2", "RXRA", "NCOR1", "MYLIP"],
+      "sensor": "NR1H3", "tf": "NR1H3", "feedback": "MYLIP",
+      "receptor_field": "oxysterol (cholesterol excess)"
+    },
+    "Bile acid (NR1H4-FXR)": {
+      "genes": ["SLC10A1", "NR1H4", "RXRA", "NR0B2", "FGFR4"],
+      "sensor": "NR1H4", "tf": "NR1H4", "feedback": "NR0B2",
+      "receptor_field": "bile acid"
+    },
+    "Xenobiotic drug (NR1I2-PXR)": {
+      "genes": ["NR1I2", "RXRA", "NCOA2", "CYP3A4", "ABCB1"],
+      "sensor": "NR1I2", "tf": "NR1I2", "feedback": "CYP3A4",
+      "receptor_field": "lipophilic xenobiotic / drug"
+    },
+    "Aryl hydrocarbon (AHR)": {
+      "genes": ["AHR", "ARNT", "AIP", "AHRR", "CYP1A1", "TIPARP"],
+      "sensor": "AHR", "tf": "AHR", "feedback": "AHRR",
+      "receptor_field": "aryl-hydrocarbon / tryptophan-photoproduct ligand"
+    },
+    "Zinc/heavy metal (MTF1)": {
+      "genes": ["MTF1", "MT2A", "MT1X", "SLC30A1", "SLC39A1"],
+      "sensor": "MTF1", "tf": "MTF1", "feedback": "MT2A",
+      "receptor_field": "zinc / heavy-metal load"
+    },
+    "Glucocorticoid (NR3C1)": {
+      "genes": ["NR3C1", "HSP90AB1", "FKBP4", "FKBP5", "NCOA2"],
+      "sensor": "NR3C1", "tf": "NR3C1", "feedback": "FKBP5",
+      "receptor_field": "glucocorticoid stress steroid"
+    },
+    "Estrogen (ESR1)": {
+      "genes": ["ESR1", "ESR2", "NCOA3", "EP300", "NRIP1"],
+      "sensor": "ESR1", "tf": "ESR1", "feedback": "NRIP1",
+      "receptor_field": "estrogen sex steroid"
+    },
+    "Thyroid hormone (THRB)": {
+      "genes": ["SLC16A2", "DIO2", "THRB", "RXRA", "NCOR1", "DIO3"],
+      "sensor": "THRB", "tf": "THRB", "feedback": "DIO3",
+      "receptor_field": "thyroid hormone"
+    },
+    "Vitamin D (VDR)": {
+      "genes": ["VDR", "RXRA", "CYP27B1", "CYP24A1", "NCOA1"],
+      "sensor": "VDR", "tf": "VDR", "feedback": "CYP24A1",
+      "receptor_field": "vitamin D secosteroid / calcium-phosphate homeostasis"
+    },
+    "Retinoic acid (RARA)": {
+      "genes": ["RARA", "RXRA", "CRABP2", "RDH10", "CYP26A1"],
+      "sensor": "RARA", "tf": "RARA", "feedback": "CYP26A1",
+      "receptor_field": "retinoid morphogen"
+    },
+    "Circadian clock (NR1D1-ARNTL)": {
+      "genes": ["NR1D1", "ARNTL", "CLOCK", "PER2", "CRY1", "DBP"],
+      "sensor": "NR1D1", "tf": "ARNTL", "feedback": "CRY1",
+      "receptor_field": "circadian phase / diurnal timing (heme-redox entrainment)"
+    },
+    "Gs-cAMP catecholamine (ADRB2-CREB1)": {
+      "genes": ["ADRB2", "GNAS", "ADCY6", "PRKACA", "CREB1", "PDE4B"],
+      "sensor": "ADRB2", "tf": "CREB1", "feedback": "PDE4B",
+      "receptor_field": "Gs-coupled catecholamine / cAMP second messenger"
+    },
+    "Gq-calcium NFAT (AGTR1-NFATC1)": {
+      "genes": ["AGTR1", "GNAQ", "PLCB1", "PPP3CA", "NFATC1", "RCAN1"],
+      "sensor": "AGTR1", "tf": "NFATC1", "feedback": "RCAN1",
+      "receptor_field": "Gq-coupled peptide agonist / Ca2+-calcineurin second messenger"
+    }
+  }
+}

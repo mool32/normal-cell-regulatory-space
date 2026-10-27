@@ -1,0 +1,7 @@
+{
+ "perceptome_validation/panels/dorothea_AB.csv": "0d78efe0f0994faf61535d5ae003fe458f8024c336aa1db8662836c10d66b255",
+ "perceptome_validation/panels/progeny_top100.csv": "3670aa9941c01f81ced2f599bb38cddd88585e40a43f401622b6542b663132a9",
+ "perceptome_validation/cache/panel25.h5ad": "5408a4548500496ddb9bc9ea8be278e5267cd0f8a60f2787b41e61c2b3fd6f3a",
+ "perceptome_validation/cache/pelka_epi.h5ad": "fd378d2d96f995c69b7532f37c72f74fa7c2597187a34f78a049e392bd2228a0",
+ "perceptome_validation/scripts/T7_activity_scoring.py": "1501921f54c616fb38f664a92126ff8d15875a591b8fd3bb9adafe9f05c8f04f"
+}

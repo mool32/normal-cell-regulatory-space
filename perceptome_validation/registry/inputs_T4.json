@@ -1,0 +1,8 @@
+{
+ "perceptome_validation/panels/dorothea_AB.csv": "0d78efe0f0994faf61535d5ae003fe458f8024c336aa1db8662836c10d66b255",
+ "perceptome_validation/panels/kegg_signalling_rest.json": "4cf586df570b9058734f271517cadd5a4bb2fbce02d40f94df2f0c96bb40056f",
+ "perceptome_validation/panels/kegg_extra_maps.json": "0e9e48e85aea0cb7e4ee7f670d2b1bb6208eb40f554fcc5056e17c0892270126",
+ "perceptome_validation/panels/reactome_T4_maps.json": "ca202dbd6a1b05cf82733720cbd0686155e8f2430466d011ecbb7920e12d8490",
+ "perceptome_validation/cache/panel25.h5ad": "5408a4548500496ddb9bc9ea8be278e5267cd0f8a60f2787b41e61c2b3fd6f3a",
+ "perceptome_validation/scripts/T4_module_depth.py": "1cb35fe18b24413707509a6a68a5c2efde8c729f995ad86e3b206c069e5a359d"
+}
