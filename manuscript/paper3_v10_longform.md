@@ -8,11 +8,11 @@ Correspondence: tspiro@vaika.org · ORCID 0009-0004-5382-9346
 
 **Short title (running head):** Malignancy raises occupancy of a normal cell state
 
-**Significance Statement.** Using 44 regulatory modules scored in single-cell RNA data, we built a map of normal human cell states from normal cells alone — no cancer enters its construction — and projected individual cancer cells onto it. Within patients, malignant epithelium occupies one particular region of that map far more often than the same patient's own matched normal epithelium: in colorectal cancer a median 19% against 5%, higher in 43 of 46 patients, and the difference survives removing overall transcriptional output. The same region is occupied by cancers of twenty-five lineages. Which normal cell lies nearest it is less certain: under our catalog it is the placental cytotrophoblast, whose physiology natively accommodates invasion and proliferation, but independently reconstructed catalogs reproduce the region while naming a different cell inside it. Malignancy therefore raises occupancy of a pre-existing normal physiological state rather than creating a cancer-specific one. Whether that state is specifically trophoblast-like, and whether cancers thereby reactivate an embryonic program, remain open questions we treat as such.
-
 ## Abstract
 
-We compared cellular regulatory states using 44 transcriptional modules representing major signaling and stress-response pathways. Their activities across 154 normal human cell types, from single-cell RNA-sequencing data alone, were decomposed by principal component analysis into a nine-dimensional reference space constructed without reference to any cancer. In matched samples, malignant epithelium occupied one region of this space far more often than the patient's own normal epithelium: in colorectal cancer a median 19% against 5%, higher in 43 of 46 patients (paired *P* = 9 × 10⁻¹³), +10.5 points with transcriptional magnitude removed (44 of 46), holding against the crypt-base progenitors these tumors arise from, and reproduced in every tissue tested except prostate; pooled across four paired datasets a mixed-effects model credits the dataset clustering and estimates +13.0 percentage points (*P* = 1.9 × 10⁻¹²). Malignant cells from 25 cancer datasets spanning diverse lineages occupy the same region, at a mean pairwise distance of 0.16 against 0.99 among their normal tissues of origin — but most of that contraction is shared transcriptional output and matched averaging rather than lineage-independent convergence, and the magnitude-removed residue is smaller and sensitive to specification. Ranking normal cell types by cross-cancer recurrence and depth put the placental cytotrophoblast nearest the region, while independent reconstructions of the catalog from the same criteria reproduce the region and name a different cell in it, so the region is robust and the identity of the nearest cell is conditional on this catalog. Malignancy thus raises occupancy of a pre-existing normal physiological state that accommodates key malignant phenotypes, rather than producing a wholly cancer-specific identity.
+We developed a fixed reference of normal cellular regulatory states to examine similarities across human malignancies. Expression scores for 44 regulatory modules across 154 normal human cell types were used to construct a principal-component space into which malignant single-cell transcriptomes were projected. Across 25 cancer datasets spanning diverse lineages, malignant cells repeatedly occupied a restricted region also represented among normal cells. Although much of the apparent cross-cancer contraction reflected expression magnitude and aggregation, patient-matched comparisons supported a malignancy-associated shift in relative module expression. In colorectal cancer, median regional occupancy was 18.9% in malignant versus 4.7% in matched normal epithelium, with increases in 43 of 46 patients; the difference persisted after removing expression magnitude and restricting comparisons to crypt-base progenitors. Experimental transformation of prostate basal cells from ten donors provided complementary evidence: all ten tumor-endpoint profiles mapped to the region, compared with none at baseline. Within the region, malignant colorectal cells exhibited additional stress-response and growth-associated signatures. The nearest normal counterpart depended on module selection and analytical specification, precluding assignment of a unique physiological identity. These findings identify shared regulatory configurations across diverse malignancies and provide a framework for distinguishing their normal counterparts from malignant adaptations.
+
+**Significance Statement.** Cancers retain features of their tissues of origin while sharing requirements for growth and survival. We constructed a regulatory reference from normal human cells and mapped diverse cancers onto it. Malignant cells occupied a shared region more frequently than matched normal cells, and experimental transformation of cells from known precursors produced a similar shift. Within this region, malignant cells carried additional stress-response and growth-associated signatures. Although the nearest normal counterpart varied with the analysis, the findings support shared regulatory configurations represented in normal biology and modified in malignancy. This framework enables comparison of cancers across tissue boundaries and investigation of their common regulatory dependencies.
 
 ## Introduction
 
@@ -46,7 +46,7 @@ We then project into this frame the malignant single cells of twenty-five qualit
 
 This resolves the fork toward convergence rather than lineage-locality, and it does so by a static geometric test — a convergent *endpoint* across origins, not a measured trajectory. We say convergence, not convergent evolution: the data are snapshots and assert no gradual path between origin and endpoint (the transition may well be abrupt; Discussion). A per-cancer breakdown of which lineages converge most is in the per-cell-type convergence heatmap (Fig. S4-III) and the full recurrence ranking (Fig. S6-II).
 
-### Where the convergence lands: a reproducible neighbourhood, and the cell nearest it under this catalog
+### A shared regulatory region with a catalog-dependent normal counterpart
 
 Where the cancers land, and whether their target survives scrutiny, are separate questions (Fig. 3). To name the target without circularity we rank all 154 normal cell types not by proximity to any pre-chosen point but by **cross-cancer recurrence** — the number of cancers in which a cell is among the five most frequent nearest neighbours — and, orthogonally, by depth (the *median* per-cancer fraction of cells reaching it; the mean is reported alongside it in Table S2, and on the mean the third-ranked candidate — the gastric progenitor, 10.4% — is not separated from the cytotrophoblast at 11.0%, while the megakaryocyte leads at 13.5%). Both rankings are led, by a clear margin, by two cells: the **cytotrophoblast** (a top target in 18 of 25 cancers) and the **megakaryocyte** (18 of 25), with no clean third. The two are separated by a transcriptome-complexity control (Fig. 3D): as detected-gene count rises, cytotrophoblast assignment *rises* while megakaryocyte assignment *falls*, tracking the nucleus-less erythrocyte we quarantine as a low-complexity artifact. Under this catalog, therefore, the cytotrophoblast is the cell nearest the region — the highest-depth, complexity-robust target, and the one normal cell that natively invades tissue, proliferates and evades immunity — and the megakaryocyte is carried no further than a secondary target. We state this as a property of the ranking under our catalog, not as an identification of the state. Four lines of evidence set that scope. Three independently reconstructed catalogs reproduce the region and name a different cell inside it (below). Within our own catalog the same fragility is visible gene by gene: four single genes — EIF4EBP1, FKBP5, SLC2A1 and CD36 — each displace the cytotrophoblast from the top two when removed alone (Note S-O-iv). Re-scoring the same modules by regulatory output rather than component abundance keeps the convergence while moving the target to another cell (Note S-T). And repairing three gene symbols the catalog had been scoring wrongly and re-deriving the reference, the eigenspace and all 25 cohorts end to end leaves the region, the two leading cells and the within-patient effect in place — but the corrected catalog's own Kaiser criterion selects ten dimensions rather than nine, and on ten the cytotrophoblast leaves the top two (Note S-W). Nothing in §§5–7 depends on the name. It is not set aside for being blood-specific — it draws a comparable share of convergence in several solid cancers (germ-cell 29%, renal 19%, breast 14%) as in the hematopoietic ones — but because it fails the complexity control, falling with detected-gene count exactly as the quarantined erythrocyte does (Fig. 3D, Fig. S5-II). Those three properties describe the *normal* cell, and only the first two appear to be inherited: malignant cells in the state carry the invasion program (MMP2, MMP9, ITGA5) but show no detectable relation between depth in the state and immune infiltration — which is what the coordinate itself predicts, since Type I interferon is the one target-defining module cancer does *not* reproduce (below; SI). Convergence onto the anchor alone captures **11.1% of malignant cells, 16.9-fold** over the 0.66% expected for a single cell type. We lead with this rather than with the two-cell core, whose 23.9% (18.2-fold over 1.3%) is about half contributed by the megakaryocyte that the complexity control in Fig. 3D rejects. The enrichment persists as the region is widened (15.9-fold for the four most recurrent cell types, 8.4-fold for the fourteen; Fig. 3F, Table 1), and survives applying the complexity control to every member rather than only to the two leading ones: six of the fourteen fall with transcriptome complexity as the quarantined erythrocyte does, but dropping them leaves the enrichment essentially unchanged, because the chance baseline falls with the membership (Note S-Q); the convergent cells form a genuine neighbourhood (mutual cosine 0.77 versus −0.01 for random pairs).
 
@@ -104,11 +104,139 @@ Four limitations attach specifically to the *identity*, which we hold more provi
 
 ## Methods (summary; full procedures in SI)
 
-**Modules and eigenspace.** 44 modules curated with the four operational criteria in view — the criteria record how the panel was built and are not a verified property of the genes as scored (Table S9b, Note S-N); module signature scored as mean log-normalized expression of component genes across 154 Human Protein Atlas single-cell types (Uhlén et al., 2015; trophoblast reference states from Vento-Tormo et al., 2018), z-scored and decomposed by correlation PCA, nine components retained by the Kaiser criterion. **Cancer projection.** Per cancer, malignant single cells are quality-filtered, scored on the 44 modules, projected through the fixed loadings, and assigned to their top-1 nearest normal cell-type centroid by cosine. **Non-circular target identification.** Cross-cancer recurrence (top-5 membership over the 25 cancers) and per-cancer depth, computed after quarantining the erythrocyte-family low-complexity artifact. **Cross-origin contraction.** Mean pairwise cosine distance among the 25 malignant centroids against a matched-averaging null — 200–300 aggregates of unrelated normal cells formed by the same averaging and of the same sizes — reported raw and with the overall-magnitude component removed. The earlier comparison against random 25-cell-type draws (a Stayton-type test; Stayton, 2015) is superseded: it mis-specified the null by ignoring the averaging itself, and the fold-contraction it produced is withdrawn (Note S-G). **Within-patient occupancy** (the study's falsifiable general assay). For each cohort with paired tumor and adjacent-normal epithelium of the same patients (Pelka et al., 2021; Lu Y et al., 2022; CELLxGENE Census), occupancy of the convergent state — a cell whose top-1 nearest normal neighbour among the 152 candidates is the cytotrophoblast, the migrating cytotrophoblast or the megakaryocyte, chance 3/152 = 2.0% — is computed per patient for the malignant and matched-normal arms (≥ 20 cells each) and compared by paired Wilcoxon and a sign test; the unit of replication is the patient, not the cell. **Cell-count denominators.** Four different totals appear in this paper and each means something different: the full quality-controlled pool across the 25 cohorts is 448,399 cells (Table S1); the subset carried into the projection after the ≥1,000-detected-gene filter but *before* the 4,000-cells-per-cohort cap is 312,220 cells — drawn from the 17 of the 25 cohorts whose objects retain per-cell detected-gene counts, which is the pool the complexity analyses use for that reason (Fig. S5-II, Note S-Q); applying the cap leaves the 83,819 cells on which every convergence statistic is computed; and Table S6 tabulates 574,451 assignments because it includes the normal-atlas projections as well as the cancers. **Reproducibility.** The pipeline is released with the 44 module gene lists (Table S7), the exact CELLxGENE Census snapshot used throughout (version 2025-11-08), all GEO accessions (Data Availability), and a runnable end-to-end script that regenerates the main and SI figures from public inputs (Code availability). Full parameters, quality control, controls, and the single-cell-only rationale are in SI.
+**Modules and eigenspace.** 44 modules curated with the four operational criteria in view — the criteria record how the panel was built and are not a verified property of the genes as scored (Table S9b, Note S-N); module signature scored as mean log-normalized expression of component genes across 154 Human Protein Atlas single-cell types (Uhlén et al., 2015; trophoblast reference states from Vento-Tormo et al., 2018), z-scored and decomposed by correlation PCA, nine components retained by the Kaiser criterion.
+
+**Cancer projection.** Per cancer, malignant single cells are quality-filtered, scored on the 44 modules, projected through the fixed loadings, and assigned to their top-1 nearest normal cell-type centroid by cosine.
+
+**Non-circular target identification.** Cross-cancer recurrence (top-5 membership over the 25 cancers) and per-cancer depth, computed after quarantining the erythrocyte-family low-complexity artifact.
+
+**Cross-origin contraction.** Mean pairwise cosine distance among the 25 malignant centroids against a matched-averaging null — 200–300 aggregates of unrelated normal cells formed by the same averaging and of the same sizes — reported raw and with the overall-magnitude component removed. The earlier comparison against random 25-cell-type draws (a Stayton-type test; Stayton, 2015) is superseded: it mis-specified the null by ignoring the averaging itself, and the fold-contraction it produced is withdrawn (Note S-G).
+
+**Within-patient occupancy** (the study's falsifiable general assay). For each cohort with paired tumor and adjacent-normal epithelium of the same patients (Pelka et al., 2021; Lu Y et al., 2022; CELLxGENE Census), occupancy of the convergent state — a cell whose top-1 nearest normal neighbour among the 152 candidates is the cytotrophoblast, the migrating cytotrophoblast or the megakaryocyte, chance 3/152 = 2.0% — is computed per patient for the malignant and matched-normal arms (≥ 20 cells each) and compared by paired Wilcoxon and a sign test; the unit of replication is the patient, not the cell.
+
+**Cell-count denominators.** Four different totals appear in this paper and each means something different: the full quality-controlled pool across the 25 cohorts is 448,399 cells (Table S1); the subset carried into the projection after the ≥1,000-detected-gene filter but *before* the 4,000-cells-per-cohort cap is 312,220 cells — drawn from the 17 of the 25 cohorts whose objects retain per-cell detected-gene counts, which is the pool the complexity analyses use for that reason (Fig. S5-II, Note S-Q); applying the cap leaves the 83,819 cells on which every convergence statistic is computed; and Table S6 tabulates 574,451 assignments because it includes the normal-atlas projections as well as the cancers.
+
+**Reproducibility.** The pipeline is released with the 44 module gene lists (Table S7), the exact CELLxGENE Census snapshot used throughout (version 2025-11-08), all GEO accessions (Data Availability), and a runnable end-to-end script that regenerates the main and SI figures from public inputs (Code availability). Full parameters, quality control, controls, and the single-cell-only rationale are in SI.
 
 ## References
 
-Abelev GI (1971) *Adv Cancer Res* 14:295–358. · Aibar S et al. (2017) *Nat Methods* 14:1083–1086. · Aissa AF et al. (2021) *Nat Commun* 12:1628. · Amit I et al. (2007) *Nat Genet* 39:503–512. · Aran D et al. (2019) *Nat Immunol* 20:163–172. · Aynaud MM et al. (2020) *Cell Rep* 30:1767–1779. · Barkley D et al. (2022) *Nat Genet* 54:1192–1201. · Chandarlapaty S (2012) *Cancer Discov* 2:311–319. · Chen CC et al. (2023) *Cancer Cell* 41:2066–2082. · Chen H, He X (2016) *Mol Biol Evol* 33:4–12. · Costanzo V et al. (2018) *Open Biol* 8:180081. · Ferretti C et al. (2007) *Hum Reprod Update* 13:121–141. · Gavish A et al. (2023) *Nature* 618:598–606. · Gier RA et al. (2023) bioRxiv 2023.01.26.525564. · Grubman A et al. (2019) *Nat Neurosci* 22:2087–2097. · Gulati GS et al. (2020) *Science* 367:405–411. · Habermann AC et al. (2020) *Sci Adv* 6:eaba1972. · Hanahan D (2022) *Cancer Discov* 12:31–46. · Hanahan D, Weinberg RA (2000) *Cell* 100:57–70. · Hanahan D, Weinberg RA (2011) *Cell* 144:646–674. · Hirsch HA et al. (2010) *Cancer Cell* 17:348–361. · Huang S, Ernberg I, Kauffman S (2009) *Semin Cell Dev Biol* 20:869–876. · Ince TA et al. (2007) *Cancer Cell* 12:160–170. · Kauffman S (1971) *J Theor Biol* 31:429–451. · Kildisiute G et al. (2021) *Sci Adv* 7:eabd3311. · Kim J et al. (2022) *npj Precis Oncol* 6:9. · Kim N et al. (2020) *Nat Commun* 11:2285. · Kinker GS et al. (2020) *Nat Genet* 52:1208–1218. · Ledergor G et al. (2018) *Nat Med* 24:1867–1876. · Lito P, Rosen N, Solit DB (2013) *Nat Med* 19:1401–1409. · Liu Y et al. (2021) *Front Oncol* 11:709210. · Lotfollahi M et al. (2023) *Nat Cell Biol* 25:337–350. · Lu X et al. (2023) *Nat Commun* 14:8462. · Lu Y et al. (2022) *Nat Commun* 13:4594. · Malta TM et al. (2018) *Cell* 173:338–354. · Mo L et al. (2022) *Front Oncol* 12:871489. · Moncada R et al. (2020) *Nat Biotechnol* 38:333–342. · Park JW et al. (2018) *Science* 362:91–95. · Patel AS, Yanai I (2024) *Cell* 187:2907–2918. · Pelka K et al. (2021) *Cell* 184:4734–4752. · Replogle JM et al. (2022) *Cell* 185:2559–2575. · Schiebinger G et al. (2019) *Cell* 176:928–943 (Erratum: *Cell* 176:1517). · Schubert M et al. (2018) *Nat Commun* 9:20. · Sharma A, Ginhoux F (2022) *Nat Rev Cancer* 22:593–602. · Song H et al. (2022) *Nat Commun* 13:141. · Stayton CT (2015) *Evolution* 69:2140–2153. · Tokura M et al. (2022) *Cancer Res* 82:3236–3248. · Uhlén M et al. (2015) *Science* 347:1260419. · van Galen P et al. (2019) *Cell* 176:1265–1281. · Vento-Tormo R et al. (2018) *Nature* 563:347–353. · Wu SZ et al. (2021) *Nat Genet* 53:1334–1347. · Xu Y et al. (2024) *Nat Commun* 15:818. · Yost KE et al. (2019) *Nat Med* 25:1251–1259. · Young MD et al. (2018) *Science* 361:594–599. · Zheng X et al. (2022) *Signal Transduct Target Ther* 7:60.
+```{=latex}
+\begingroup\setlength{\parindent}{0pt}\setlength{\parskip}{2pt}
+```
+
+Abelev GI (1971) *Adv Cancer Res* 14:295–358.
+
+Aibar S et al. (2017) *Nat Methods* 14:1083–1086.
+
+Aissa AF et al. (2021) *Nat Commun* 12:1628.
+
+Amit I et al. (2007) *Nat Genet* 39:503–512.
+
+Aran D et al. (2019) *Nat Immunol* 20:163–172.
+
+Aynaud MM et al. (2020) *Cell Rep* 30:1767–1779.
+
+Barkley D et al. (2022) *Nat Genet* 54:1192–1201.
+
+Chandarlapaty S (2012) *Cancer Discov* 2:311–319.
+
+Chen CC et al. (2023) *Cancer Cell* 41:2066–2082.
+
+Chen H, He X (2016) *Mol Biol Evol* 33:4–12.
+
+Costanzo V et al. (2018) *Open Biol* 8:180081.
+
+Ferretti C et al. (2007) *Hum Reprod Update* 13:121–141.
+
+Gavish A et al. (2023) *Nature* 618:598–606.
+
+Gier RA et al. (2023) bioRxiv 2023.01.26.525564.
+
+Grubman A et al. (2019) *Nat Neurosci* 22:2087–2097.
+
+Gulati GS et al. (2020) *Science* 367:405–411.
+
+Habermann AC et al. (2020) *Sci Adv* 6:eaba1972.
+
+Hanahan D (2022) *Cancer Discov* 12:31–46.
+
+Hanahan D, Weinberg RA (2000) *Cell* 100:57–70.
+
+Hanahan D, Weinberg RA (2011) *Cell* 144:646–674.
+
+Hirsch HA et al. (2010) *Cancer Cell* 17:348–361.
+
+Huang S, Ernberg I, Kauffman S (2009) *Semin Cell Dev Biol* 20:869–876.
+
+Ince TA et al. (2007) *Cancer Cell* 12:160–170.
+
+Kauffman S (1971) *J Theor Biol* 31:429–451.
+
+Kildisiute G et al. (2021) *Sci Adv* 7:eabd3311.
+
+Kim J et al. (2022) *npj Precis Oncol* 6:9.
+
+Kim N et al. (2020) *Nat Commun* 11:2285.
+
+Kinker GS et al. (2020) *Nat Genet* 52:1208–1218.
+
+Ledergor G et al. (2018) *Nat Med* 24:1867–1876.
+
+Lito P, Rosen N, Solit DB (2013) *Nat Med* 19:1401–1409.
+
+Liu Y et al. (2021) *Front Oncol* 11:709210.
+
+Lotfollahi M et al. (2023) *Nat Cell Biol* 25:337–350.
+
+Lu X et al. (2023) *Nat Commun* 14:8462.
+
+Lu Y et al. (2022) *Nat Commun* 13:4594.
+
+Malta TM et al. (2018) *Cell* 173:338–354.
+
+Mo L et al. (2022) *Front Oncol* 12:871489.
+
+Moncada R et al. (2020) *Nat Biotechnol* 38:333–342.
+
+Park JW et al. (2018) *Science* 362:91–95.
+
+Patel AS, Yanai I (2024) *Cell* 187:2907–2918.
+
+Pelka K et al. (2021) *Cell* 184:4734–4752.
+
+Replogle JM et al. (2022) *Cell* 185:2559–2575.
+
+Schiebinger G et al. (2019) *Cell* 176:928–943 (Erratum: *Cell* 176:1517).
+
+Schubert M et al. (2018) *Nat Commun* 9:20.
+
+Sharma A, Ginhoux F (2022) *Nat Rev Cancer* 22:593–602.
+
+Song H et al. (2022) *Nat Commun* 13:141.
+
+Stayton CT (2015) *Evolution* 69:2140–2153.
+
+Tokura M et al. (2022) *Cancer Res* 82:3236–3248.
+
+Uhlén M et al. (2015) *Science* 347:1260419.
+
+van Galen P et al. (2019) *Cell* 176:1265–1281.
+
+Vento-Tormo R et al. (2018) *Nature* 563:347–353.
+
+Wu SZ et al. (2021) *Nat Genet* 53:1334–1347.
+
+Xu Y et al. (2024) *Nat Commun* 15:818.
+
+Yost KE et al. (2019) *Nat Med* 25:1251–1259.
+
+Young MD et al. (2018) *Science* 361:594–599.
+
+Zheng X et al. (2022) *Signal Transduct Target Ther* 7:60.
+
+```{=latex}
+\endgroup
+```
 
 ## Acknowledgments
 

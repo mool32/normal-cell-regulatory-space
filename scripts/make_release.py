@@ -148,7 +148,14 @@ def main():
     files = {f for f in sorted(files)
              if (ROOT / f).is_file() and '__pycache__' not in f and not f.endswith('.pyc')}
     if out.exists():
-        shutil.rmtree(out)
+        # Keep .git. This directory IS the published repository
+        # (github.com/mool32/normal-cell-regulatory-space, which the paper's Code availability names),
+        # and an rmtree of the whole tree deletes its history: the next release can then only be
+        # pushed as an unrelated history. Clear the contents, not the checkout.
+        for child in out.iterdir():
+            if child.name == '.git':
+                continue
+            shutil.rmtree(child) if child.is_dir() else child.unlink()
     nbytes = 0
     for f in sorted(files):
         dst = out / f

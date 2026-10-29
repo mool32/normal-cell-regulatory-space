@@ -135,4 +135,40 @@ print(f'\n   core occupancy: heuristic-label cohorts median {h.median():.1f}% (n
 ov = D[D.cohort == 'OvarianSerous'].iloc[0]
 print(f'   ovarian specifically: core {ov.core_pct}%, top-1 {ov.top1} ({ov.top1_pct}%) '
       f'- panel median {D.core_pct.median():.1f}%')
+
+# --- how the three boundaries were chosen, and the tie at the widest one -------------------------
+# Found 2026-10-29: the rule Note S-K states does not produce the k the paper reports, and the
+# fourteen-cell membership passes through a five-way tie, which two scripts broke differently
+# (E41 -> 76.9%, E40 -> 77.7% for the same quantity). Both facts are now registered claims.
+import itertools
+rows2 = []
+for lab, k in [('core: the two leading both rankings', 2),
+               ('neighbourhood: recurrent in a majority (>=13 of 25)', int((rec_all >= 13).sum())),
+               ('broader: recurrent in >=5 of 25', int((rec_all >= 5).sum()))]:
+    idx = list(o_all[:k]); occ = 100 * np.isin(top, idx).mean(); ch = 100 * k / NCAND
+    rows2.append(dict(definition='rule', boundary=lab, k=k, occupancy_pct=round(occ, 1),
+                      chance_pct=round(ch, 2), fold=round(occ / ch, 1)))
+for lab, k in [('core (top-2)', 2), ('neighbourhood (top-4)', 4), ('broader region (top-14)', 14)]:
+    idx = list(o_all[:k]); occ = 100 * np.isin(top, idx).mean(); ch = 100 * k / NCAND
+    rows2.append(dict(definition='reported k', boundary=lab, k=k, occupancy_pct=round(occ, 1),
+                      chance_pct=round(ch, 2), fold=round(occ / ch, 1)))
+hard = [i for i in o_all if rec_all[i] > 2][:12]
+tied = [i for i in range(len(cells)) if int(rec_all[i]) == 2]
+vals = []
+for pair in itertools.combinations(tied, 2):
+    idx = hard + list(pair); o = 100 * np.isin(top, idx).mean()
+    vals.append((o, o / (100 * 14 / NCAND)))
+rows2.append(dict(definition='top-14 tie', boundary=f'{len(tied)}-way tie at rec=2, choose 2',
+                  k=len(vals), occupancy_pct=round(min(v[0] for v in vals), 1),
+                  chance_pct=round(max(v[0] for v in vals), 1),
+                  fold=round(min(v[1] for v in vals), 1)))
+rows2.append(dict(definition='top-14 tie (max)', boundary='highest of the ten orderings', k=len(vals),
+                  occupancy_pct=round(max(v[0] for v in vals), 1), chance_pct=float('nan'),
+                  fold=round(max(v[1] for v in vals), 1)))
+pd.DataFrame(rows2).to_csv(ROOT / 'results/cancer_v6_6_extras/E45_boundary_choice.csv', index=False)
+print('\nboundary definitions: rule vs reported k, and the tie range')
+for r in rows2:
+    print(f'   {r["definition"]:18s} {r["boundary"][:46]:48s} k={r["k"]:3d}  '
+          f'occ {r["occupancy_pct"]:5.1f}  fold {r["fold"]}')
+
 print('DONE')

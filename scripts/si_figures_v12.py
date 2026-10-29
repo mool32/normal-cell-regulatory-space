@@ -19,7 +19,7 @@ newline inside one would break the pandoc image syntax that carries it.
 SI_FIGURES = [
 
     ('Fig. S1', 'v12_figS1_axis_stability.png',
-     "**Fig. S1. How well each principal axis is determined, and how much biology each one carries.** "
+     "**Figure S1. How well each principal axis is determined, and how much biology each one carries.** "
      "**(I)** The 154 cell types are resampled with replacement 500 times; the eigenspace is rebuilt by "
      "the canonical recipe each time and each full-data axis matched to its best bootstrap partner. Bars "
      "are the mean |cos| to the full-data axis, whiskers the 5th–95th percentile: PC1 0.99, PC2 0.97, "
@@ -38,7 +38,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S2', 'v7_fig_E2_redundancy.png',
-     "**Fig. S2. Module redundancy.** Pairwise correlation of the 44 modules across the 154 normal cell "
+     "**Figure S2. Module redundancy.** Pairwise correlation of the 44 modules across the 154 normal cell "
      "types; only 6 of 946 pairs exceed |r| > 0.7 (boxed) — the three UPR arms, JAK-STAT/Type I IFN, "
      "ERK/NF-κB and BMP/Hippo. Four of the six are biological and two are partly definitional, because "
      "the paired modules share a gene (UPR-ATF6 and UPR-IRE1 share XBP1; JAK-STAT and Type I IFN share "
@@ -46,7 +46,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S3', 'v7_fig_axes.png',
-     "**Fig. S3. Each principal axis is biologically structured (neither panel uses the modules).** For "
+     "**Figure S3. Each principal axis is biologically structured (neither panel uses the modules).** For "
      "PC1–PC6, cell position on the axis (x) vs an external quality signature scored from gene-level HPA "
      "(y); the axis is monotonically ordered by that quality (immune signalling PC1 ρ = −0.89, "
      "translation PC2 +0.75, cholesterol PC5 +0.54). Biological family explains 31–70% of position on "
@@ -59,7 +59,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S4', 'v12_figS4_geometry.png',
-     "**Fig. S4. Where the cancers land, shown three ways.** **(I)** A converging against a "
+     "**Figure S4. Where the cancers land, shown three ways.** **(I)** A converging against a "
      "non-converging cancer, seen directly: malignant cells of B-ALL and neuroblastoma projected onto "
      "interpretable 9-D axes — cosine to the core (convergence) against cosine to the neural-program "
      "region (neurons + adrenal medulla); 20/50/80% KDE density contours over the 154 normal cells. B-ALL "
@@ -79,7 +79,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S5', 'v12_figS5_complexity.png',
-     "**Fig. S5. The transcriptome-complexity trap, and the control for it.** **(I)** (A) The 22-candidate "
+     "**Figure S5. The transcriptome-complexity trap, and the control for it.** **(I)** (A) The 22-candidate "
      "screen; five datasets below the 1,000-gene floor are excluded (AML and MM replaced by GEO cohorts). "
      "(B) Per-target complexity: the core sits far above the erythrocyte artifact. **(II)** The "
      "megakaryocyte complexity control (Gudkov), across 312,220 malignant cells — the 17 of the 25 "
@@ -94,7 +94,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S6', 'v12_figS6_ranking.png',
-     "**Fig. S6. Ranking the candidate targets two ways.** **(I)** Target selection on breadth × depth, "
+     "**Figure S6. Ranking the candidate targets two ways.** **(I)** Target selection on breadth × depth, "
      "every candidate labelled: the SI companion to Fig. 3C, the same two axes with all fourteen "
      "recurrent candidates named rather than the seven the main-figure panel can carry. Only the core "
      "leads on both recurrence breadth and median depth; the candidate third (gastric progenitor) leads "
@@ -107,7 +107,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S7', 'v12_figS7_catalog.png',
-     "**Fig. S7. How much of the result depends on this particular module catalog.** **(I)** Two nulls of "
+     "**Figure S7. How much of the result depends on this particular module catalog.** **(I)** Two nulls of "
      "matched size, 150 draws each, scored on 17 cohorts against a five-cell target set (the trophoblast "
      "states plus the megakaryocyte) — so these percentages are not in the same currency as the headline "
      "occupancy. (A) Fraction of malignant cells reaching that target under the real 44 modules (red) "
@@ -141,14 +141,14 @@ SI_FIGURES = [
      '91%'),
 
     ('Fig. S8', 'v7_fig_duetprofile.png',
-     "**Fig. S8. The core against the normal-cell distribution, module by module.** For each of the "
+     "**Figure S8. The core against the normal-cell distribution, module by module.** For each of the "
      "twelve most target-defining modules, the distribution of all 154 normal cells (grey) with the core "
      "marked; the core sits in the bottom ~1–16th percentile of every one — an outlier outside the normal "
      "cloud, not merely at its low edge.",
      '100%'),
 
     ('Fig. S9', 'v7_figS28_reprogramming.png',
-     "**Fig. S9. The named target is detected in an independent system with no cancer in it.** Mouse "
+     "**Figure S9. The named target is detected in an independent system with no cancer in it.** Mouse "
      "fibroblast-to-iPSC reprogramming (Schiebinger et al. 2019; 236,285 cells, 39 timepoints), scored on "
      "the same 44 modules through orthologs (43 of 44 recovered) and projected through the same fixed "
      "coordinate. The fraction of cells assigned to the cytotrophoblast collapses to 1.8% by day 4, then "
@@ -166,7 +166,7 @@ SI_FIGURES = [
      '88%'),
 
     ('Fig. S10', 'v7_figS19_speccurve.png',
-     "**Fig. S10. Specification curve of the core convergence (multiverse).** Core convergence recomputed "
+     "**Figure S10. Specification curve of the core convergence (multiverse).** Core convergence recomputed "
      "under all 36 crossings of four analytic choices — reference calibration (single-cell against "
      "pseudobulk), magnitude handling (raw / within-cell-centered / per-cell rank), core definition "
      "(three-cell / two-cell / cytotrophoblast-only), and erythroid handling (excluded / included). "
@@ -181,7 +181,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S11', 'v12_figS11_withinpat.png',
-     "**Fig. S11. The within-patient increase replicates across organs and survives magnitude removal.** "
+     "**Figure S11. The within-patient increase replicates across organs and survives magnitude removal.** "
      "**(I)** Paired gastric cohort (GSE150290): twenty-three patients (Kim et al., 2022), a "
      "low-baseline organ analysed only after the account was fixed; its tumour samples are also "
      "the panel\u2019s gastric cohort (Note S-U). Per patient, matched adjacent-normal (Pat##-A) and cancer (Pat##-B) "
@@ -219,7 +219,7 @@ SI_FIGURES = [
      '93%'),
 
     ('Fig. S12', 'v7_figS24_fibrosis.png',
-     "**Fig. S12. The deepening is specific to malignancy, not to injury or invasive remodelling "
+     "**Figure S12. The deepening is specific to malignancy, not to injury or invasive remodelling "
      "(replacement negative control).** Idiopathic pulmonary fibrosis (Habermann et al. 2020; 33,321 "
      "epithelial cells, 22 donors) is the strictest non-malignant comparator available in the same organ "
      "as the corrected lung result: chronically injured, ECM-remodelling epithelium containing the "
@@ -235,7 +235,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S13', 'v12_figS13_progression.png',
-     "**Fig. S13. Before invasion and after dissemination.** **(I)** Pre-invasive epithelium already "
+     "**Figure S13. Before invasion and after dissemination.** **(I)** Pre-invasive epithelium already "
      "occupies the convergent region (out-of-sample test of the prediction). Within-patient colorectal "
      "progression (GSE161277; Zheng et al. 2022): epithelial cells (EPCAM+/CD45−) from matched normal, "
      "pre-invasive adenoma and carcinoma of the same patient, projected and scored for core convergence. "
@@ -272,7 +272,7 @@ SI_FIGURES = [
      '91%'),
 
     ('Fig. S14', 'v7_figS26_dynamics.png',
-     "**Fig. S14. The coordinate moves during targeted therapy, and the movement is not a "
+     "**Figure S14. The coordinate moves during targeted therapy, and the movement is not a "
      "transcriptome-complexity artifact.** Human PC9 lung-adenocarcinoma cells through eleven days of "
      "erlotinib (Aissa et al. 2021); Drop-seq, median 161–556 detected genes per cell. **(A)** Shape-only "
      "core fraction per timepoint. The grey dashed curve is the analysis as first run, at a floor of "
@@ -296,7 +296,7 @@ SI_FIGURES = [
      '100%'),
 
     ('Fig. S15', 'v7_fig_detuning.png',
-     "**Fig. S15. What malignancy adds within the shared state (within-patient, colorectal).** Malignant "
+     "**Figure S15. What malignancy adds within the shared state (within-patient, colorectal).** Malignant "
      "against matched-normal core cells compared per module (Pelka; detection-depth controlled). The "
      "malignant occupant runs retained stress/integrity sensors (HIF, NRF2, HSF1, UPR-PERK, autophagy) "
      "and anabolic programs hotter; the p53 module rises through downstream stress/damage targets "

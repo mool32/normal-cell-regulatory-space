@@ -718,6 +718,28 @@ ROWS.append(dict(id='F.4', section='document structure', present=True,
                  said=[], got=_left, kind='mismatch' if _left else 'value',
                  note='these printed on page 1 and in Funding until 2026-10-27'))
 
+# ------------------------------------------- B: how the three boundaries were chosen, and the tie
+# The paper stated a recurrence rule and reported three round k that the rule does not produce, and
+# the fourteen-cell membership runs through a five-way tie that two scripts broke differently
+# (E41 -> 76.9%, E40 -> 77.7% for ONE quantity). Found 2026-10-29; registered so it cannot drift.
+_BC = pd.read_csv(ROOT/'results/cancer_v6_6_extras/E45_boundary_choice.csv')
+_rule = _BC[_BC.definition == 'rule']
+_lo = _BC[_BC.definition == 'top-14 tie'].iloc[0]
+_hi = _BC[_BC.definition == 'top-14 tie (max)'].iloc[0]
+chk('B.1', 'Note S-K(vi)', 'the rule gives *k* = 2, **3** and **10**',
+    (2, 3, 10), tuple(int(x) for x in _rule.k),
+    'the stated rule is majority of 25 and >=5 of 25; on this panel that is k = 2, 3, 10, not 2, 4, 14')
+chk('B.2', 'Note S-K(vi)', '18.2-fold, **16.9-fold** and **10.5-fold**',
+    (18.2, 16.9, 10.5), tuple(float(x) for x in _rule.fold),
+    'enrichment under the stated rule is HIGHER than under the reported k, so the choice of k '
+    'costs the boundary-independence argument nothing')
+chk('B.3', 'Note S-K(vi)', 'the occupancy runs 76.6% to 77.9%',
+    (76.6, 77.9), (float(_lo.occupancy_pct), float(_hi.occupancy_pct)),
+    'five cell types tie at recurrence 2 and the top-14 takes two of them; index order decides which')
+chk('B.4', 'Note S-K(vi)', 'the enrichment 8.3-fold to 8.5-fold',
+    (8.3, 8.5), (float(_lo.fold), float(_hi.fold)),
+    'the enrichment is unaffected to one decimal place; the named membership is not unique')
+
 # ---------------------------------------------------------------- report
 def fmt(v):
     if isinstance(v, float):

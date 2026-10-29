@@ -49,8 +49,13 @@ def load():
 def parse_reflist(reflist):
     """-> {(surname, year): raw entry}, plus the raw list in order."""
     out, order = {}, []
-    for e in (x.strip() for x in reflist.replace('\n', ' ').split('·')):
-        if not e:
+    # The list was one paragraph of '·'-separated entries until the co-author's formatting pass of
+    # 2026-10-29 put one entry per line. Accept both, and ignore the raw-LaTeX fences that now wrap
+    # the block -- otherwise the whole list parses as a single entry and every citation reads as
+    # uncited, which is exactly how this broke.
+    _parts = [x for chunk in reflist.split('\n') for x in chunk.split('·')]
+    for e in (x.strip() for x in _parts):
+        if not e or e.startswith('```') or e.startswith('\\'):
             continue
         m = re.match(rf'({NAME})[^(]*\(({YEAR})\)', e)
         if not m:
